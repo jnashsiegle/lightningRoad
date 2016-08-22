@@ -17,9 +17,9 @@ Alpha, Beta and the Final Handoff
 
 ## License
 
-All items needing licensed are shown under  [LICENSE.md](LICENSE.md) file for details
+All items needing licensed are shown under [LICENSE.md](https://github.com/jnashsiegle/lightningRoad/LICENSE.md) file for details
 
 ## Acknowledgments
 
 * 
-
+https://github.com/benbalter/licensee/blob/master/LICENSE.md
