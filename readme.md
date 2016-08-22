@@ -13,7 +13,7 @@ Alpha, Beta and the Final Handoff
 
 ## Authors
 
-* **Jana Nash-Siegle** - *Initial work* - [PurpleBooth](https://github.com/jnashsiegle)
+* **Jana Nash-Siegle** - *Initial work* - [Jana Nash-Siegle](https://github.com/jnashsiegle)
 
 ## License
 
