@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Lightning Road Biker Outreach</title>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+
+<!-- Customized stylesheet from SASS -->
+<link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         
         
@@ -26,7 +33,7 @@
                 text-align: center;
                 display: table-cell;
                 vertical-align: middle;
-                font-family: 'Baloo Paaji', cursive;
+                
             }
 
             .content {
@@ -42,7 +49,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Lightning Road</div>
+                <p>We are a biker outreach</p>
             </div>
         </div>
     </body>
