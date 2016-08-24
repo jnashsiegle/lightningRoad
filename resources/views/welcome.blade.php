@@ -26,6 +26,13 @@
                 padding: 0;
                 width: 100%;
                 display: table;
+                background: url("/images/lrBkg.jpg") no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                o-background-size: cover;
+                background-size: cover;
+                color: white;
+
                 
             }
 
@@ -43,6 +50,7 @@
 
             .title {
                 font-size: 96px;
+                text-shadow: 5px -1px 2px rgba(141, 147, 110, 1);
             }
         </style>
     </head>
