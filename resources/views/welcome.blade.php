@@ -55,6 +55,7 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-83128316-1', 'auto');
+  ga('require', 'linkid');
   ga('send', 'pageview');
 
 </script>
