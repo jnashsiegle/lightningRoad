@@ -47,6 +47,8 @@
         </style>
     </head>
     <body>
+    <!--google analytics tracking  - MOVE TO MASTER BLADE TEMPLATE when developed -->
+    <?php include_once("analyticstracking.php") ?> 
         <div class="container">
             <div class="content">
                 <div class="title">Lightning Road</div>
