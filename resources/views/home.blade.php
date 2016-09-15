@@ -31,7 +31,7 @@
 		<div class = "row-fluid ">
 			<div class = "col-md-12">
 				<img src = "../images/SteveRose-216x300.jpg" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />				
-				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through TOLC to facilitate entry into area jails and detention centers.</p>	
+				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through TOLC to facilitate entry into area jails and detention centers.</p>
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
 					<div class = "vtext">
@@ -39,7 +39,8 @@
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
 					</div> <!--end of verse center-block & verse styling-->
-				<p>As members of Chariots of Light Christian Bikers, we co-labor as partners and a parallel ministry to COL and Jerry Savelle Ministries International participating in the biggest soul-winning outreach in the country.</p>				
+				<p>As members of Chariots of Light Christian Bikers, we co-labor as partners and a parallel ministry to COL and Jerry Savelle Ministries International participating in the biggest soul-winning outreach in the country.</p>
+				<p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>					
 			</div>			
 			</div><!--end of row -->
 	</div><!--end of Who We Are-->
@@ -94,14 +95,19 @@
     					</ol>
 						<div class = "carousel-inner" role = "listbox">
 							<div class = "item active">
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								<h5>Federal Systems</h5>
+								<p>We are ONLY allowed to enter the federal system as visitors on an offenders approved visitors list. Federal law requires that all faiths be tolerated. Unit chaplains are unable to accommodate the requests of anyone who desires to volunteer for chaplain services for any faith. As a result, no visitor may carry a Bible, Koran, Torah, etc. No personal items may be on your person, including caps, studded clothing or any item that could be considered a weapon. Individuals are thoroughly searched, and electronically drug screened. We pray that the roadblocks to witnessing in the federal system will be taken down by prayer, obedience, and the will of God.</p>
 							</div>
 							<div class = "item">
-								<p>Lorem2 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<h5>TDCJ - Texas Dept of Corrections
+								<p>TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation & Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
+								<p>County jail systems are run individually through the sheriff and the jail administrator. Background checks may be ordered or ministry credentials requested to authenticate individuals who desire to volunteer at chapel services or Bible studies. Be advised that each jail can operate completely different from one another due to local government. NOTE: Do not be discouraged by individuals who are not “friendly” with “faith-based” volunteers. Your strength, commitment, and perseverance in serving God will overcome the most stubborn obstacles.</p>
 							</div>
 							<div class = "item">
-								<p>Lorem3 Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 								
-							</div>
+							<h5>Texas Juvenile Justice Dept</h5>
+								<p>Texas Juvenile Justice Department has undergone MAJOR changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
+								<p>County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
+							</div>		
 						</div><!--end of carousel inner -->	
 					</div><!--end of carousel systems -->
 				</div><!--end of col-md-6-->
