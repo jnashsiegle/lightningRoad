@@ -4,27 +4,27 @@
 		<div id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
 @endsection <!--end of title section-->					
-					<div class="row-fluid">					
-	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
-	                		<div id = "landingL">
-	                		<img src = "../images/logos/textLogoLight.svg" class = "img-responsive hidden-xs hidden-sm alt = "Lightning Road Biker Outreach" />
+					<div class="row-fluid vertical-align">					
+	                	<div class = "col-md-12">
+	                		<!--<h1 class = "lHeader hidden-xs hidden-sm text-left">L<span style="font-family: thequietscream">i</span>ghtn<span style="font-family: thequietscream">i</span>ng Road</h1>-->
+
+	                		<div id = "landingL" class= "pullL">
+	                		<img src = "../images/logos/textLogoLight.svg" class = "img-responsive hidden-xs hidden-sm align-left alt = "Lightning Road Biker Outreach" />
 	                		<p class = "tagline text-left hidden-xs hidden-sm">B<span style="font-family: thequietscream">i</span>ker Outreach | Motorcycle Evangelism</p>
 	                	</div>
-	                	</div>
-	                	<div class = "col-xs-12 col-md-5 col-md-offset-1 vcenter">
-	                	    <div id = "landingR">       		
-	                		<img src = "../images/logos/textLogoLight.svg" class = ".img-responsive hidden-md hidden-lg hidden-xl" >
+	                	
+	                	    <div id = "landingR" class = "pullR">       		
+	                		<img src = "../images/logos/textLogoLight.svg" class = "center-block .img-responsive hidden-md hidden-lg hidden-xl" >
 	                		<img src = "../images/logos/alphaLogo.svg" class = "hidden-sm hidden-xs center-block .img-responsive" alt = "Lightning Road Biker Outreach Logo">
 	                		<blockquote>
 	                		<p>As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.</p>
 	                		<cite> ~ &lpar;Matthew 24&colon;27&rpar;</cite>
 	                		</blockquote>
-	                	</div><!--end of landingR-->	
-	                	</div> <!--end of colmd4 offset 4-->               	
-	            	</div> <!--end of row-fluid -->
-	            	</div><!--end of Landing"-->
+	                	</div>	                	
+	            	</div> <!--end of "col-lg-12" -->
+	            	</div><!--end of row"-->
 	            
-	    
+	    </div>  <!--end of Landing Section-->
 
 	<div id = "about" class = "container-fluid"> <!--Who we are section -->
 		<h1 class = "text-center">Who We Are</h1>
@@ -32,13 +32,13 @@
 			<div class = "col-md-12">
 				<img src = "../images/SteveRose-216x300.jpg" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />				
 				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through TOLC to facilitate entry into area jails and detention centers.</p>	
-					<div class = "verse pullL gapR"><!--the following divs style the verse-->
+					<div class = "verse pullL gapR">
 					<div class = "innerBox center-block">
 					<div class = "vtext">
 					<h5 class = "center-block">Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.<cite>~&lpar;3 John 1&colon;2&rpar;</cite></h5>
-					</div><!--end of vtext-->
-					</div><!--end of inner box-->
-					</div> <!--end of verse center-block & verse styling-->
+					</div>
+					</div>
+					</div>
 				<p>As members of Chariots of Light Christian Bikers, we co-labor as partners and a parallel ministry to COL and Jerry Savelle Ministries International participating in the biggest soul-winning outreach in the country.</p>				
 			</div>			
 			</div><!--end of row -->
@@ -62,13 +62,13 @@
 			</div>
 			<div class = "row-fluid">
 				<div class = "col-md-12 clearfix">						
-					<div class = "hcenter verse pullR gapR"><!--the following divs style the verse-->
+					<div class = "hcenter verse pullR gapR">
 					<div class = "innerBox center-block">
 					<div class = "vtext">
 					<h5 class = "center-block">You are empowered to prosper in everything you put your hands to according to the Word of God.<cite>~&lpar;2 Peter 1&colon;3&dash;4&rpar;</cite></h5>						
-					</div><!--end of vtext-->
-					</div><!--end of inner box-->
-					</div> <!--end of verse center-block & verse styling-->
+					</div>	
+					</div>
+					</div>
 				<div id = "outreach" class = "pullL">					
 					<h3 class = "text-center">Our areas of outreach available in Texas.</h3>
 					<ul>
@@ -124,38 +124,128 @@
 						<p class = "text-left">REACHING BEYOND the mainstream and into the outlaw biker population and to the local, state, and federal prison systems (youth/adult/male/female) to counsel and mentor offenders.</p>
 						<p class = "text-left">REACHING INTO the inter-city street culture to encourage the lost and bring hope to the hopeless. </p>
 						<p class = "text-left">WITNESSING to ANYONE desiring spiritual guidance through the Word of God, living example, and preaching.</p>
-							<div class = "verse pullR gapL"><!--the following divs style the verse-->
+							<div class = "verse pullR gapL">
 							<div class = "innerBox center-block">
 							<div class = "vtext">
 							<h5 class = "center-block">We endeavor to reach out to anyone who is hurting in a lost and desperate world.<cite>~(Phil 2&colon;15)</cite></h5>
-							</div><!--end of vtext-->
-							</div><!--end of inner box-->
-							</div> <!--end of verse center-block & verse styling-->
+							</div>
+							</div>
+							</div>
 						<p class = "text-left">ANSWERING the call to teach the LIVING WORD of GOD through the leading of the HOLY SPIRIT anywhere along the road.</p>
 						<p class = "text-left">WE BELIEVE this ministry has been founded and ordained on the WORD of GOD according to&colon; Matthew 24&colon;27 which says… &quot;As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.&quot;</p>
 						</div>								
 					</div>					
 			</div><!--end of row -->
 		</div><!--end of mission section-->
-@endsection
+		<div id = "contact" class = "container-fluid"> <!--Contact section -->
+			<header class = "row-fluid"> <!--header row -->
+			<div class = "col-md-12">
+				<div class = "vwrapper"> <!--because I can't stand top aligned images -->
+				<div class = "verse pullL hidden-sm hidden-xs">
+				<div class = "innerBox center-block">
+				<div class = "vtext">
+				<h5 class = "center-block">Join us as we attack the spirit of lack, defeat, despair, doubt, and unbelief through the uncompromising Word of God.<cite>~&lpar;Isaiah 6&colon;1&dash;&rpar;</cite></h5>
+				</div>
+				</div>
+				</div>
+				</div>
+				<div class = "vwrapper">
+				<div class = "verse pullR hidden-sm hidden-xs">
+				<div class = "innerBox center-block">
+				<div class = "vtext">
+				<h5 class = "center-block">Expect change in your life, and choose this day to walk in the fullness of His blessing!<cite>~&lpar;Gal 3&colon;14&rpar;</cite></h5>
+				</div>
+				</div>
+				</div>
+				</div>
+			</div><!--end of col-md-12-->
+			</header> <!--end of header-->
+			<div class = "row-fluid">
+			<div class = "col-md-6 center-block">
+				<p>We encourage you to prove us through the Word of God and our testimony, then prayerfully partner with us as we reach out to the world unconditionally as we are taught by Jesus in God's Word.</p>
+			</div>
+			</div>
+			<div class = "row-fluid">
+			<div class = "col-md-6 center-block">
+				<p>Our prayer is that you would know the life changing freedom and peace ofmaking an eternal decision concerning this life.</p>
+			</div>
+			</div>
+			<form id="contact-form" name = "contact" method="post" action="contact.php" role="form">
+			    <h1 class = "clearfix text-center">Request Information</h1>
+			        <div class="row-fluid">
+			            <div class="col-md-6 col-md-offset-3 column">
+			                <div class="form-group">
+			                    <label for="fName">First Name *</label>
+			                    <input id="fName" type="text" name="fName" class="form-control" placeholder="First Name *" required="required" data-error="First Name is required.">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div><!--end of col-md-6-->
+			            <div class="col-md-6 col-md-offset-3 column">
+			                <div class="form-group">
+			                    <label for="lName">Lastname *</label>
+			                    <input id="lName" type="text" name="lName" class="form-control" placeholder="Last Name *" required="required" data-error="Last Name is required.">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div><!--end of col-md-6-->
+			        </div><!--end of row-->
+		        <div class="row-fluid">
+		            <div class="col-md-6 col-md-offset-3 column">
+		                <div class="form-group">
+		                    <label for="email">Email *</label>
+		                    <input id="email" type="email" name="email" class="form-control" placeholder="Email Address *" required="required" data-error="Valid email is required.">
+		                    <div class="help-block with-errors"></div>
+		                </div>
+		            </div>            
+		        </div><!--end of row-->
+		        <div class = "row-fluid">
+		        <div class="col-md-6 col-md-offset-3 column">
+			        <div class = "form-group subject">
+						<label for = "subject">Subject:</label>
+						<select id = "subject" name = "subject" onChange = "if (this.value=='Other'){this.form['Other'].style.visibility='visible'}else {this.form['Other'].style.visibility='hidden'};">	
+							<option>Please select a subject...</option>
+							<option>Mentoring</option>
+							<option>Prison Ministry</option>
+							<option>How can I get involved?</option>
+							<option>Financial Support</option>
+							<option>Other</option>
+						</select>
+							<input type = "text" name = "Other" style="visibility:hidden;"/>
+					</div><!--end of form-group subject-->
+				</div><!--end of col-md-6-->
+				</div><!--end of row-->
+		        <div class="row-fluid">
+		            <div class="col-md-6 col-md-offset-3 column">
+		                <div class="form-group">
+		                    <label for="message">Message *</label>
+		                    <textarea id="message" name="message" class="form-control" placeholder="Write a message. *" rows="4" required="required" data-error="Write a message, please."></textarea>
+		                    <div class="help-block with-errors"></div>
+		                </div>
+		            </div>
+		            <div class="col-md-6 col-md-offset-3 column">
+		                <input type="submit" class="btn btn-default btn-send" value="Send message">
+		            </div>
+		        </div><!--end of row-->
+		        <div class="row-fluid">
+		            <div class="col-md-6 col-md-offset-3 column">
+		                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+		            </div>
+		        </div>
+			</form>						
+	</div><!--end of contact section -->
 
-@include('partials.contact')	
-
-@section('content1') 	
 	<div id = "gallery" class = "container-fluid"> <!--gallery section -->
 		<div class = "row-fluid">
 			<div class="col-lg-12">
-                <div class = "verse pullL gapR"><!--the following divs style the verse-->
+                <div class = "verse pullL gapR">
                 <div class = "innerBox center-block">
 				<div class = "vtext">
 				<h5 class = "center-block">Discover the tools available to chase the darkness out of this present day.<cite>~&lpar;Ephesians 6&colon;11&dash;18&rpar;</cite></h5>
-				</div><!--end of vtext-->
-				</div><!--end of innerbox-->
-				</div><!--end of verse & verse styling-->
+				</div>
+				</div>
+				</div>
 					<h1 class="text-center clearfix">Our Journey So Far</h1>
             </div><!--end of col-lg-12-->
             </div><!--end of row-->
-
             <div class = "row-fluid hcenter">
             <div class="col-lg-3 col-md-4">
 	                <a href="#">
@@ -200,20 +290,21 @@
 	        </div><!--end of row-fluid-->  
           <!--  <div class = "container-fluid"> -->
             <div class = "row-fluid">
-	            <div class = "col-lg-12"> 	            
+	            <div class = "col-lg-12"> 
+	            <div class = "vwrapper"> 
 					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" /> 
-            <div class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
+            <div class = "verse pullR center-block hidden-xs hidden-sm">
             <div class = "innerBox center-block">
 			<div class = "vtext">
 			<h5 class = "center-block">Show up and be counted as faithful to the cause of changing hearts, young and old.<cite>~&lpar;John 20&colon;21, Acts 1&colon;8&rpar;</cite></h5>
-			</div><!--end of vtext-->
-			</div><!--end of inner box-->
-			</div> <!--end of verse center-block & verse styling-->
-			</div><!--end of vwrapper-->
-			</div><!--row-fluid--> 			    
+			</div>
+			</div>
+			</div> <!--end of verse center-block-->
+			</div><!--end of vwrapper
+			</div><!--end of col-lg-12 hidden-xs hidden-sm--> 			    
+        </div><!--end of row-->
         </div><!--end of container-->
-       
-       	
+    </div><!--end of gallery-->	    	
         	<div id = "information" class="container-fluid"><!--footer-->
            		<div class = "row-fluid"> 
            			<div class="navbar">
@@ -235,7 +326,7 @@
        		 		</div><!--end navbar-->
        		 	</div><!--end row-fluid-->
        		 	<div class = "row-fluid">
-       		 	<div class = "col-md-4 center-block">				
+       		 	<div class = "col-md-4">				
 					<img src = "../images/logos/alphaLogoThumb.svg" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Logo">
 				</div>				
 				<div class = "col-md-4">
@@ -243,21 +334,17 @@
 						<p class = "text-center"><a href = "https://www.tdcj.state.tx.us/php/volunteer_application/">Volunteer Application for the TDCJ</a></p>
 						<p class = "text-center"><a href = "http://www.ringofchampions.net/">Ring of Champions</a></p>
 				</div>				
-				<div class = "col-md-4 center-block">										
+				<div class = "col-md-4">										
 						<a href = "https://www.facebook.com/sozosam/" target = '_blank'"><i class="fa fa-5x fa-facebook center-icon pullR text-center" aria-hidden="true"></i></a>
 				</div>
 			</div><!--end row fluid-->
-			<div class = "row-fluid">	
-			<div class = "credits">
-					<div class = "col-md-6">
-						<p class = "text-muted">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'">LightPoint Development</a></p>
-					</div>
+			<div class = "row-fluid">
+				<div class = "col-md-12">
 				
-					<div class = "col-md-6">
-						<p class = "text-muted pullR">&commat;2016 <a href = "#">Lightning Road Biker Outreach</a>, All Rights Reserved</p>
-					</div><!--end of col-md-6-->
-				</div><!--end of credits-->	
-				</div><!--end of row-fluid-->
+					<ul class = "credits">
+						<li class = "text-muted pullL">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'">LightPoint Development</a></li>
+						<li class = "text-muted text-right pullR">&commat;2016 <a href = "#">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
+					</ul>	
 							
 			</div><!--end of footer-->
 
@@ -313,4 +400,4 @@
 
 
 
- @endsection <!--end of content1-->
+ @endsection

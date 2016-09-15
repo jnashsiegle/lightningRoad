@@ -11,6 +11,8 @@
 html, body{
   min-width:100%; 
   overflow-x:hidden;
+  background-color: $brand-secondary;
+ 
 }
 h1, h2, h3, h4, h5, h6{
   font-weight: bold; 
@@ -32,16 +34,11 @@ background: url(../images/hr-gray.png) no-repeat center;
 border: none;
 }
 img{
-  max-width: 20%;
-}
-img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{ 
-  padding: 0;
+  padding: 15px;  
   background-color: $brand-primary;
-  border: 5px solid $brand-primary;
-  border-image: -webkit-linear-gradient(45deg,#122b40,#d0d5d9) 20 stretch; 
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  border: 10px solid $brand-accent;
+  border-image: -webkit-linear-gradient(45deg,#f7931e,#fef891) 20 stretch;   
+  //border-image: -webkit-linear-gradient(45deg,#fef891,#f7931e) 20 stretch; 
 }
  a:hover, a:focus{   
     text-decoration: underline;
@@ -62,56 +59,20 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
        -moz-border-radius: 8px;
             border-radius: 8px;
 }
-//#gallery div.verse.center-block{  //because its with logo n needs special sizing
-// width: 80%;
-//}
-.gapR {
-  margin-left: 10px; 
-  margin-right: 30px;  
+.col-md-6.flex2.hidden-xs.hidden-sm> .verse{  //because its with logo n needs special sizing
+  width: 80%;
 }
-.gapL {
-  margin-right: 10px;
-  margin-left: 30px;     
-}
-.hcenter{
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-}
- .innerBox {
-    color: #fff;
-    padding: 20px;
-    background: #494636;    
-     -webkit-box-shadow: inset 0px 0px 5px 4px rgba(239,191,20,1), 0px 0px 3px 4px rgba(73,70,54,0.75);
-     -moz-box-shadow: inset 0px 0px 5px 4px rgba(239,191,20,1), 0px 0px 3px 4px rgba(73,70,54,0.75);
-     box-shadow: inset 0px 0px 5px 4px rgba(239,191,20,1), 0px 0px 3px 4px rgba(73,70,54,0.75);
-     max-width: 75%;    
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;    
-}
-.pullL{
-  float: left;
-}
-.pullR{
-  float: right;
-} 
-.thumb{
-  max-width: 100%;
-  margin-bottom: 50px;
-}
-.vcenter{
-  display: inline-block;
-  vertical-align: middle;
-  float:none;
+.thumbnail{
+  width: 75%;
+  margin-bottom: 6px;
 }
 .verse{    
-    max-width: 35%;
+    //max-width: 100%;
     color: $brand-secondary;
     border: 5px solid $brand-accent;
     border-image: -webkit-linear-gradient(45deg,#f7931e,#fef891) 20 stretch; 
     padding-top: 2.5%;
-    padding-bottom: 2.5%;    
+    padding-bottom: 2.5%;
     //padding-left: .75%;
     //padding-right: 1.5%;
     // -webkit-border-radius: 35px;
@@ -128,19 +89,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
       max-width: 75%;
     }    
 } 
-//.vertical-align {
-//  display: flex;
-//  flex-direction: row;
-//}
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; /* Optional, to align inner items 
-                              horizontally inside the column */
-}
-.vtext{   //text for verses
+.vtext{
   display: table-cell;
   vertical-align: center;
   h5{
@@ -148,11 +97,42 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     margin-bottom: 0;
   }
 }
- 
+  .innerBox {
+    color: #fff;
+    padding: 20px;
+    background: #494636;    
+     -webkit-box-shadow: inset 0px 0px 5px 4px rgba(239,191,20,1), 0px 0px 3px 4px rgba(73,70,54,0.75);
+     -moz-box-shadow: inset 0px 0px 5px 4px rgba(239,191,20,1), 0px 0px 3px 4px rgba(73,70,54,0.75);
+     box-shadow: inset 0px 0px 5px 4px rgba(239,191,20,1), 0px 0px 3px 4px rgba(73,70,54,0.75);
+     max-width: 75%;    
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;    
+}
 //--------SECTIONS
+#what img, #about img, #mission img{
+  max-width: 45%;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
 #what.container-fluid, #about.container-fluid, #mission.container-fluid, #contact.container-fluid{
   padding-bottom: 50px;
 }
+.gapR {
+  margin-left: 10px; 
+  margin-right: 30px;  
+}
+.gapL {
+  margin-right: 10px;
+  margin-left: 30px;     
+}
+.pullL{
+  float: left;
+}
+.pullR{
+  float: right;
+} 
 #landing {
 	background: url('../images/lrBkg.jpg') no-repeat center center scroll;
 	background-size: cover;
@@ -167,59 +147,61 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 .row-fluid{
 	position: absolute;
 	bottom: 5%;
-  width: 100%; 
-  margin: 0 auto;  
+  min-width: 100%; 
 }
+img.lHeader{   //resize textLogo image appropriately and remove margin-bottom
+  max-width: 80%; 
+  margin-bottom: 0; 
+}  
+h1.lHeader, small{
+	font-family: 'Trade Winds', cursive;
+	font-size: 4.5em;	
+	margin-bottom: 0;	
 }
- #landingL, #landingR, #vHeadingR, #vHeadingL{
-  width: 98%;
-  display: inline-block;
-  }  
-#landingL img, #landingR img{      //remove background global styling from landing section images
-  max-width: 75%;
+.tagline{
+font-size: 1em;
+line-height: 1;
+}
+  img{
+	max-width: 12em;  //based on 18px font for alpha Omega svg only
+  }
+}
+#landing img{   //remove background global styling from landing section images
   padding: 0;
   background-color: transparent;
-  border: 0;  
-  box-shadow: none;  
+  border: 0;
+  margin-bottom: 50px;
 }
- p.tagline{
-	font-family: 'Trade Winds', cursive;
-	font-family: 'Trade Winds', cursive;
-  font-size: 1em;
-  line-height: 1;
-	margin-bottom: 0;	  
-}
-
-#landingR img:last-of-type{
-	max-width: 12em;  //based on 18px font for alpha Omega svg only
-  blockquote{
-    width: 75%;
-  }
-  }
-
 //end of landing
 #about{  
   color: $brand-primary;
-  background-color: $brand-background;  
-  //img{
-  //  margin-left:10px;
-  //}
+  background-color: $brand-background;
+  min-width: 100%;
+  img{
+    margin-left:10px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  }  
 }
 //end of about 
 //#contact, #what{  
 //  background-size: 90%;  
 //}
-div#what.container-fluid, div#contact.container-fluid{
-  background-color: $brand-secondary;      
-}
-div#what{ 
-  h3{
-      margin-top: 18px;
-      margin-bottom: 27px;
+#what{
+  min-width: 100%;
+  background-color: $brand-secondary;  
+  background:url("../images/alphaLg.svg")no-repeat center center;
+  background-size: 100%;
+    .cta {      
+      .col-md-12{
+      float:none;
     }
-  img{
-    margin-bottom: 27px;
   }
+    h3{
+      margin-top: 18px;
+      margin-bottom: 36px;
+    }
   #outreach{      
       width: 33%;
       height: auto;
@@ -254,40 +236,22 @@ div#what{
   min-width: 100%;
   background-color: $brand-background;
 .statement, img{
-  margin-top: 10px;
-  }
-  img{
-    margin-bottom: 27px;
+  margin-top: 15px;
   }
 }
 //end of mission
-#what, #contact{ 
-  max-width: 100%; 
+#contact{ 
+  min-width: 100%; 
   background-color: $brand-secondary;
-  background:url("../images/logos/alphaLg.svg")no-repeat center center;
-  background-size: 120% 100%;
-} 
- //#contact .header.row-fluid .col-md-6.block-center #vHeadingL, #contact .header.row-fluid .col-md-6.block-center #vHeadingR{
- //   margin-top: 27px; 
- //   width: 100%; 
- // }
- // #contact  > .verse.hidden-sm.hidden-xs, #vHeadingR > .verse.hidden-sm.hidden-xs{
-  //    max-width: 50%;
-  //    margin: 0 auto;
-    
-   
-  #contact{
- .row-fluid{
-  margin-top: 27px;
- }
- .verse{
-    max-width: 50%;
-    margin: 0 auto;
-  }
+  background:url("../images/alphaLg.svg")no-repeat center center;
+  background-size: contain; 
+  header{
+    margin-top: 27px;
+  } 
   h1{
     margin-left: auto;
     margin-right: auto;
-  }  
+  }   
   form{
     width: 100%;
     //float: right;
@@ -297,18 +261,17 @@ div#what{
         width: 73%; 
       }
     }
-  }   
+  } 
 #contact-form{
   display:inline-block;
 }  
  a{
    color: $brand-primary;
  }
- form{
+ form, p{
   margin-top:15px;
   }
 }
-
 //end of contact
 #gallery{  
   min-width: 100%; 
@@ -316,30 +279,29 @@ div#what{
   h1{
     margin-bottom: 27px;
   }
-  .col-lg-12 > img:only-of-type{
-    width: 33%;
+  .col-md-6.flex1 > img:only-of-type{
+    size: 50%;
     background-color: transparent !important;
-    border: none;
-    box-shadow: none;
-    margin-top: 27px;
-  }  
+    border: none !important;
+  }
 }
 //end of gallery
 //beginning of footer
-#information{   
+#information{ 
   background: url('../images/footerBkg.svg') no-repeat center center;
   background-size: cover;
   min-width: 100%;
   padding: 0;
   z-index: 10;
-//img, i.fa.fa-5x.fa-facebook.center-icon.pullR{
-  
-//}
+img{
+  max-width: 20%;
+  padding: 0;
+}
 ul{
   display: inline;
   list-style-type: none;
 }
-p.text-center{
+p, p > a{
   color: #e1e0db;
 }
 .navbar {
@@ -375,23 +337,8 @@ p.text-center{
         background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
     }
-.credits .col-md-6{    
-  p{
-    display: inline;
-    //padding-right: 15px;
-}  // end of p
-}  //end of credits
-.row-fluid:nth-of-type(2){
-  padding-right: 30px;
-  padding-left: 30px;
-  .col-md-4:nth-child(2){
- background-color: $gray-darker;
- opacity: .5;
- border-radius: 40px;
-}
-}  //end of .row
-}  //end of #information
 
+}
 
 
 
@@ -406,14 +353,6 @@ p.text-center{
 
 //General Media Queries
 ///* responsive text queries */
-///
-///Tablet landscape only
-@media only screen and (min-width: 1024px) and (max-width: 1599px) {  //only add footer credit margin top on larger resolutions
-    #information .credits .col-md-6{
-      margin-top: 50px;
-    }  
-  }
-///Through Tablet Portrait
 @media screen and (max-width: 992px) {
   blockquote, p,.btn,input,div,span,h4, h5, li {
     font-size: 95%;
@@ -428,82 +367,25 @@ p.text-center{
     font-size: 18px;  
   }  
   #information img, .center-icon{
-  float: none !important;
+    float: none !important;
     margin-left: auto;    
     margin-right: auto;
     display: block;
-    //text-align: center;
+    text-align: center;
   }    
  #information .center-icon{
     margin-top: 20px;
-    margin-bottom: 20px;    
-  } //end of .center icon
-.verse{
-  max-width: 80%;
+    margin-bottom: 20px;
+  }  
+  //have to remove image styling from logo img on landing page on smaller devices.
+#landing .row-fluid > .col-md-6.flex2 > img:first-of-type{
+  padding: 0;
+  background-color: transparent;
+  border:none;
+}   
 }
-#contact .verse{
-  max-width: 80%;
-}
-
-.pullL, .pullR{  //remove global floats
-  float:none; 
-}
-.gapL, .gapR{   //remove global gaps
-  margin: 0 auto;
-}
- #gallery > .row-fluid > .col-lg-12 > img{ 
-  display: block; 
-  margin: 0 auto;
-  width: 50%;  
-}
-//#gallery > .row-fluid > .col-lg-12 > .vwrapper > img{
-//    width: 50%;
-//  }
-#gallery > .row-fluid > .col-lg-12 > .verse{
-  margin-top: 27px;
-  margin-bottom: 27px;
-}
-#about > .row-fluid > .col-md-12 > img, #about > .row-fluid > .col-md-12 > .verse{
-  margin-bottom: 27px;
-}
-div#what #outreach {
-    width: 100%;
-    height: auto;
-    margin: 27px 0;
-}
-div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
-  margin-bottom: 13.5px;
-}
-#what, #contact{   
-  background:none;  
-}
-#information .credits{
-  display: block;
-  width: 95%;
-}
-#information .credits p.col-md-6.text-muted.pullR{
-  float: right;
-}
- // li{
- // float:left;
-//}
-
-#landingR img{ 
-  max-width: 33%;
-  margin-left: 10px;
-}
-&blockquote{
-  max-width: 75%;
-  padding-top: 3px;
-}
-
-}
-
-
-
-
 @media screen and (max-width: 750px) {
-  blockquote, p,.btn,input,div,span,h4, h5, li{
+  .lHeader, blockquote, p,.btn,input,div,span,h4, h5, li{
     font-size: 90%;
   }
   h1 {
@@ -515,31 +397,45 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   h3 {
     font-size: 16px;  
   }
- // #contact, #what{  
- // background-color: $brand-secondary;
-//  background:url("../images/alphaLg.svg")no-repeat center center;
-//  background-size: 100%;  
- // min-width: 100%; 
-//}
+  #contact, #what{  
+  background-color: $brand-secondary;
+  background:url("../images/alphaLg.svg")no-repeat center center;
+  background-size: 100%;  
+  min-width: 100%; 
+}
   //Removing display:flex at lower resolutions from landing page
- 
-//blockquote{
- //display: block;
-  //  p{
-  //  text-align: left;
-  // }
- // }
-//#what > .row-fluid > .col-md-12.clearfix > #outreach{      
-//    width: 100%;      
-//}
-
-//#information ul.credits li{
-  // float: none !important;
-//}  
-//#information li:last-of-type{
- // float:left !important;
- // text-align: left;
- // } 
+  #landing >.col-md-7{  
+  height: auto;
+  display: block;  
+  margin: 20px 0 30px; 
+}
+ #landing > .col-md-5{ 
+  float: none;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+blockquote{
+  display: block;
+    p{
+    text-align: left;
+   }
+  }
+#what #outreach{      
+    width: 100%;      
+}
+.vcenter{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+#information ul.credits li{
+   float: none !important;
+}  
+#information li:last-of-type{
+  float:left !important;
+  text-align: left;
+  } 
 }
 
 
@@ -554,69 +450,51 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   form{
     float:none;
   }
-  //.pullL{
-   // float: left;
-  //}
- // .pullR{
- //   float: right;
- // }  
- // .gapL{
- //   margin: 0;
- // }
- // .gapR{
- //   margin:0;
- // }
+  .pullL{
+    float: left;
+  }
+  .pullR{
+    float: right;
+  }  
+  .gapL{
+    margin: 0;
+  }
+  .gapR{
+    margin:0;
+  }
   .verse{
     margin-top: 15px;
     margin-bottom: 15px;
   }  
-  //#mission img, #what img{
- //   margin-right: 15px;
- // }
+  #mission img, #what img{
+    margin-right: 15px;
+  }
   #information .col-md-4:first-child {
     margin-bottom: 20px;
 }
 }
 //Adding flex to larger resolutions to aid in vertical alignment of column
 @media screen and (min-width: 600px ){
- // .flex1{  
- // height: 450px; 
- // display:flex;
- //justify-content:center; 
- // flex-flow: column;  
-// //.flex2{ 
- // float: right;  
-//  height: 450px;
-//  display:flex;
- // justify-content:center;  
- // flex-flow: column;
-//  }  
-  
+  .flex1{  
+  height: 450px; 
+  display:flex;
+  justify-content:center; 
+  flex-flow: column;  
 }
-@media screen and (min-width: 300px){
-  #information .col-md-4:first-child{   //correcting img scaling in footer at 600 and above
+ .flex2{ 
+  float: right;  
+  height: 450px;
+  display:flex;
+  justify-content:center;  
+  flex-flow: column;
+  }  
+  .verse{
+    width: 35%;
+  }
+  #information .col-md-4:first-child {
     margin-bottom: 20px;
     img{
-    max-width: 5.75em;
-  }  
+    max-width: 5em;
   }
-  #information .col-md-4 a{
-    text-decoration: none;
-    .fa.fa-5x.fa-facebook.center-icon.pullR{
-    max-width: 1em;    
-    text-decoration:none;
-    line-height: 100px;
-    }
 }  
 }
-@media screen and (max-width: 450px){
-  #landingR img{ 
-  max-width: 50%;
-  margin-left: 10px;
-}
-&blockquote{
-  max-width: 100%;
-  padding-top: 3px;
-}
-}
-

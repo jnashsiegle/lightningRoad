@@ -135,7 +135,6 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 .vertical-align > [class^="col-"],
 .vertical-align > [class*=" col-"] {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center; /* Optional, to align inner items 
                               horizontally inside the column */
@@ -167,14 +166,14 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 .row-fluid{
 	position: absolute;
 	bottom: 5%;
-  width: 100%; 
-  margin: 0 auto;  
+  max-width: 100%;   
 }
 }
- #landingL, #landingR, #vHeadingR, #vHeadingL{
-  width: 98%;
+
+#landingL, #landingR{
+  width: 45%;
   display: inline-block;
-  }  
+}
 #landingL img, #landingR img{      //remove background global styling from landing section images
   max-width: 75%;
   padding: 0;
@@ -189,12 +188,8 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   line-height: 1;
 	margin-bottom: 0;	  
 }
-
 #landingR img:last-of-type{
 	max-width: 12em;  //based on 18px font for alpha Omega svg only
-  blockquote{
-    width: 75%;
-  }
   }
 
 //end of landing
@@ -215,11 +210,8 @@ div#what.container-fluid, div#contact.container-fluid{
 div#what{ 
   h3{
       margin-top: 18px;
-      margin-bottom: 27px;
+      margin-bottom: 36px;
     }
-  img{
-    margin-bottom: 27px;
-  }
   #outreach{      
       width: 33%;
       height: auto;
@@ -254,10 +246,7 @@ div#what{
   min-width: 100%;
   background-color: $brand-background;
 .statement, img{
-  margin-top: 10px;
-  }
-  img{
-    margin-bottom: 27px;
+  margin-top: 15px;
   }
 }
 //end of mission
@@ -265,29 +254,23 @@ div#what{
   max-width: 100%; 
   background-color: $brand-secondary;
   background:url("../images/logos/alphaLg.svg")no-repeat center center;
-  background-size: 120% 100%;
-} 
- //#contact .header.row-fluid .col-md-6.block-center #vHeadingL, #contact .header.row-fluid .col-md-6.block-center #vHeadingR{
- //   margin-top: 27px; 
- //   width: 100%; 
- // }
- // #contact  > .verse.hidden-sm.hidden-xs, #vHeadingR > .verse.hidden-sm.hidden-xs{
-  //    max-width: 50%;
-  //    margin: 0 auto;
-    
+  background-size: 120% 100%; 
+  header{
+    margin-top: 27px;
+    .col-md-12 > .vwrapper{
+      display: inline-block;
+      vertical-align: middle;
+      width: 48%;
+      .verse{
+        max-width: 75%;
+      }
+}
+    }
    
-  #contact{
- .row-fluid{
-  margin-top: 27px;
- }
- .verse{
-    max-width: 50%;
-    margin: 0 auto;
-  }
   h1{
     margin-left: auto;
     margin-right: auto;
-  }  
+  }   
   form{
     width: 100%;
     //float: right;
@@ -297,18 +280,17 @@ div#what{
         width: 73%; 
       }
     }
-  }   
+  } 
 #contact-form{
   display:inline-block;
 }  
  a{
    color: $brand-primary;
  }
- form{
+ form, p{
   margin-top:15px;
   }
 }
-
 //end of contact
 #gallery{  
   min-width: 100%; 
@@ -316,7 +298,7 @@ div#what{
   h1{
     margin-bottom: 27px;
   }
-  .col-lg-12 > img:only-of-type{
+  .col-lg-12 > .vwrapper > img:only-of-type{
     width: 33%;
     background-color: transparent !important;
     border: none;
@@ -339,7 +321,7 @@ ul{
   display: inline;
   list-style-type: none;
 }
-p.text-center{
+p, p > a{
   color: #e1e0db;
 }
 .navbar {
@@ -375,22 +357,20 @@ p.text-center{
         background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
     }
-.credits .col-md-6{    
-  p{
+.credits{  
+  width: 95%;
+  margin-top: 27px;
+  li{
     display: inline;
-    //padding-right: 15px;
-}  // end of p
-}  //end of credits
-.row-fluid:nth-of-type(2){
-  padding-right: 30px;
-  padding-left: 30px;
-  .col-md-4:nth-child(2){
- background-color: $gray-darker;
- opacity: .5;
- border-radius: 40px;
+    padding-right: 15px;
+    text-align: left;
+    }  
+  }
+.row-fluid:nth-child(2){
+  max-width: 95%;
+  margin: 0 auto;
 }
-}  //end of .row
-}  //end of #information
+}
 
 
 
@@ -406,14 +386,6 @@ p.text-center{
 
 //General Media Queries
 ///* responsive text queries */
-///
-///Tablet landscape only
-@media only screen and (min-width: 1024px) and (max-width: 1599px) {  //only add footer credit margin top on larger resolutions
-    #information .credits .col-md-6{
-      margin-top: 50px;
-    }  
-  }
-///Through Tablet Portrait
 @media screen and (max-width: 992px) {
   blockquote, p,.btn,input,div,span,h4, h5, li {
     font-size: 95%;
@@ -436,32 +408,31 @@ p.text-center{
   }    
  #information .center-icon{
     margin-top: 20px;
-    margin-bottom: 20px;    
-  } //end of .center icon
+    margin-bottom: 20px;
+  }  
 .verse{
   max-width: 80%;
 }
-#contact .verse{
-  max-width: 80%;
-}
-
 .pullL, .pullR{  //remove global floats
   float:none; 
 }
 .gapL, .gapR{   //remove global gaps
   margin: 0 auto;
 }
- #gallery > .row-fluid > .col-lg-12 > img{ 
+ #gallery > .row-fluid > .col-lg-12 > .vwrapper > img, #landing .row-fluid.vertical-align, #landing .row-fluid.vertical-align .col-md-12{ 
   display: block; 
-  margin: 0 auto;
-  width: 50%;  
-}
-//#gallery > .row-fluid > .col-lg-12 > .vwrapper > img{
-//    width: 50%;
-//  }
+  margin: 0 auto;  
+  #landingL, #landingR{
+    width: 100%;   
+    display: inherit;
+    float: none;
+  }  
+} 
+#gallery > .row-fluid > .col-lg-12 > .vwrapper > img{
+    width: 75%;
+  }
 #gallery > .row-fluid > .col-lg-12 > .verse{
   margin-top: 27px;
-  margin-bottom: 27px;
 }
 #about > .row-fluid > .col-md-12 > img, #about > .row-fluid > .col-md-12 > .verse{
   margin-bottom: 27px;
@@ -469,7 +440,6 @@ p.text-center{
 div#what #outreach {
     width: 100%;
     height: auto;
-    margin: 27px 0;
 }
 div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   margin-bottom: 13.5px;
@@ -480,27 +450,11 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
 #information .credits{
   display: block;
   width: 95%;
+  li{
+  float:left;
 }
-#information .credits p.col-md-6.text-muted.pullR{
-  float: right;
 }
- // li{
- // float:left;
-//}
-
-#landingR img{ 
-  max-width: 33%;
-  margin-left: 10px;
 }
-&blockquote{
-  max-width: 75%;
-  padding-top: 3px;
-}
-
-}
-
-
-
 
 @media screen and (max-width: 750px) {
   blockquote, p,.btn,input,div,span,h4, h5, li{
@@ -523,12 +477,12 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
 //}
   //Removing display:flex at lower resolutions from landing page
  
-//blockquote{
- //display: block;
-  //  p{
-  //  text-align: left;
-  // }
- // }
+blockquote{
+  display: block;
+    p{
+    text-align: left;
+   }
+  }
 //#what > .row-fluid > .col-md-12.clearfix > #outreach{      
 //    width: 100%;      
 //}
@@ -609,14 +563,3 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
     }
 }  
 }
-@media screen and (max-width: 450px){
-  #landingR img{ 
-  max-width: 50%;
-  margin-left: 10px;
-}
-&blockquote{
-  max-width: 100%;
-  padding-top: 3px;
-}
-}
-

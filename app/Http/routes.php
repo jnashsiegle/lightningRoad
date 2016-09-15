@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('contact' , function () {
+	return View::make('contact');
+});
+
+
+

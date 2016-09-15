@@ -13,7 +13,7 @@
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
         <!--Google Fonts -->
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" /> 
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet"> 
         
         <!--Necessary shims-->
@@ -39,13 +39,16 @@
 
 
 @yield('content')
+@yield('contact')
+@yield('content1')
+
 
 
 
     <!-- jQuery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type='text/javascript' src='js/bootstrap.js'></script>
+    
     
     
     
