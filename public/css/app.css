@@ -4356,9 +4356,32 @@ div#what .carousel-indicators .active, div#what .carousel-indicators li {
   height: 16px;
   margin: 0 5px -50px; }
 
+div#what .carousel-indicators .active {
+  border: 1px solid #122B40;
+  background: #EFBE14; }
+
+div#what .carousel-indicators li {
+  border: 1px solid #122B40; }
+
 div#what .carousel-indicators {
   display: block;
   bottom: 20px; }
+
+div#what .carousel-control {
+  background: none;
+  color: #122B40;
+  font-size: 2.3em;
+  text-shadow: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5; }
+
+div#what .carousel-control.left {
+  left: -100px; }
+
+div#what .carousel-control.right {
+  right: -100px; }
 
 #mission {
   min-width: 100%;
@@ -4467,10 +4490,7 @@ div#what .carousel-indicators {
 
 @media only screen and (min-width: 1024px) and (max-width: 1599px) {
   #information .credits .col-md-6 {
-    margin-top: 50px; }
-  #landingL img {
-    max-width: 100%;
-    margin-left: 10px; } }
+    margin-top: 50px; } }
 
 @media screen and (max-width: 992px) {
   blockquote, p, .btn, input, div, span, h4, h5, li {
@@ -4537,8 +4557,10 @@ div#what .carousel-indicators {
     font-size: 16px; } }
 
 @media screen and (max-width: 500px) {
-  form {
-    float: none; }
+  div#what .carousel-indicators .active, div#what .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px -50px; }
   .verse {
     margin-top: 15px;
     margin-bottom: 15px; }

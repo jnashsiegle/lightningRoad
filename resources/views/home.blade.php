@@ -82,19 +82,24 @@
 				</div>
 				</div>
 			</div>			
-			<div class = "row-fluid">				
+			<div class = "row-fluid">	<!--Carousel Info-->			
 					<div class = "col-md-12">
 					<div class="clearfix visible-xs-block clearfix visible-sm-block"></div>	
-						<div id="carousel-systems" class="carousel slide center-block" data-ride="carousel">
+						<div id="carousel-systems" class="carousel slide center-block" data-ride="carousel" data-interval="false">
 						<h3 class = "text-center">Details of current systems where we are active</h3>
 						<!--indicators-->
 						<ol class="carousel-indicators">
         					<li data-target="#carousel-systems" data-slide-to="0" class="active"></li>
         					<li data-target="#carousel-systems" data-slide-to="1"></li>
         					<li data-target="#carousel-systems" data-slide-to="2"></li>
+        					<li data-target="#carousel-systems" data-slide-to="3"></li>
     					</ol>
 						<div class = "carousel-inner" role = "listbox">
 							<div class = "item active">
+							<h5>Outreach Service Divisions Information</h5>
+							<p>Each system both Federal and County, youth or adult has a summary of information here for you to read if you have an interest.  Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
+						</div>
+								<div class = "item">
 								<h5>Federal Systems</h5>
 								<p>We are ONLY allowed to enter the federal system as visitors on an offenders approved visitors list. Federal law requires that all faiths be tolerated. Unit chaplains are unable to accommodate the requests of anyone who desires to volunteer for chaplain services for any faith. As a result, no visitor may carry a Bible, Koran, Torah, etc. No personal items may be on your person, including caps, studded clothing or any item that could be considered a weapon. Individuals are thoroughly searched, and electronically drug screened. We pray that the roadblocks to witnessing in the federal system will be taken down by prayer, obedience, and the will of God.</p>
 							</div>
@@ -107,10 +112,15 @@
 							<h5>Texas Juvenile Justice Dept</h5>
 								<p>Texas Juvenile Justice Department has undergone MAJOR changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
 								<p>County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
-							</div>		
+							</div>								
 						</div><!--end of carousel inner -->	
+						<!-- Left and right controls -->
+				  <!-- Carousel Buttons Next/Prev -->
+                       <a data-slide="prev" href="#carousel-systems" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                       <a data-slide="next" href="#carousel-systems" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>	
+				
 					</div><!--end of carousel systems -->
-				</div><!--end of col-md-6-->
+				</div><!--end of col-md-12-->
 			</div><!--end of row-->
 			<div class = "row-fluid">				
 				<div class = "col-md-11 col-md-offset-1">

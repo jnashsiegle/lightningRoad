@@ -243,10 +243,35 @@ div#what{
     height: 16px;
     margin: 0 5px -50px;
   }
+  .carousel-indicators {
+    .active{
+    border: 1px solid $brand-primary;
+    background: $brand-accent;
+  }
+    li{
+      border: 1px solid $brand-primary;    
+    }
+  }
   .carousel-indicators{
   display:block;
   bottom:20px;
   }
+  .carousel-control {
+    background: none;
+    color: $brand-primary;
+    font-size: 2.3em;
+    text-shadow: none;    
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;  
+}
+  .carousel-control.left {
+    left: -100px;
+}
+  .carousel-control.right {
+    right: -100px;
+}
 }
 //end of carousel
 //end of about
@@ -551,8 +576,13 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   //#landing img{
    // width:25%;
  // }
-  form{
-    float:none;
+  //form{
+  //  float:none;
+  //}
+  div#what .carousel-indicators .active, div#what .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px -50px;
   }
   //.pullL{
    // float: left;
