@@ -3,14 +3,14 @@
 @section('content')
 		<div id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
-@endsection <!--end of title section-->					
-					<div class="row-fluid">					
+@endsection <!--end of title section-->	
+						<div class = "row-fluid">	
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
 	                		<div id = "landingL">
-	                		<img src = "../images/logos/textLogoLight.svg" class = "img-responsive hidden-xs hidden-sm alt = "Lightning Road Biker Outreach" />
+	                		<img src = "../images/logos/textLogoLight.svg" class = "img-responsive hidden-xs hidden-sm" alt = "Lightning Road Biker Outreach" />
 	                		<p class = "tagline text-left hidden-xs hidden-sm">B<span style="font-family: thequietscream">i</span>ker Outreach | Motorcycle Evangelism</p>
-	                	</div>
-	                	</div>
+	                		</div><!--end of landingL-->
+	                	</div><!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->
 	                	<div class = "col-xs-12 col-md-5 col-md-offset-1 vcenter">
 	                	    <div id = "landingR">       		
 	                		<img src = "../images/logos/textLogoLight.svg" class = ".img-responsive hidden-md hidden-lg hidden-xl" >
@@ -20,17 +20,26 @@
 	                		<cite> ~ &lpar;Matthew 24&colon;27&rpar;</cite>
 	                		</blockquote>
 	                	</div><!--end of landingR-->	
-	                	</div> <!--end of colmd4 offset 4-->               	
-	            	</div> <!--end of row-fluid -->
+	                	</div> <!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->	
+	                	</div><!--end of row-fluid-->
+	                	<!--scroll arrow-->	               
+						<a href = "#about"><i class = "fa fa-arrow-down fa-2x fade-in" aria-hidden = "true"></i></a>	
+						<!--end of scroll arrow-->             	           	
 	            	</div><!--end of Landing"-->
-	            
-	    
-
+	            <!--beginning of #About-->
 	<div id = "about" class = "container-fluid"> <!--Who we are section -->
+	<nav class="breadcrumb">
+	  <a class="breadcrumb-item" href="#">Home / </a>
+	  <a class="breadcrumb-item active" href="#about">Who / </a>
+	  <a class="breadcrumb-item" href="#what">What / </a>
+	  <a class="breadcrumb-item" href="#mission">Mission / </a>
+	  <a class="breadcrumb-item" href = "#contact">Contact / </a>
+	  <a class="breadcrumb-item" href = #gallery>Gallery</a>
+	</nav>
 		<h1 class = "text-center">Who We Are</h1>
 		<div class = "row-fluid ">
 			<div class = "col-md-12">
-				<img src = "../images/SteveRose-216x300.jpg" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />				
+				<img src = "../images/SteveRose-216x300.jpg" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />
 				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through TOLC to facilitate entry into area jails and detention centers.</p>
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
@@ -43,8 +52,17 @@
 				<p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>					
 			</div>			
 			</div><!--end of row -->
-	</div><!--end of Who We Are-->
+	</div><!--end of #About-->
 	<div id = "what" class = "container-fluid"> <!--What We Do section -->
+	<!--breadcrumbs-->
+	<nav class="breadcrumb">
+	  <a class="breadcrumb-item" href="#">Home / </a>
+	  <a class="breadcrumb-item" href="#about">Who / </a>
+	  <a class="breadcrumb-item active" href="#what">What / </a>
+	  <a class="breadcrumb-item" href="#mission">Mission / </a>
+	  <a class="breadcrumb-item" href = "#contact">Contact / </a>
+	  <a class="breadcrumb-item" href = #gallery>Gallery</a>
+	</nav>
 		<h1 class = "text-center">What We Do</h1>
 		<h3 class = "text-center">When there are so many behind prison doors - VISIT, TEACH, TRAIN, EXHORT</h3>
 			<div class = "row-fluid">
@@ -55,12 +73,12 @@
 			</div><!--end of row-->
 			<div class = "row-fluid">
 				
-				<div class = "cta col-md-12 clearfix text-center">
+				<div class = "col-md-12 clearfix text-center">
 					<a href = "#contact">
-						<h2 class = "center-block">Be a mentor.</h2><h3 class = "center-block">Do what Jesus commanded us to do.</h3></a>
+						<h2 class = "cta center-block">Be a mentor.</h2><h3 class = "cta center-block">Do what Jesus commanded us to do.</h3></a>
 						<hr>
-					</div>				
-			</div>
+				</div>		<!--col-md-12 clearfix text-center-->		
+			</div>  <!--end of row-fluid-->
 			<div class = "row-fluid">
 				<div class = "col-md-12 clearfix">						
 					<div class = "hcenter verse pullR gapR"><!--the following divs style the verse-->
@@ -97,28 +115,23 @@
 						<div class = "carousel-inner" role = "listbox">
 							<div class = "item active">
 							<h5>Outreach Service Divisions Information</h5>
-							<p>Each system both Federal and County, youth or adult has a summary of information here for you to read if you have an interest.  Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
+							<p class = "text-justify">Each system both Federal and County, youth or adult has a summary of information within this carousel for you to read if you have an interest. Move through the pages with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
 						</div>
 								<div class = "item">
 								<h5>Federal Systems</h5>
-								<p>We are ONLY allowed to enter the federal system as visitors on an offenders approved visitors list. Federal law requires that all faiths be tolerated. Unit chaplains are unable to accommodate the requests of anyone who desires to volunteer for chaplain services for any faith. As a result, no visitor may carry a Bible, Koran, Torah, etc. No personal items may be on your person, including caps, studded clothing or any item that could be considered a weapon. Individuals are thoroughly searched, and electronically drug screened. We pray that the roadblocks to witnessing in the federal system will be taken down by prayer, obedience, and the will of God.</p>
+								<p class = "text-justify">We are ONLY allowed to enter the federal system as visitors on an offenders approved visitors list. Federal law requires that all faiths be tolerated. Unit chaplains are unable to accommodate the requests of anyone who desires to volunteer for chaplain services for any faith. As a result, no visitor may carry a Bible, Koran, Torah, etc. No personal items may be on your person, including caps, studded clothing or any item that could be considered a weapon. Individuals are thoroughly searched, and electronically drug screened. We pray that the roadblocks to witnessing in the federal system will be taken down by prayer, obedience, and the will of God.</p>
 							</div>
 							<div class = "item">
 							<h5>TDCJ - Texas Dept of Corrections</h5>
-								<p>TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation & Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
-								<p>County jail systems are run individually through the sheriff and the jail administrator. Background checks may be ordered or ministry credentials requested to authenticate individuals who desire to volunteer at chapel services or Bible studies. Be advised that each jail can operate completely different from one another due to local government. NOTE: Do not be discouraged by individuals who are not “friendly” with “faith-based” volunteers. Your strength, commitment, and perseverance in serving God will overcome the most stubborn obstacles.</p>
+								<p class = "text-justify">TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation & Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
+								<p class = "text-justify">County jail systems are run individually through the sheriff and the jail administrator. Background checks may be ordered or ministry credentials requested to authenticate individuals who desire to volunteer at chapel services or Bible studies. Be advised that each jail can operate completely different from one another due to local government. NOTE: Do not be discouraged by individuals who are not “friendly” with “faith-based” volunteers. Your strength, commitment, and perseverance in serving God will overcome the most stubborn obstacles.</p>
 							</div>
 							<div class = "item">
 							<h5>Texas Juvenile Justice Dept</h5>
-								<p>Texas Juvenile Justice Department has undergone MAJOR changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
-								<p>County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
-							</div>								
+								<p class = "text-justify">Texas Juvenile Justice Department has undergone MAJOR changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
+								<p class = "text-justify">County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
+							</div>			
 						</div><!--end of carousel inner -->	
-						<!-- Left and right controls -->
-				  <!-- Carousel Buttons Next/Prev -->
-                       <a data-slide="prev" href="#carousel-systems" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                       <a data-slide="next" href="#carousel-systems" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>	
-				
 					</div><!--end of carousel systems -->
 				</div><!--end of col-md-12-->
 			</div><!--end of row-->
@@ -126,10 +139,19 @@
 				<div class = "col-md-11 col-md-offset-1">
 					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Day of Champions">
 				</div>
-			</div><!--end of row-->
-		</div><!--end of what section-->
+			</div><!--end of row-->			
+		</div><!--end of #What section-->
 		
 		<div id = "mission" class = "container-fluid"> <!--Mission section -->
+		<!--breadcrumbs-->
+		<nav class="breadcrumb">
+		  <a class="breadcrumb-item" href="#">Home / </a>
+		  <a class="breadcrumb-item" href="#about">Who / </a>
+		  <a class="breadcrumb-item" href="#what">What / </a>
+		  <a class="breadcrumb-item active" href="#mission">Mission / </a>
+		  <a class="breadcrumb-item" href = "#contact">Contact / </a>
+		  <a class="breadcrumb-item" href = #gallery>Gallery</a>
+		</nav>
 			<h1 class = "text-center">Mission Statement</h1>
 			<div class = "row-fluid">
 				<div class = "col-xs-12">
@@ -151,14 +173,22 @@
 						<p class = "text-left">WE BELIEVE this ministry has been founded and ordained on the WORD of GOD according to&colon; Matthew 24&colon;27 which says… &quot;As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.&quot;</p>
 						</div>								
 					</div>					
-			</div><!--end of row -->
+			</div><!--end of row -->							
 		</div><!--end of mission section-->
 @endsection
 
 @include('partials.contact')	
 
 @section('content1') 	
-	<div id = "gallery" class = "container-fluid"> <!--gallery section -->
+	<div id = "gallery" class = "container-fluid"> <!--gallery section -->	
+	<nav class="breadcrumb">
+	  <a class="breadcrumb-item" href="#">Home / </a>
+	  <a class="breadcrumb-item" href="#about">Who / </a>
+	  <a class="breadcrumb-item" href="#what">What / </a>
+	  <a class="breadcrumb-item" href="#mission">Mission / </a>
+	  <a class="breadcrumb-item" href = "#contact">Contact / </a>
+	  <a class="breadcrumb-item active" href = #gallery>Gallery</a>
+	</nav>
 		<div class = "row-fluid">
 			<div class="col-lg-12">
                 <div class = "verse pullL gapR"><!--the following divs style the verse-->
@@ -172,52 +202,80 @@
             </div><!--end of col-lg-12-->
             </div><!--end of row-->
 
-            <div class = "row-fluid hcenter">
-            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>            
-	            </div>
+            <div class = "row-fluid hcenter">            
+	            	<div class="col-lg-3 col-md-4">
+		                <a class = "gImage" title = "Day of Champions" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
+			               
 	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div>
+		                <a class = "gImage" title = "Day of Champions1" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions1" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
 	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb center-block img-responsive" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div>
-	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb center-block img-responsive" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div>
-	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb center-block img-responsive" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div>
-	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb center-block img-responsive" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div>
-	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb center-block img-responsive" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div>
-	            <div class="col-lg-3 col-md-4">
-	                <a href="#">
-	                    <img class="thumb center-block img-responsive" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="">
-	                </a>
-	            </div> 
+		                <a class = "gImage" title = "Day of Champions2" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions2" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
+	            	<div class="col-lg-3 col-md-4">
+		                <a class = "gImage" title = "Day of Champions3" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions3" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
+	            	<div class="col-lg-3 col-md-4">
+		                <a class = "gImage" title = "Day of Champions4" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions4" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
+	            	<div class="col-lg-3 col-md-4">
+		                <a class = "gImage" title = "Day of Champions5" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions5" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
+		            <div class="col-lg-3 col-md-4">
+		                <a class = "gImage" title = "Day of Champions6" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions6" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
+	            	<div class="col-lg-3 col-md-4">
+		                <a class = "gImage" title = "Day of Champions7" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions7" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                </a> 
+		            </div>
 	        </div><!--end of row-fluid-->  
-          <!--  <div class = "container-fluid"> -->
+         <!--modal for lightbox-->
+         <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog"  aria-hidden="true">
+    		<div class="modal-dialog">
+        		<div class="modal-content">
+            		<div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+		                <h4 class="modal-title" id="image-gallery-title"></h4>
+            		</div><!--end modal header-->
+		            <div class="modal-body">
+		                <img id="image-gallery-image" class="img-responsive" src="">
+		            </div>
+		            <div class="modal-footer  center-block">
+		                <div class="col-xs-3 col-md-4 col-lg-3">		               
+		                    <button type="button" class="btn btn-primary  btn-responsive pull-left" id="show-previous-image">Previous</button>
+		                </div>
+		                <div class="col-xs-6 col-md-5 col-lg-6 center-block text-center" id="image-gallery-caption">
+		                    This text will be overwritten by jQuery
+		                </div>
+		                <div class="col-xs-3 col-md-3 col-lg-2 pull-right">
+		                    <button type="button" id="show-next-image" class="btn btn-default btn-responsive ">Next</button>
+		                </div>
+
+            		</div><!--end modal footer-->
+        		</div><!--end modal header-->
+    		</div><!--end modal dialog-->
+		</div>
+		<!--end of modal code-->
+
             <div class = "row-fluid">
 	            <div class = "col-lg-12"> 	            
-					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" /> 
+					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" alt = "Lightning Road Biker Outreach" /> 
             <div class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
             <div class = "innerBox center-block">
 			<div class = "vtext">
@@ -235,7 +293,7 @@
            			<div class="navbar">
 	                <ul class="nav navbar-nav">
 	                
-	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#">Back To Top</a></li>
+	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#landing">Back To Top</a></li>
 	                
 	                
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#about">About Us</a></li>
@@ -252,7 +310,7 @@
        		 	</div><!--end row-fluid-->
        		 	<div class = "row-fluid">
        		 	<div class = "col-md-4 center-block">				
-					<img src = "../images/logos/alphaLogoThumb.svg" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Logo">
+					<img src = "../images/logos/alphaLogoThumb.svg" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Alpha Omega Logo">
 				</div>				
 				<div class = "col-md-4">
 						<p class = "text-center">DOWNLOADS</p>
@@ -270,7 +328,7 @@
 					</div>
 				
 					<div class = "col-md-6">
-						<p class = "text-muted pullR">&commat;2016 <a href = "#">Lightning Road Biker Outreach</a>, All Rights Reserved</p>
+						<p class = "text-muted pullR">&commat;2016 <a href = "#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</p>
 					</div><!--end of col-md-6-->
 				</div><!--end of credits-->	
 				</div><!--end of row-fluid-->

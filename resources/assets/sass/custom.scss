@@ -50,9 +50,12 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */ 
 }
+.breadcrumb{
+  background: transparent;
+}
 .btn{
   padding: 6px 12px;
-  margin-right: 0;
+  margin-right: 0;  
 }
 .btn-xlarge{
     padding: 18px 28px;
@@ -62,9 +65,21 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
        -moz-border-radius: 8px;
             border-radius: 8px;
 }
-//#gallery div.verse.center-block{  //because its with logo n needs special sizing
-// width: 80%;
-//}
+.btn-responsive {
+    padding:6px 12px;
+    max-width: 100%;
+    font-size:85%;
+    line-height: 1.5;
+    border-radius:3px;
+  }
+.cta{
+  color: $brand-link;
+}
+.fa-2x, #about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i{
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+}
 .gapR {
   margin-left: 10px; 
   margin-right: 30px;  
@@ -106,7 +121,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   float:none;
 }
 .verse{    
-    max-width: 35%;
+    max-width: 25%;
     color: $brand-secondary;
     border: 5px solid $brand-accent;
     border-image: -webkit-linear-gradient(45deg,#f7931e,#fef891) 20 stretch; 
@@ -142,16 +157,18 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 }
 .vtext{   //text for verses
   display: table-cell;
-  vertical-align: center;
+  vertical-align: middle;
   h5{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0;    
   }
 }
  
 //--------SECTIONS
 #what.container-fluid, #about.container-fluid, #mission.container-fluid, #contact.container-fluid{
-  padding-bottom: 50px;
+ padding-bottom: 40px;
+ position: relative;
+ 
 }
 #landing {
 	background: url('../images/lrBkg.jpg') no-repeat center center scroll;
@@ -170,6 +187,47 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   width: 100%; 
   margin: 0 auto;  
 }
+}
+@-webkit-keyframes fadeIn { 
+  from { 
+    opacity:0;
+     } 
+  to { 
+    opacity:1; 
+    } 
+  }
+@-moz-keyframes fadeIn {
+ from { 
+  opacity:0; 
+  } 
+  to { 
+  opacity:1; 
+  } 
+}
+@keyframes fadeIn { 
+  from { 
+    opacity:0;
+     } 
+     to {
+    opacity:1; 
+    } 
+  }
+.fade-in {
+-webkit-animation-delay: 10s;
+-moz-animation-delay: 10s;
+animation-delay: 10s;
+opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+ 
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+ 
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  animation-duration:5s;
 }
  #landingL, #landingR, #vHeadingR, #vHeadingL{
   width: 98%;
@@ -232,12 +290,13 @@ div#what{
       }
     }
   }
+}
 //custom css for carousel and indicators
   #carousel-systems{
     padding-top: 20px;
     padding-bottom:20px;
-    width: 65%;      
-  }
+    width: 65%; 
+    }   
   .carousel-indicators .active, .carousel-indicators li{
     width: 16px;
     height: 16px;
@@ -256,23 +315,6 @@ div#what{
   display:block;
   bottom:20px;
   }
-  .carousel-control {
-    background: none;
-    color: $brand-primary;
-    font-size: 2.3em;
-    text-shadow: none;    
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    z-index: 5;  
-}
-  .carousel-control.left {
-    left: -100px;
-}
-  .carousel-control.right {
-    right: -100px;
-}
-}
 //end of carousel
 //end of about
 #mission{
@@ -327,7 +369,7 @@ div#what{
   display:inline-block;
 }  
  a{
-   color: $brand-primary;
+   color: $brand-link;
  }
  form{
   margin-top:15px;
@@ -349,6 +391,28 @@ div#what{
     margin-top: 27px;
   }  
 }
+//lightbox
+.modal-dialog {
+ max-width:600px;  
+}
+.modal-content{
+  background-color: $brand-secondary;
+}
+.modal-header{
+  border-bottom: 1px solid $brand-primary;
+}
+.close{
+  color: $brand-primary;
+}
+.modal-footer{
+  border-top: 1px solid $brand-primary;
+  text-align: none;  
+}
+.thumbnail {
+  margin-bottom:6px;
+}
+
+//end of lightbox
 //end of gallery
 //beginning of footer
 #information{   
@@ -437,12 +501,20 @@ p.text-center{
     #information .credits .col-md-6{
       margin-top: 50px;
     }  
+  .verse {
+    max-width: 33%;
   }
+  #contact .verse{    
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  }
+
 ///Through Tablet Portrait
 @media screen and (max-width: 992px) {
-  blockquote, p,.btn,input,div,span,h4, h5, li {
+  blockquote, p,input,span,h4,h5 div, li {
     font-size: 95%;
-  }
+  }  
   h1 {
     font-size: 24px;     
   }
@@ -464,12 +536,8 @@ p.text-center{
     margin-bottom: 20px;    
   } //end of .center icon
 .verse{
-  max-width: 80%;
+  max-width: 80%;  
 }
-#contact .verse{
-  max-width: 80%;
-}
-
 .pullL, .pullR{  //remove global floats
   float:none; 
 }
@@ -491,10 +559,12 @@ p.text-center{
 #about > .row-fluid > .col-md-12 > img, #about > .row-fluid > .col-md-12 > .verse{
   margin-bottom: 27px;
 }
-div#what #outreach {
+div#what {
+  #outreach {
     width: 100%;
     height: auto;
     margin: 27px 0;
+}
 }
 div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   margin-bottom: 13.5px;
@@ -528,9 +598,9 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
 
 
 @media screen and (max-width: 750px) {
-  blockquote, p,.btn,input,div,span,h4, h5, li{
+  blockquote, p,input,span,div, h4, h5, li{
     font-size: 90%;
-  }
+  }  
   h1 {
     font-size: 20px;  
   }
@@ -540,12 +610,23 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   h3 {
     font-size: 16px;  
   }
- // #contact, #what{  
- // background-color: $brand-secondary;
-//  background:url("../images/alphaLg.svg")no-repeat center center;
-//  background-size: 100%;  
- // min-width: 100%; 
-//}
+  #contact, #what{  
+  background-color: $brand-secondary;
+  //background:url("../images/logos/alphaLg.svg")no-repeat center center;
+  background-size: 100%;  
+  min-width: 100%; 
+}
+}
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    width: 100%;
+    font-size:85%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
   //Removing display:flex at lower resolutions from landing page
  
 //blockquote{
@@ -565,7 +646,7 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
  // float:left !important;
  // text-align: left;
  // } 
-}
+//}
 
 
 
@@ -647,6 +728,9 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
 &blockquote{
   max-width: 100%;
   padding-top: 3px;
+}
+#contact .verse{
+  max-width: 80%;
 }
 }
 

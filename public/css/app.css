@@ -4198,6 +4198,9 @@ a:hover, a:focus {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   /* IE6-9 */ }
 
+.breadcrumb {
+  background: transparent; }
+
 .btn {
   padding: 6px 12px;
   margin-right: 0; }
@@ -4207,6 +4210,21 @@ a:hover, a:focus {
   font-size: 22px;
   line-height: normal;
   border-radius: 8px; }
+
+.btn-responsive {
+  padding: 6px 12px;
+  max-width: 100%;
+  font-size: 85%;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+.cta {
+  color: #A8850e; }
+
+.fa-2x, #about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i {
+  position: absolute;
+  bottom: 0;
+  left: 50%; }
 
 .gapR {
   margin-left: 10px;
@@ -4245,7 +4263,7 @@ a:hover, a:focus {
   float: none; }
 
 .verse {
-  max-width: 35%;
+  max-width: 25%;
   color: #e1e0db;
   border: 5px solid #EFBE14;
   border-image: -webkit-linear-gradient(45deg, #f7931e, #fef891) 20 stretch;
@@ -4275,13 +4293,14 @@ a:hover, a:focus {
 
 .vtext {
   display: table-cell;
-  vertical-align: center; }
+  vertical-align: middle; }
   .vtext h5 {
     margin-top: 0;
     margin-bottom: 0; }
 
 #what.container-fluid, #about.container-fluid, #mission.container-fluid, #contact.container-fluid {
-  padding-bottom: 50px; }
+  padding-bottom: 40px;
+  position: relative; }
 
 #landing {
   background: url("../images/lrBkg.jpg") no-repeat center center scroll;
@@ -4298,6 +4317,22 @@ a:hover, a:focus {
     bottom: 5%;
     width: 100%;
     margin: 0 auto; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  animation-delay: 10s;
+  opacity: 0;
+  /* make things invisible upon start */
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation: fadeIn ease-in 1;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  animation-duration: 5s; }
 
 #landingL, #landingR, #vHeadingR, #vHeadingL {
   width: 98%;
@@ -4346,42 +4381,26 @@ div#what #outreach {
       display: table;
       margin: 0 auto; }
 
-div#what #carousel-systems {
+#carousel-systems {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 65%; }
 
-div#what .carousel-indicators .active, div#what .carousel-indicators li {
+.carousel-indicators .active, .carousel-indicators li {
   width: 16px;
   height: 16px;
   margin: 0 5px -50px; }
 
-div#what .carousel-indicators .active {
+.carousel-indicators .active {
   border: 1px solid #122B40;
   background: #EFBE14; }
 
-div#what .carousel-indicators li {
+.carousel-indicators li {
   border: 1px solid #122B40; }
 
-div#what .carousel-indicators {
+.carousel-indicators {
   display: block;
   bottom: 20px; }
-
-div#what .carousel-control {
-  background: none;
-  color: #122B40;
-  font-size: 2.3em;
-  text-shadow: none;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  z-index: 5; }
-
-div#what .carousel-control.left {
-  left: -100px; }
-
-div#what .carousel-control.right {
-  right: -100px; }
 
 #mission {
   min-width: 100%;
@@ -4419,7 +4438,7 @@ div#what .carousel-control.right {
   display: inline-block; }
 
 #contact a {
-  color: #122B40; }
+  color: #A8850e; }
 
 #contact form {
   margin-top: 15px; }
@@ -4435,6 +4454,25 @@ div#what .carousel-control.right {
     border: none;
     box-shadow: none;
     margin-top: 27px; }
+
+.modal-dialog {
+  max-width: 600px; }
+
+.modal-content {
+  background-color: #e1e0db; }
+
+.modal-header {
+  border-bottom: 1px solid #122B40; }
+
+.close {
+  color: #122B40; }
+
+.modal-footer {
+  border-top: 1px solid #122B40;
+  text-align: none; }
+
+.thumbnail {
+  margin-bottom: 6px; }
 
 #information {
   background: url("../images/footerBkg.svg") no-repeat center center;
@@ -4490,10 +4528,15 @@ div#what .carousel-control.right {
 
 @media only screen and (min-width: 1024px) and (max-width: 1599px) {
   #information .credits .col-md-6 {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .verse {
+    max-width: 33%; }
+  #contact .verse {
+    max-width: 80%;
+    margin: 0 auto; } }
 
 @media screen and (max-width: 992px) {
-  blockquote, p, .btn, input, div, span, h4, h5, li {
+  blockquote, p, input, span, h4, h5 div, li {
     font-size: 95%; }
   h1 {
     font-size: 24px; }
@@ -4510,8 +4553,6 @@ div#what .carousel-control.right {
     margin-top: 20px;
     margin-bottom: 20px; }
   .verse {
-    max-width: 80%; }
-  #contact .verse {
     max-width: 80%; }
   .pullL, .pullR {
     float: none; }
@@ -4547,14 +4588,26 @@ div#what .carousel-control.right {
     padding-top: 3px; } }
 
 @media screen and (max-width: 750px) {
-  blockquote, p, .btn, input, div, span, h4, h5, li {
+  blockquote, p, input, span, div, h4, h5, li {
     font-size: 90%; }
   h1 {
     font-size: 20px; }
   h2 {
     font-size: 18px; }
   h3 {
-    font-size: 16px; } }
+    font-size: 16px; }
+  #contact, #what {
+    background-color: #e1e0db;
+    background-size: 100%;
+    min-width: 100%; } }
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding: 2px 4px;
+    width: 100%;
+    font-size: 85%;
+    line-height: 1;
+    border-radius: 3px; } }
 
 @media screen and (max-width: 500px) {
   div#what .carousel-indicators .active, div#what .carousel-indicators li {
@@ -4585,6 +4638,8 @@ div#what .carousel-control.right {
     margin-left: 10px; }
   blockquote {
     max-width: 100%;
-    padding-top: 3px; } }
+    padding-top: 3px; }
+  #contact .verse {
+    max-width: 80%; } }
 
 /*# sourceMappingURL=app.css.map */

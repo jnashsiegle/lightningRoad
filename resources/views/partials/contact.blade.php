@@ -1,7 +1,16 @@
 @section('contact')
         	<div id = "contact" class = "container-fluid"> <!--Contact section -->
+        	<!--breadcrumbs-->
+        	<nav class="breadcrumb">
+			  <a class="breadcrumb-item" href="#">Home / </a>
+			  <a class="breadcrumb-item" href="#about">Who / </a>
+			  <a class="breadcrumb-item" href="#what">What / </a>
+			  <a class="breadcrumb-item" href="#mission">Mission / </a>
+			  <span class="breadcrumb-item active" href = "#contact">Contact / </span>
+			  <a class="breadcrumb-item" href = "#gallery">Gallery</a>
+			</nav>
 			<div class = "row-fluid"> <!--header row -->
-			<div class = "col-xs-12 col-md-6 block-center"> 
+			<div class = "col-xs-12 col-md-6 center-block"> 
 				<div id = "vHeadingL">
 				<div class = "verse"><!--the following divs style the verse-->
 				<div class = "innerBox center-block ">
@@ -12,7 +21,7 @@
 				</div><!--end of verse & verse styling-->
 				</div><!--end of vHeadingL-->
 				</div>	<!--end of column-->			
-				<div class = "col-md-6 block-center">
+				<div class = "col-md-6 center-block">
 				<div id = "vHeadingR">
 				<div class = "verse hidden-sm hidden-xs"><!--the following divs style the verse-->
 				<div class = "innerBox center-block">
@@ -92,6 +101,7 @@
 		                <p class="text-muted"><strong>*</strong> These fields are required.</p>
 		            </div>
 		        </div>
-			</form>						
+			</form>									
 	</div>
+
 @endsection

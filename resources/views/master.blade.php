@@ -6,8 +6,18 @@
         <!--Set Viewport for Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title')</title>
-        <meta name="description" content="Lightning Road Biker Outreach">
+        <meta name="description" content="Lightning Road exists because God called us to go where other ministries may not go to reach
+        the lost and hurting– secular motorcycle rallies, crack houses,
+        whore houses, back alleys, and dark places many won’t go.
+        This biker outreach is standing alone as a ministry, but shoulder
+        to shoulder with those that will “SHOW UP” for JESUS in
+        the desperate far reaches of the darkness">
+        <meta name="keywords" content="tdcj, texas inmate, texas offender, texas prison inmate, county jail, texas department of criminal justice, texas inmates, tdcj offender, texas department of corrections, tdcj website, texas juvenile justice department, county juvenile boot camps, texas youth
+        commission, hays county detention center, texas mentoring, faith-based mentoring, motorcycle outreach, christian bikers, biker evangelism">
         <meta name = "author" content = "Jana Nash-Siegle">
+        <link rel=”canonical” href=”http://lightningroadfp.tech” />
+        <link rel="shortcut icon" href="../images/logos/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/logos/favicon.ico" type="image/x-icon">
         <!--Font Awesome CDN-->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         <!-- Customized stylesheet from SASS -->
@@ -46,8 +56,9 @@
 
 
     <!-- jQuery -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src = "{{ asset('js/mLightbox.js') }}"></script> 
     
     
     
