@@ -11,12 +11,24 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('home');
-});
-Route::get('contact' , function () {
+});*/
+
+Route::get('/', 'PagesController@home');
+
+Route::get('contact', 'PagesController@contact');
+
+Route::get('lrfptech2016', 'PagesController@lrfptech2016');
+
+Route::get('adminP', 'PagesController@adminP');
+
+Route::get('imageP', 'PagesController@imageP');
+
+
+/*Route::get('contact' , function () {  //contact.php is injected into home.blade.php
 	return View::make('contact');
-});
+});*/
 
 
 

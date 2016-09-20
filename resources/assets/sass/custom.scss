@@ -1,16 +1,6 @@
-//@font-face {
-//font-family: 'thequietscream';
- //src: url('../fonts/thequietscream.eot'); /* IE9 Compat Modes */
- //src: url('../fonts/thequietscream.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
- //url('../fonts/thequietscream.woff2') format('woff2'), /* Modern Browsers */
- //url('../fonts/thequietscream.woff') format('woff'), /* Modern Browsers */
- //url('../fonts/thequietscream.ttf') format('truetype'), /* Safari, Android, iOS */
- //url('../fonts/thequietscream.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
- //font-style: normal;
-//}  REMOVE IF WE DON'T GO BACK TO TEXT ON LANDING PAGE
 html, body{
   min-width:100%; 
-  overflow-x:hidden;
+  overflow-x:hidden;  
 }
 h1, h2, h3, h4, h5, h6{
   font-weight: bold; 
@@ -357,14 +347,16 @@ div#what{
   }  
   form{
     width: 100%;
-    //float: right;
-    .subject{
-      width: 100%;      
-      input{
-        width: 73%; 
-      }
+    #Other{
+      margin-top: 15px;
     }
+    .hiddenField{
+    display: none;
+}
+span#charCount{
+  color: $brand-info;
   }   
+}
 #contact-form{
   display:inline-block;
 }  

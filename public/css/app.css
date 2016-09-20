@@ -4429,10 +4429,12 @@ div#what #outreach {
 
 #contact form {
   width: 100%; }
-  #contact form .subject {
-    width: 100%; }
-    #contact form .subject input {
-      width: 73%; }
+  #contact form #Other {
+    margin-top: 15px; }
+  #contact form .hiddenField {
+    display: none; }
+  #contact form span#charCount {
+    color: #5bc0de; }
 
 #contact #contact-form {
   display: inline-block; }
