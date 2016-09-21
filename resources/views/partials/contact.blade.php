@@ -80,7 +80,7 @@
 							<option value = "Financial Support">Financial Support</option>
 							<option value = "Other">Other</option>
 						</select>
-							<input id = "Other" class = "form-control hiddenField" type = "text" name = "Other" placeholder = "Write your subject here"/><span id = "charCount" class = "text-muted"></span>
+							<input id = "Other" class = "form-control hiddenField" type = "text" name = "Other" placeholder = "Write your subject here"/><span id = "charCount" class = "text-muted hiddenField"></span>
 							<p id="count-subject" name = "count-subject" class="form-text text-muted hiddenField">
   							Please keep subject line less than 50 characters.</p>  
 					</div><!--end of form-group subject-->

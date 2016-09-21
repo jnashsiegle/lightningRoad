@@ -5,11 +5,13 @@ var val =$("#subject :selected").val();
 
 if(val === 'Other'){
       $('#Other').show() && 
-      $('#count-subject').show();
+      $('#count-subject').show() &&
+      $('#charCount').show();
 }
 else{
      $('#Other').hide() && 
-      $('#count-subject').hide();
+      $('#count-subject').hide() &&
+      $('#charCount').hide();
 
 		}
 	})
