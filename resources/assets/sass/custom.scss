@@ -609,13 +609,14 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   min-width: 100%; 
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .btn-responsive {
-    padding:2px 4px;
+    padding:6px 10px;
     width: 100%;
     font-size:85%;
     line-height: 1;
     border-radius:3px;
+    margin-bottom: 20px;
   }
 }
 
@@ -725,4 +726,3 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   max-width: 80%;
 }
 }
-

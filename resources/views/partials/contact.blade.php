@@ -72,7 +72,7 @@
 		        {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			        <div class = "form-group subject col-md-6 col-md-offset-3 column">
 						<label for = "subject">Subject:</label>
-						<select class = "form-control" id = "subject" name = "subject" {{-- onChange = "if (this.value=='Other'{this.form['Other'] && ['count-subject'].style.visibility='visible'}else {this.form['Other'] && ['count-subject'].style.visibility='hidden'})" --}}> 	
+						<select class = "form-control" id = "subject" name = "subject"> 	
 							<option>Please select a subject...</option>
 							<option value = "Mentoring">Mentoring</option>
 							<option value = "Prison Ministry">Prison Ministry</option>
@@ -82,8 +82,7 @@
 						</select>
 							<input id = "Other" class = "form-control hiddenField" type = "text" name = "Other" placeholder = "Write your subject here"/><span id = "charCount" class = "text-muted"></span>
 							<p id="count-subject" name = "count-subject" class="form-text text-muted hiddenField">
-  							Please keep subject line less than 50 characters.</p>  							
-							
+  							Please keep subject line less than 50 characters.</p>  
 					</div><!--end of form-group subject-->
 				{{-- </div>end of col-md-6 --}}
 				</div><!--end of row-->
@@ -95,10 +94,12 @@
 		                    <div class="help-block with-errors"></div>
 		                </div><!--end of form-group-->
 		            </div><!--end of row fluid-->
+		            <div class = "row-fluid">
 		            <div class="col-md-6 col-md-offset-3 column">
-		                <input type="submit" class="btn btn-default btn-send" value="Send message">
+		                <input type="submit" class="btn btn-default btn-send btn-responsive" value="Send message">
+		           	   <input type="button" class = "btn btn-info pull-right btn-responsive" onclick="resetFunction()" value="Reset form">		
 		            </div><!--end of col-md-6... -->
-		       {{--  </div>end of row --}}
+		        </div>{{-- end of row --}}
 		        <div class="row-fluid">
 		            <div class="col-md-6 col-md-offset-3 column">
 		                <p class="text-muted"><strong>*</strong> These fields are required.</p>

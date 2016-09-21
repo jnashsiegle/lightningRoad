@@ -61,6 +61,7 @@
     <script type = "text/javascript" src = "{{ asset('js/mLightbox.js') }}"></script> 
     <script type = "text/javascript" src = "{{ asset('js/myOther.js')  }}"></script>
     <script type = "text/javascript" src = "{{ asset('js/subjectCount.js') }}"></script>
+    <script type = "text/javascript" src = "{{ asset('js/reset.js') }}"></script>
     
     
     
