@@ -41,7 +41,7 @@
 					<p>Our prayer is that you would know the life changing freedom and peace of making an eternal decision concerning this life.</p>
 				</div>
 				</div><!--end of row-fluid-->
-			<form id="contact-form" class name = "contact" method="post" action="contact.php" role="form">
+			<form id="contact-form" name = "contact" method="post" action="contact.php" role="form">
 			    <h1 class = "clearfix text-center">Request Information</h1>
 			        <div class="row-fluid">
 			            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
