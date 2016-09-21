@@ -96,8 +96,7 @@
 		            </div><!--end of row fluid-->
 		            <div class = "row-fluid">
 		            <div class="col-md-6 col-md-offset-3 column">
-		                <input type="submit" class="btn btn-default btn-send btn-responsive" value="Send message">
-		           	   <input type="button" class = "btn btn-info pull-right btn-responsive" onclick="resetFunction()" value="Reset form">		
+		                <input type="submit" class="btn btn-default btn-send btn-responsive" value="Send message">		           	  	
 		            </div><!--end of col-md-6... -->
 		        </div>{{-- end of row --}}
 		        <div class="row-fluid">
