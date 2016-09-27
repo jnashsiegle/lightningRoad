@@ -9,6 +9,11 @@
 			  <span class="breadcrumb-item active" href = "#contact">Contact / </span>
 			  <a class="breadcrumb-item" href = "#gallery">Gallery</a>
 			</nav>
+	@if(Session::has('success'))
+	<div class="alert alert-success in"><strong>
+	   <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>{!! Session::get('success') !!}</p>
+	   </strong></div>	    
+	@endif	
 			<div class = "row-fluid"> <!--header row -->
 			<div class = "col-xs-12 col-md-6 center-block"> 
 				<div id = "vHeadingL">
@@ -41,70 +46,81 @@
 					<p>Our prayer is that you would know the life changing freedom and peace of making an eternal decision concerning this life.</p>
 				</div>
 				</div><!--end of row-fluid-->
-			<form id="contact-form" name = "contact" method="post" action="contact.php" role="form">
+
+
+
+			<form id="contact-form" data-toggle = "validator" name = "contact" method="POST" action="contact" role="form">
+			<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 			    <h1 class = "clearfix text-center">Request Information</h1>
+			    <div class="row-fluid">
+		            <div class="col-md-6 col-md-offset-3 column">
+		                <p class = "requiredNotice"><strong>*</strong> These fields are required.</p>
+		            </div><!--end of col-md-6 .. -->
+		        </div><!--end of row-fluid -->
 			        <div class="row-fluid">
 			            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			                <div class="form-group col-md-6 col-md-offset-3 column">
-			                    <label for="fName">First Name *</label>
-			                    <input id="fName" type="text" name="fName" value = "" class="form-control" placeholder="First Name *" required="required" data-error="First Name is required.">
+			                    <label for="name">Your Name <span class = "requiredNotice">*</span></label>
+			                    <input id="name" type="text" name="name" class="form-control" placeholder="Your Name " required="required" data-toggle = "validator" data-error="Your name is required." value="{{ old('name') }}">		
 			                    <div class="help-block with-errors"></div>
-			                </div>
-			            {{-- </div>end of col-md-6 --}}
-			           {{--  <div class="col-md-6 col-md-offset-3 column"> --}}
-			                <div class="form-group col-md-6 col-md-offset-3 column">
-			                    <label for="lName">Lastname *</label>
-			                    <input id="lName" type="text" name="lName" class="form-control" placeholder="Last Name *" required="required" data-error="Last Name is required.">
-			                    <div class="help-block with-errors"></div>
-			               {{--  </div> --}}
-			            </div><!--end of col-md-6-->
-			        </div><!--end of row-->
+			                </div><!--end of form group-->
+			            {{-- </div>end of col-md-6 --}}	
+			           </div><!--end of row fluid-->		           
 		        <div class="row-fluid">
 		            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 		                <div class="form-group col-md-6 col-md-offset-3 column">
-		                    <label for="email">Email *</label>
-		                    <input id="email" type="email" name="email" class="form-control" placeholder="Email Address *" required="required" data-error="Valid email is required.">
+		                    <label for="email">Email <span class = "requiredNotice">*</span></label>
+		                    <input id="email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-toggle = "validator" data-error="Sorry, but that email is invalid." value="{{ old('email') }}">
 		                    <div class="help-block with-errors"></div>
 		                </div><!--end of form-group-->
 		           {{--  </div>   --}}          
 		        </div><!--end of row-->
 		        <div class = "row-fluid">
+			        <div class="form-group col-md-6 col-md-offset-3 column">
+				        <label for ="date">Date <span class = "requiredNotice">*</span></label>
+				         <input id = "date" type = "date" name = "date" class = "form-control" required = "required" data-toggle = "validator" data-error = "Sorry, but you must include the date" value = "">
+				         <div class="help-block with-errors"></div>
+			         </div>
+		         </div>
+		         
+		        <div class = "row-fluid">
 		        {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
-			        <div class = "form-group subject col-md-6 col-md-offset-3 column">
-						<label for = "subject">Subject:</label>
-						<select class = "form-control" id = "subject" name = "subject"> 	
-							<option>Please select a subject...</option>
+			        <div class = "form-group subject col-md-6 col-md-offset-3 column">			       
+						<label for = "subject">Subject: <span class = "requiredNotice">*</span></label>
+						<select class = "form-control" id = "subject" name = "subject" required = "required" data-error = "You forgot to fill in the subject, thank you!" value=""> 	
+							<option value = "">Please select a subject...</option>
 							<option value = "Mentoring">Mentoring</option>
 							<option value = "Prison Ministry">Prison Ministry</option>
 							<option value = "How can I get involved?">How can I get involved?</option>
 							<option value = "Financial Support">Financial Support</option>
-							<option value = "Other">Other</option>
-						</select>
-							<input id = "Other" class = "form-control hiddenField" type = "text" name = "Other" placeholder = "Write your subject here"/><span id = "charCount" class = "text-muted hiddenField"></span>
-							<p id="count-subject" name = "count-subject" class="form-text text-muted hiddenField">
-  							Please keep subject line less than 50 characters.</p>  
+							<option name = "customSubject" value = "Other">Other</option>
+						</select>						
+							<input id = "customOther" class = "form-control hiddenField" type = "text" name = "customOther" placeholder = "Write your subject here" value = ""/><span id = "charCount" class = "text-muted hiddenField"></span>
+							<p id="count-subject" class="form-text text-muted hiddenField">
+  							Please keep subject line less than 50 characters.</p>
+  							 <div class="help-block with-errors"></div> 
 					</div><!--end of form-group subject-->
 				{{-- </div>end of col-md-6 --}}
 				</div><!--end of row-->
 		        <div class="row-fluid">
+		        {{-- One tool to help fight spam --}}
+		         <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+
 		            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 		                <div class="form-group col-md-6 col-md-offset-3 column">
-		                    <label for="message">Message *</label>
-		                    <textarea id="message" name="message" class="form-control" placeholder="Write a message. *" rows="4" required="required" data-error="Write a message, please."></textarea>
+		                    <label for="message">Message <span class = "requiredNotice">*</span></label>
+		                    <textarea id="message" name="message" class="form-control" placeholder="Write a message. *" rows="4" required="required" data-error="Write a message, please.">{{ old('message') }}</textarea>	
 		                    <div class="help-block with-errors"></div>
-		                </div><!--end of form-group-->
+		                </div><!--end of form-group-->		                
 		            </div><!--end of row fluid-->
 		            <div class = "row-fluid">
 		            <div class="col-md-6 col-md-offset-3 column">
-		                <input type="submit" class="btn btn-default btn-send btn-responsive" value="Send message">		           	  	
+		                <input type="submit" class="btn btn-default btn-send btn-responsive" name = "submitEmail" value="Send message"> 
 		            </div><!--end of col-md-6... -->
-		        </div>{{-- end of row --}}
-		        <div class="row-fluid">
-		            <div class="col-md-6 col-md-offset-3 column">
-		                <p class="text-muted"><strong>*</strong> These fields are required.</p>
-		            </div><!--end of col-md-6 .. -->
-		        </div><!--end of row-fluid -->
-			</form>		<!--end of form-->							
+		        </div>{{-- end of row --}}	
+			</form>		<!--end of form-->	
+
+	
 	</div><!--end of container-->
 
 @endsection

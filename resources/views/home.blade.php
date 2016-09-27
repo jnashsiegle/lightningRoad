@@ -4,6 +4,9 @@
 		<div id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
 @endsection <!--end of title section-->	
+@if(Session::has('message'))
+    <div class="alert alert-success"><em> {!! session('message') !!}</em></div>
+@endif
 						<div class = "row-fluid">	
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
 	                		<div id = "landingL">

@@ -28,7 +28,22 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $loginPath = '/auth/lrfptech2016';
+
+    /**
+     * Where to redirect users after login / registration.
+     *
+     * @var string
+     */
+    protected $redirectTo = 'adminP';
+
+     /**
+     * Where to redirect users after logout.
+     *
+     * @var string
+     */
+    protected $redirectAfterLogout = '/auth/login';
+    
 
     /**
      * Create a new authentication controller instance.
@@ -37,8 +52,22 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware($this->guestMiddleware(), ['except' => 'logout']);
+        $this->middleware($this->guestMiddleware(), ['except' => 'getLogout']);
     }
+        
+/*getRegister', 'postRegister,*/ //just in case remove when working
+
+
+    public function getLogin()
+    {
+        return view('lrfptech2016');
+    }
+
+    /*public function register()
+    {
+        return view('auth.register');
+    }*/
+
 
     /**
      * Get a validator for an incoming registration request.
