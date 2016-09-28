@@ -1,5 +1,5 @@
 
-$('#Other').keyup(function() {
+$('#customOther').keyup(function() {
     var max = 50;
     var len = $(this).val().length;
     if (len >= max) {
