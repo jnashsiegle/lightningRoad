@@ -48,8 +48,10 @@ class ContactController extends Controller
     });
 
   
+  //Flash Message
+  $request->session()->flash('alert-success', 'Thank you for contacting us! Your email was sent successfully and we shall respond as soon as we can! - Steve &amp; Rose!!');
   // Generating Redirects...with message
-return Redirect::to(URL::previous('home') . "#contact")->with('success', 'Thank you for contacting us! Your email was sent successfully and we shall respond as soon as we can! - Steve &amp; Rose!!'); 
+return Redirect::to(URL::previous('home') . "#contact");/*->with('success', 'Thank you for contacting us! Your email was sent successfully and we shall respond as soon as we can! - Steve &amp; Rose!!'); */
 
 }
 

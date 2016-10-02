@@ -42,9 +42,9 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectAfterLogout = '/auth/login';
+    protected $redirectAfterLogout = 'auth/login';
     
-
+    private $maxLoginAttempts = 5;
     /**
      * Create a new authentication controller instance.
      *
@@ -60,14 +60,8 @@ class AuthController extends Controller
 
     public function getLogin()
     {
-        return view('lrfptech2016');
+        return view('auth/lrfptech2016');
     }
-
-    /*public function register()
-    {
-        return view('auth.register');
-    }*/
-
 
     /**
      * Get a validator for an incoming registration request.

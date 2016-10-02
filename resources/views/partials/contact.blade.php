@@ -9,11 +9,17 @@
 			  <span class="breadcrumb-item active" href = "#contact">Contact / </span>
 			  <a class="breadcrumb-item" href = "#gallery">Gallery</a>
 			</nav>
-	@if(Session::has('success'))
-	<div class="alert alert-success in"><strong>
-	   <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>{!! Session::get('success') !!}</p>
-	   </strong></div>	    
-	@endif	
+			<!--Flash Message -->
+			<div class="flash-message">
+			@foreach (['danger', 'warning', 'success', 'info'] as $msg)
+                    @if(Session::has('alert-' . $msg))
+
+                    <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
+                    @endif
+            @endforeach
+              </div> <!-- end .flash-message -->
+	   		@include('partials.alerts.errors')    
+		
 			<div class = "row-fluid"> <!--header row -->
 			<div class = "col-xs-12 col-md-6 center-block"> 
 				<div id = "vHeadingL">
@@ -50,7 +56,7 @@
 
 
 			<form id="contact-form" data-toggle = "validator" name = "contact" method="POST" action="contact" role="form">
-			<input type="hidden" name="_token" value="{!! csrf_token() !!}">
+			{{ csrf_field() }}
 			    <h1 class = "clearfix text-center">Request Information</h1>
 			    <div class="row-fluid">
 		            <div class="col-md-6 col-md-offset-3 column">
@@ -60,8 +66,8 @@
 			        <div class="row-fluid">
 			            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			                <div class="form-group col-md-6 col-md-offset-3 column">
-			                    <label for="name">Your Name <span class = "requiredNotice">*</span></label>
-			                    <input id="name" type="text" name="name" class="form-control" placeholder="Your Name " required="required" data-toggle = "validator" data-error="Your name is required." value="{{ old('name') }}">		
+			                    <label for="name" class = "control-label">Your Name <span class = "requiredNotice">*</span></label>
+			                    <input id="name" type="text" name="name" class="form-control" placeholder="Your Name " required="required" data-error="Your name is required." value="{{ old('name') }}">		
 			                    <div class="help-block with-errors"></div>
 			                </div><!--end of form group-->
 			            {{-- </div>end of col-md-6 --}}	
@@ -69,24 +75,25 @@
 		        <div class="row-fluid">
 		            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 		                <div class="form-group col-md-6 col-md-offset-3 column">
-		                    <label for="email">Email <span class = "requiredNotice">*</span></label>
-		                    <input id="email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-toggle = "validator" data-error="Sorry, but that email is invalid." value="{{ old('email') }}">
+		                    <label for="email" class = "control-label">Email <span class = "requiredNotice">*</span></label>
+		                    <input id="email" type="email" name="email" class="form-control"  placeholder= "Email Address" required="required"  data-error="Sorry, but that email is invalid." value="{{ old('email') }}">
 		                    <div class="help-block with-errors"></div>
 		                </div><!--end of form-group-->
 		           {{--  </div>   --}}          
 		        </div><!--end of row-->
 		        <div class = "row-fluid">
-			        <div class="form-group col-md-6 col-md-offset-3 column">
-				        <label for ="date">Date <span class = "requiredNotice">*</span></label>
-				         <input id = "date" type = "date" name = "date" class = "form-control" required = "required" data-toggle = "validator" data-error = "Sorry, but you must include the date" value = "">
+			        <div class="form-group date col-md-6 col-md-offset-3 column">
+				        <label for ="date" class = "control-label">Date <span class = "requiredNotice">*</span></label>
+				         <input id = "datepicker" type = "text" name = "date" class = "form-control" required = "required" data-error = "Sorry, but you must include the date" value = "">
+				         
 				         <div class="help-block with-errors"></div>
 			         </div>
-		         </div>
+		         </div><!--end of row-fluid-->
 		         
 		        <div class = "row-fluid">
 		        {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			        <div class = "form-group subject col-md-6 col-md-offset-3 column">			       
-						<label for = "subject">Subject: <span class = "requiredNotice">*</span></label>
+						<label for = "subject" class = "control-label">Subject: <span class = "requiredNotice">*</span></label>
 						<select class = "form-control" id = "subject" name = "subject" required = "required" data-error = "You forgot to fill in the subject, thank you!" value=""> 	
 							<option value = "">Please select a subject...</option>
 							<option value = "Mentoring">Mentoring</option>

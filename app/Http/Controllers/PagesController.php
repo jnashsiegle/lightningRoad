@@ -20,7 +20,7 @@ class PagesController extends Controller {
 
 	public function lrfptech2016()   //login
 	{
-		return view('lrfptech2016');
+		return view('auth/lrfptech2016');
 	}
 	
 	public function adminP()
@@ -28,11 +28,7 @@ class PagesController extends Controller {
 		return view('adminP');
 	}
 
-	public function imageP()
-	{
-		return view('/pages/imageP');
-	}
-
+	
 
 
   

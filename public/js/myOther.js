@@ -3,6 +3,9 @@
 
 
 $(document).ready(function(){
+
+//Subject Other Hide & Show
+
 $('#subject').change(function(){
 
 var val =$("#subject :selected").val();
@@ -19,6 +22,32 @@ else{
 
 		}
 	})
+
+// Fade in & out of messages
+
+	$(".alert").fadeIn().delay(5000).fadeOut();
+	 
+	//Count characters in optional subject field
+  
+  $('#customOther').keyup(function() {
+    var max = 50;
+    var len = $(this).val().length;
+    if (len >= max) {
+        $('#charCount').text(' you have reached the limit');
+    } else {
+        var char = max - len;
+        $('#charCount').text(char + ' characters left');
+    }
+  });
+
+//DatePicker
+
+$( function() {
+    $( "#datepicker" ).datepicker();
+    $( "#anim" ).on( "change", function() {
+      $( "#datepicker" ).datepicker( "option", "showAnim", $( this ).val() );
+    });
+  } );
 
 
 });
