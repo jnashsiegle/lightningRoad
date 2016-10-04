@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
+use Validator;
 use App\Http\Requests\UserEditFormRequest;
 use Illuminate\Support\Facades\Hash;
 use Session;
@@ -25,6 +27,7 @@ class UsersController extends Controller {
         return view('users/index')->with(compact('users'));
     }
 
+    
     /**
      * Show the form for creating a new resource.
      *
@@ -44,16 +47,29 @@ class UsersController extends Controller {
      */
     public function store(Request $request)
     {
+            // Validation //
+              $validation = Validator::make($request->all(), [
+                'name' => 'required|max:255',
+                'email' => 'required|email|',
+                'password' => 'required|confirmed|min:6',
+              ]);
+              // Check if it fails //            
+                 if( $validation->fails() ){                                 
+                    return redirect()->back()->withInput()->with('errors', $validation->errors() );;
+                }
+          
 
         $request->merge(['password' => Hash::make($request->password)]);
+            
+       $request['isAdmin'] = (Input::has("isAdmin")) ? true : false;
         
         $user = User::create($request->all());
-
+        /*dd($request);*/
          //PUT HERE AFTER YOU SAVE
         $request->session()->flash('alert-success', 'User was successfully added!');
 
 
-        return redirect('adminP')->with('success', 'The user has been deleted');
+        return redirect('adminP')->with('success', 'The user has been added');
         
     }
 
@@ -94,14 +110,8 @@ class UsersController extends Controller {
         $user->name = $request->get('name');
         $user->email = $request->get('email');
         $user->isAdmin = $request->get('isAdmin');
-        if (Input::get('isAdmin') === '1') {
-                $user->isAdmin = 'true';
-                $user->update();
-            } else {
-                $user->isAdmin = 'false';
-                $user->update();
-            }
-       
+        $user->isAdmin = (isset($_POST['isAdmin']) == '1' ? '1' : '0');
+              
         $user->save();
 
         $request->session()->flash('alert-success', 'Information was successfully updated!');
