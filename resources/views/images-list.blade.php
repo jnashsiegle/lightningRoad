@@ -38,21 +38,29 @@
          </div><!--end col-md-8 offset 2-->
       @endif
       @forelse($images as $image)
+      <div class = "row-fluid">
          <div class="col-md-3">
+         <div class = "imgWrapper">
             <div class="thumbnail">
                <img src="{{asset($image->file)}}" />
                <div class="caption">
                   <h3>{{$image->caption}}</h3>
                   <p>{!! substr($image->description, 0,100) !!}</p>
                </div><!--end of caption-->
-            </div><!--end of thumbnail-->
-                     <div class="row-fluid">
-                     <a href="{{ url('/image/'.$image->id.'/edit') }}" class="btn btn-warning pull-left">Edit</a>                     
-                    {{--  {!! Form::open(array('url'=>'/image/'.$image->id, 'id'=>'deletion', 'class'=>'pull-right')) !!} --}}
-                    {!! Form::open(['method'=>'DELETE', 'id'=>'deletion', 'route'=>['image.destroy',$image->id]]) !!}  
-                        <button data-toggle="tooltip" data-placement="top" title="Delete" type="submit" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure you want to delete this item?');"><span> &times;</span></button>
+           
+                     <div class="row-fluid controls"> 
+                     <div class = "col-md-6">  
+                     <a href="{{ url('/image/'.$image->id.'/edit') }}" class="btn btn-default btn-responsive">Edit</a>  
+                    </div> 
+                    <div class = "col-md-6">
+                  {!! Form::open(['method'=>'DELETE', 'id'=>'deletion', 'route'=>['image.destroy',$image->id]]) !!}  
+                        <button data-toggle="tooltip" data-placement="top" title="Delete" type="submit" class="btn btn-danger btn-responsive" onclick="return confirm('Are you sure you want to delete this item?');"><span> &times;</span></button>
                      {!! Form::close() !!}
-                     </div><!--end of row fluid for buttons-->
+                  
+                     </div><!--end of col-md-6-->
+                     </div><!--end of row fluid controls-->
+                </div><!--thumbnail wrapper-->
+                </div><!--end of image wrapper-->
          </div><!--end of col-md-3-->
       @empty
          <p>No images yet, <a href="{{ url('image/create') }}">add a new one</a>?</p>

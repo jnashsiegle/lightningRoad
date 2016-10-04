@@ -20,35 +20,28 @@
                 @endforeach
               </div> <!-- end .flash-message -->
               <div class="panel-body">  
-        <!--breadcrumbs-->
-         <nav class="breadcrumb">
-           <a class="breadcrumb-item" href="../adminP">Admin Panel / </a> 
-           <a class="breadcrumb-item" href="create">Admin Panel / </a>    
-           <a class="breadcrumb-item active" href="#">Add New Image / </a>     
-         </nav>
-      <!--end breadcrumbs-->  
-
-   <div class="row-fluid">
+        
+   <div class="row-fluid" data-toggle = "validator">
    @include('partials.alerts.errors')
    {!! Form::open(['url'=>'/image', 'method'=>'POST', 'files'=>'true']) !!}
 
       <div class="form-group">
          <label for="userfile">Image File</label>
-         <input type="file" class="form-control" name="userfile">
+         <input type="file" class="form-control required" name="userfile">
       </div>
 
       <div class="form-group">
          <label for="caption">Caption</label>
-         <input type="text" class="form-control" name="caption" value="">
+         <input type="text" class="form-control required" name="caption" value="">
       </div>
 
       <div class="form-group">
          <label for="description">Description</label>
-         <textarea class="form-control" name="description"></textarea>
+         <textarea class="form-control required" name="description"></textarea>
       </div>
 
-      <button type="submit" class="btn btn-primary">Upload</button>
-      <a href="{{ url('/image') }}" class="btn btn-warning">Cancel</a>
+      <button type="submit" class="btn btn-default btn-send btn-responsive pull-right">Upload</button>
+      <a href="{{ URL::previous() }}" class="btn btn-primary btn-close btn-responsive">Cancel</a>
 
    {!! Form::close() !!}
 @stop

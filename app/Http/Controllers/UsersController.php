@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Input;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
@@ -22,7 +22,7 @@ class UsersController extends Controller {
     {
         $users = User::all();
 
-        return view('users.index')->with(compact('users'));
+        return view('users/index')->with(compact('users'));
     }
 
     /**
@@ -34,7 +34,7 @@ class UsersController extends Controller {
     {
         $user = new User;
 
-        return view('auth/register')->with(compact('user', 'name', 'email', 'isAdmin'));
+        return view('auth/register')->with(compact('user', 'name', 'email', 'password', 'password_confirmation','isAdmin'));
     }
 
     /**
@@ -44,6 +44,7 @@ class UsersController extends Controller {
      */
     public function store(Request $request)
     {
+
         $request->merge(['password' => Hash::make($request->password)]);
         
         $user = User::create($request->all());
@@ -66,6 +67,7 @@ class UsersController extends Controller {
     {
         $user = User::whereId($id)->firstOrFail();
 
+        
         return view('users.edit')->with(compact('user', 'name', 'email', 'isAdmin'));
     }
 
@@ -91,10 +93,15 @@ class UsersController extends Controller {
         $user = User::whereId($id)->firstOrFail();
         $user->name = $request->get('name');
         $user->email = $request->get('email');
-        $password = $request->get('password');
-        if($password !="") {
-            $user->password = Hash::make($password);
-        }
+        $user->isAdmin = $request->get('isAdmin');
+        if (Input::get('isAdmin') === '1') {
+                $user->isAdmin = 'true';
+                $user->update();
+            } else {
+                $user->isAdmin = 'false';
+                $user->update();
+            }
+       
         $user->save();
 
         $request->session()->flash('alert-success', 'Information was successfully updated!');

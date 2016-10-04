@@ -19,11 +19,11 @@
         <link rel="shortcut icon" href="../images/logos/favicon.ico" type="image/x-icon">
         <link rel="icon" href="../images/logos/favicon.ico" type="image/x-icon">
         <!--Font Awesome CDN-->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/fe25733dc5.js"></script>
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
         <!--datepicker-->
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        {{-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"> --}}
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet"> 
@@ -56,9 +56,9 @@
 
 
     <!-- jQuery -->
-     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src = "https://cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous"></script>
     <script type = "text/javascript" src = "{{ asset('js/mLightbox.js') }}"></script> 
     <script type = "text/javascript" src = "{{ asset('js/myOther.js')  }}"></script>  

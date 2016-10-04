@@ -1,43 +1,59 @@
 @extends('adminMaster')
 @section('title', 'Edit a user')
 @section('content')
+	<div class="container-fluid">
+    <div class="row-fluid">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-default">
+          <div class="panel-heading mycontainer"> 
+              <span><a href="#"><img src="../../images/logos/boltLogo.svg" alt = "Lightning Road Biker Outreach" class = "hidden-xs" /></a></span>
+              <span><h1 class = "panel-title text-right"><a href = "../adminP">Admin Area</a></h1></span>
+          </div><!--end of panel-heading-->
+		{{-- <div class ="well well bs-component">  --}}
+			<div class="panel-body">
+				<form class ="form-horizontal" data-toggle = "validator" method ="post" action="{{action('UsersController@update', $user->id) }}"> 
+					@include('partials.alerts.errors')
+					<div class="flash-message">
+		                @foreach (['danger', 'warning', 'success', 'info'] as $msg)
+		                    @if(Session::has('alert-' . $msg))
 
-	<div class = "container col-md-6 col-md-offset-3">
-		<div class = "well well bs-component">
-			<form class = "form-horizontal" method="post" action="{{action('UsersController@update', $user->id) }}">
+		                    <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
+		                    @endif
+		                @endforeach
+              		</div> <!-- end .flash-message -->						
+					{!! csrf_field() !!} 
 
-			@include('partials.alerts.errors')
-
-			<div class="flash-message">
-                @foreach (['danger', 'warning', 'success', 'info'] as $msg)
-                    @if(Session::has('alert-' . $msg))
-
-                    <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
-                    @endif
-                @endforeach
-              </div> <!-- end .flash-message -->
-		
-		{!! csrf_field() !!} 
+					 <!--breadcrumbs-->
+        <!--end of breadcrumbs-->
 			<fieldset>
-				<legend>Edit user</legend>
-					<div class = "form-group">
-						<label for = "name" class = "col-lg-2 control-label">Name</label>
-							<div class = "col-lg-10">
+				<legend>Edit user</legend>					
+					<div class = "row-fluid">
+						<div class = "form-group col-md-12 column">
+						<label for = "name" class = "control-label">Name</label>	
 							<input type = "text" class = "form-control" id = "name" placeholder = "name" name = "name" value = "{!! $user->name !!}">
+							<div class="help-block with-errors"></div>
 							</div>
 					</div>
-					<div class = "form-group">
-					<label for "email" class = "col-lg-2 control-label">Email</label>
-						<div class = "col-lg-10">
-						<input type = "email" class = "form-control" id = "email" placeholder = "email" name = "email" value = "{{ $user->email }}">
+					<div class = "row-fluid">
+						<div class = "form-group col-md-12 column">
+						<label for "email" class = "control-label">Email</label>
+						<input type = "email" class = "form-control" id = "email" placeholder = "email" name = "email" value = "{!! $user->email !!}">
+						<div class="help-block with-errors"></div>
 						</div>
-					</div>		
+					</div>	
+					<div class = "row-fluid">
+						<div class = "form-group col-md-12 column">
+						<label for "isAdmin" class = "control-label">Is Admin?</label>
+						{{ Form::checkbox('isAdmin',null, $user->isAdmin) }}
+						<div class="help-block with-errors"></div>
+						</div>
+					
 					<hr>
-					<div class = "form-group">
-						<div class = "col-lg-10 col-lg-offset-2">
+					<div class = "row-fluid">
+						<div class = "form-group col-md-12 column">
 						{{ method_field('PATCH') }}
-							<a class = "btn btn-default btn-close" href = "{{ route('users.index') }}">Cancel</a>
-							<button type = "submit" class = "btn btn-primary">Update</button>
+							<a href="{{ URL('users') }}" class="btn btn-primary btn-close btn-responsive">Cancel</a>
+							<button type = "submit" class = "btn btn-default btn-send btn-responsive pull-right">Update</button>
 						</div>
 					</div>
 				</fieldset>

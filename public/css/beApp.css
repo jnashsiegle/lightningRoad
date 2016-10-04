@@ -4575,6 +4575,24 @@ h1, h2, h3, h4, h5, h6 {
 .hidden_field {
   display: none; }
 
+.imgWrapper {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 50%;
+  /* your aspect ratio here! */
+  position: relative; }
+
+.imageList {
+  overflow: hidden;
+  /* just clearing floats */ }
+
+.list__item {
+  width: 25%;
+  /* 4 items per row */
+  float: left; }
+
 .panel-login {
   border-color: #122B40;
   max-width: 50%;
@@ -4608,7 +4626,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 36px; }
 
 span > a > img {
-  padding-left: 15px; }
+  padding-left: 15px;
+  max-width: 100%;
+  max-height: 100%; }
 
 span > h1 {
   padding-right: 15px; }

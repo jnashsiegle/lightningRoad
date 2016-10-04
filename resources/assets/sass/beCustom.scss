@@ -46,7 +46,22 @@ h1, h2, h3, h4, h5, h6{
 .hidden_field{
   display: none;
 }
-
+.imgWrapper{
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 50%; /* your aspect ratio here! */
+  position: relative;
+}
+.imageList
+{
+    overflow: hidden; /* just clearing floats */
+}
+    .list__item
+    {
+        width: 25%; /* 4 items per row */
+        float: left;
+    }
 //Panel Heading on login page
 .panel-login {
   border-color: $brand-primary;
@@ -85,6 +100,8 @@ h1, h2, h3, h4, h5, h6{
 }
 span > a > img{
   padding-left:15px;
+   max-width: 100%;
+   max-height: 100%;
 }
 span > h1{
   padding-right: 15px; 

@@ -47,8 +47,8 @@
          {!! Form::textarea('description',null,['class'=>'form-control']) !!}
       </div>
 
-      <button type="submit" class="btn btn-primary">Save</button>
-      <a href="{{ url('/image') }}" class="btn btn-warning">Cancel</a>
+      <button type="submit" class="btn btn-default btn-send btn-responsive pull-right">Save</button>
+      <a href="{{ URL::previous() }}" class="btn btn-primary btn-close btn-responsive">Cancel</a>
 
    {!! Form::close() !!}
 @stop
