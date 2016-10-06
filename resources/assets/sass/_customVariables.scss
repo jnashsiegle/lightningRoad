@@ -114,9 +114,9 @@ $padding-xs-horizontal:     5px !default;
 $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        4px !default;
-$border-radius-large:       6px !default;
-$border-radius-small:       3px !default;
+$border-radius-base:        10px !default;
+$border-radius-large:       15px !default;
+$border-radius-small:       5px !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
@@ -156,7 +156,7 @@ $caret-width-large:         5px !default;
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #FFFF42 !default;
+$btn-default-color:              $brand-primary !default;
 $btn-default-bg:                 #EFBE14 !default;
 $btn-default-border:             #F0E179 !default;
 
@@ -534,7 +534,7 @@ $tooltip-max-width:           200px !default;
 //** Tooltip text color
 $tooltip-color:               #fff !default;
 //** Tooltip background color
-$tooltip-bg:                  #000 !default;
+$tooltip-bg:                  $brand-primary !default;
 $tooltip-opacity:             .9 !default;
 
 //** Tooltip arrow width
@@ -718,7 +718,7 @@ $panel-bg:                    #fff !default;
 $panel-body-padding:          15px !default;
 $panel-heading-padding:       10px 15px !default;
 $panel-footer-padding:        $panel-heading-padding !default;
-$panel-border-radius:         $border-radius-base !default;
+$panel-border-radius:         $border-radius-large !default;
 
 //** Border color for elements within panels
 $panel-inner-border:          #ddd !default;
@@ -772,7 +772,7 @@ $thumbnail-caption-padding:   9px !default;
 //
 //##
 
-$well-bg:                     #f5f5f5 !default;
+$well-bg:                     rgba(245, 245, 245, 0.4) !default;
 $well-border:                 darken($well-bg, 7%) !default;
 
 

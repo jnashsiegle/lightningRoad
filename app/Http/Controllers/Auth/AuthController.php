@@ -28,8 +28,23 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $loginPath = '/auth/lrfptech2016';
 
+    /**
+     * Where to redirect users after login / registration.
+     *
+     * @var string
+     */
+    protected $redirectTo = 'adminP';
+
+     /**
+     * Where to redirect users after logout.
+     *
+     * @var string
+     */
+    protected $redirectAfterLogout = 'auth/login';
+    
+    private $maxLoginAttempts = 5;
     /**
      * Create a new authentication controller instance.
      *
@@ -37,7 +52,15 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware($this->guestMiddleware(), ['except' => 'logout']);
+        $this->middleware($this->guestMiddleware(), ['except' => 'getLogout']);
+    }
+        
+/*getRegister', 'postRegister,*/ //just in case remove when working
+
+
+    public function getLogin()
+    {
+        return view('auth/lrfptech2016');
     }
 
     /**
@@ -51,8 +74,10 @@ class AuthController extends Controller
         return Validator::make($data, [
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
+            'password' => 'required|min:6|confirmed'
+            
         ]);
+
     }
 
     /**

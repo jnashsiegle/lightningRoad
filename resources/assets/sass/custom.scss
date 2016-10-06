@@ -40,6 +40,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */ 
 }
+.antispam{
+  display: none;
+}
 .breadcrumb{
   background: transparent;
 }
@@ -62,6 +65,10 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     line-height: 1.5;
     border-radius:3px;
   }
+.btn-responsive.disabled, .btn-responsive.disabled:hover{
+  background-color: $gray-light;
+  color: $brand-primary;
+}
 .cta{
   color: $brand-link;
 }
@@ -101,6 +108,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 .pullR{
   float: right;
 } 
+.requiredNotice{
+  color: red;
+}
 .thumb{
   max-width: 100%;
   margin-bottom: 50px;
@@ -283,13 +293,15 @@ div#what{
 }
 //custom css for carousel and indicators
   #carousel-systems{
+    margin-top: 20px;
     padding-top: 20px;
     padding-bottom:20px;
-    width: 65%; 
-    }   
-  .carousel-indicators .active, .carousel-indicators li{
-    width: 16px;
-    height: 16px;
+    width: 60%; 
+    }
+  .carousel-inner{
+    padding-bottom: 20px;
+  }   
+  .carousel-indicators .active, .carousel-indicators li{  
     margin: 0 5px -50px;
   }
   .carousel-indicators {
@@ -303,7 +315,7 @@ div#what{
   }
   .carousel-indicators{
   display:block;
-  bottom:20px;
+  bottom:40px;
   }
 //end of carousel
 //end of about
@@ -644,17 +656,22 @@ div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
 
   //fixing image at smaller resolution 480x320 landscape where it was too big
 @media screen and (max-width: 500px){
+  #carousel-systems{
+    padding-top: 20px;
+    padding-bottom:20px;
+    width: 75%; 
+    }
   //#landing img{
    // width:25%;
  // }
   //form{
   //  float:none;
   //}
-  div#what .carousel-indicators .active, div#what .carousel-indicators li {
+  /* div#what .carousel-indicators .active, div#what .carousel-indicators li {
     width: 10px;
     height: 10px;
     margin: 0 5px -50px;
-  }
+  } */
   //.pullL{
    // float: left;
   //}

@@ -1,2 +1,18 @@
 User-agent: *
-Disallow:
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /auth/
+Disallow: /admin/
+Disallow: /errors/
+Disallow: /partials/
+Disallow: /users/
+Disallow: /vendor/
+Disallow: /app/
+Disallow: /bootstrap/
+Disallow: /bower_components/
+Disallow: /config/
+Disallow: /database/
+Disallow: /node_modules/
+Disallow: /storage/
+Disallow: /tests/
+Disallow: /vendor/

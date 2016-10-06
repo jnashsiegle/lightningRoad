@@ -4,6 +4,9 @@
 		<div id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
 @endsection <!--end of title section-->	
+@if(Session::has('message'))
+    <div class="alert alert-success"><em> {!! session('message') !!}</em></div>
+@endif
 						<div class = "row-fluid">	
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
 	                		<div id = "landingL">
@@ -68,7 +71,7 @@
 			<div class = "row-fluid">
 				<div class = "col-md-12">
 					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" class = "img-responsive pullL gapR" alt = "Day of Champions">
-						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor. The time and availability is dependant on each unit. The extent of the program is dependant ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
+						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor. The time and availability is dependant on each unit. The extent of the program is dependant ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
 				</div> <!--end of col-md-9... -->
 			</div><!--end of row-->
 			<div class = "row-fluid">
@@ -103,19 +106,12 @@
 			<div class = "row-fluid">	<!--Carousel Info-->			
 					<div class = "col-md-12">
 					<div class="clearfix visible-xs-block clearfix visible-sm-block"></div>	
-						<div id="carousel-systems" class="carousel slide center-block" data-ride="carousel" data-interval="false">
-						<h3 class = "text-center">Details of current systems where we are active</h3>
-						<!--indicators-->
-						<ol class="carousel-indicators">
-        					<li data-target="#carousel-systems" data-slide-to="0" class="active"></li>
-        					<li data-target="#carousel-systems" data-slide-to="1"></li>
-        					<li data-target="#carousel-systems" data-slide-to="2"></li>
-        					<li data-target="#carousel-systems" data-slide-to="3"></li>
-    					</ol>
+						<div id="carousel-systems" class="carousel slide center-block well" data-ride="carousel" data-interval="false">
+						<h3 class = "text-center">Details of current outreaches </h3>	
 						<div class = "carousel-inner" role = "listbox">
 							<div class = "item active">
-							<h5>Outreach Service Divisions Information</h5>
-							<p class = "text-justify">Each system both Federal and County, youth or adult has a summary of information within this carousel for you to read if you have an interest. Move through the pages with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
+							<h5>Outreach Systems Information</h5>
+							<p class = "text-justify">Each system both Federal and County, youth or adult has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
 						</div>
 								<div class = "item">
 								<h5>Federal Systems</h5>
@@ -130,7 +126,14 @@
 							<h5>Texas Juvenile Justice Dept</h5>
 								<p class = "text-justify">Texas Juvenile Justice Department has undergone MAJOR changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
 								<p class = "text-justify">County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
-							</div>			
+							</div>		
+							<!--indicators-->
+						<ol class="carousel-indicators">
+        					<li data-target="#carousel-systems" data-slide-to="0" class="active"></li>
+        					<li data-target="#carousel-systems" data-slide-to="1"></li>
+        					<li data-target="#carousel-systems" data-slide-to="2"></li>
+        					<li data-target="#carousel-systems" data-slide-to="3"></li>
+    					</ol>	
 						</div><!--end of carousel inner -->	
 					</div><!--end of carousel systems -->
 				</div><!--end of col-md-12-->
@@ -258,7 +261,7 @@
 		            </div>
 		            <div class="modal-footer  center-block">
 		                <div class="col-xs-3 col-md-4 col-lg-3">		               
-		                    <button type="button" class="btn btn-primary  btn-responsive pull-left" id="show-previous-image">Previous</button>
+		                    <button type="button" class="btn btn-primary  btn-responsive pull-left" id="show-previous-image">Back</button>
 		                </div>
 		                <div class="col-xs-6 col-md-5 col-lg-6 center-block text-center" id="image-gallery-caption">
 		                    This text will be overwritten by jQuery
@@ -314,11 +317,11 @@
 				</div>				
 				<div class = "col-md-4">
 						<p class = "text-center">DOWNLOADS</p>
-						<p class = "text-center"><a href = "https://www.tdcj.state.tx.us/php/volunteer_application/">Volunteer Application for the TDCJ</a></p>
-						<p class = "text-center"><a href = "http://www.ringofchampions.net/">Ring of Champions</a></p>
+						<p class = "text-center"><a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ</a></p>
+						<p class = "text-center"><a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a></p>
 				</div>				
 				<div class = "col-md-4 center-block">										
-						<a href = "https://www.facebook.com/sozosam/" target = '_blank'"><i class="fa fa-5x fa-facebook center-icon pullR text-center" aria-hidden="true"></i></a>
+						<a href = "https://www.facebook.com/sozosam/" target = "_blank"><i class="fa fa-5x fa-facebook center-icon pullR text-center" aria-hidden="true"></i></a>
 				</div>
 			</div><!--end row fluid-->
 			<div class = "row-fluid">	
@@ -343,6 +346,7 @@
 
 
     	</div><!--end #information-->
+
 
 
 
