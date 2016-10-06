@@ -207,12 +207,6 @@
           text-decoration: none !important; } 
        
     </style>
-    <script language="JavaScript">
-                function mdy(todaysdate) {
-                //calls the function mdy why to get our date
-                return todaysdate.getMonth()+1+"/"+todaysdate.getDate()+"/"+todaysdate.getYear()
-                }
-                </script>
   </head>
   <body class="">
     <table border="0" cellpadding="0" cellspacing="0" class="body">
@@ -239,12 +233,6 @@
                         <p> Here are the details: </p>
                             
                             <table border="0" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td><script language="JavaScript">
-                                sampleDate1=new Date()
-                                document.write ("This email was sent on "+ mdy(sampleDate1))
-                                </script> </td>
-                            </tr>
                             <tr>
                                 <td width = "25%"> <strong>Name:</strong></td><td class = "align-left">{{ $name }} </td>
                             </tr>                            

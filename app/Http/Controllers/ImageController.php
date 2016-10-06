@@ -124,7 +124,8 @@ public function update(Request $request, $id)
         return Redirect('/');
       }*/
 
-      public function destroy($id, Request $request) 
+
+      public function destroy($id, Request $request)  
       {
         $image = Image::findOrFail($id);
         /*dd($image);*/
@@ -140,16 +141,11 @@ public function update(Request $request, $id)
             File::Delete(public_path() .'/'. $image->file);
 
             // redirect
-        $request->session()->flash('alert-success', 'Image was successfully deleted!');
-        return redirect('/image');           
-       
 
+        $request->session()->flash('alert-success', 'Image was successfully deleted!');
+        return redirect('/image');     
        
       }
-
-
-
-
 
 
 }

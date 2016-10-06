@@ -23,7 +23,8 @@
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
         <!--datepicker-->
-         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"> 
+        {{-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"> --}}
+
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet"> 

@@ -51,3 +51,4 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous"></script>
     <script type = "text/javascript" src = "{{ asset('js/myOther.js')  }}"></script>    
 
+

@@ -7,10 +7,9 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="panel panel-default">
           <div class="panel-heading mycontainer"> 
-              <span><a href="#"><img src="../images/logos/boltLogo.png" class = "hidden-xs" alt = "Lightning Road Biker Outreach" /></a></span>
+              <span><a href="/"><img src="../images/logos/boltLogo.png" class = "hidden-xs" alt = "Lightning Road Biker Outreach" /></a></span>
               <span><h1 class = "panel-title text-right">Admin Area</h1></span>
           </div><!--end of panel-heading-->
-         
         <div class="panel-body">
         <div class="flash-message">
                 @foreach (['danger', 'warning', 'success', 'info'] as $msg)
@@ -20,28 +19,29 @@
                 @endforeach
         </div> <!-- end .flash-message -->
               <div class="panel-body">  
-        
-   <div class="row-fluid" data-toggle = "validator">
-   @include('partials.alerts.errors')
-   {!! Form::open(['url'=>'/image', 'method'=>'POST', 'files'=>'true']) !!}
+                 <div class="row-fluid" data-toggle = "validator">
+                 @include('partials.alerts.errors')
+                 {!! Form::open(['url'=>'/image', 'method'=>'POST', 'files'=>'true']) !!}
 
-      <div class="form-group">
-         <label for="userfile">Image File</label>
-         <input type="file" class="form-control required" name="userfile">
-      </div>
+                    <div class="form-group">
+                       <label for="userfile">Image File</label>
+                       <input type="file" class="form-control required" name="userfile">
+                    </div>
 
-      <div class="form-group">
-         <label for="caption">Caption</label>
-         <input type="text" class="form-control required" name="caption" value="">
-      </div>
+                    <div class="form-group">
+                       <label for="caption">Caption</label>
+                       <input type="text" class="form-control required" name="caption" value="">
+                    </div>
 
-      <div class="form-group">
-         <label for="description">Description</label>
-         <textarea class="form-control required" name="description"></textarea>
-      </div>
+                    <div class="form-group">
+                       <label for="description">Description</label>
+                       <textarea class="form-control required" name="description"></textarea>
+                    </div>
 
-      <button type="submit" class="btn btn-default btn-send  pull-right">Upload</button>
-      <a href="{{ URL::previous() }}" class="btn btn-info btn-close">Back</a>
+          
+                    <button type="submit" class="btn btn-default btn-send pull-right">Upload</button>
+                    <a href="{{ URL::previous() }}" class="btn btn-info btn-close">Back</a>
+           
 
-   {!! Form::close() !!}
-@stop
+                 {!! Form::close() !!}
+              @stop

@@ -89,6 +89,15 @@
 			         </div>
 		         </div> --}}<!--end of row-fluid-->
 		         
+		        {{-- <div class = "row-fluid">
+			        <div class="form-group date col-md-6 col-md-offset-3 column">
+				        <label for ="date" class = "control-label">Date <span class = "requiredNotice">*</span></label>
+				         <input id = "datepicker" type = "text" name = "date" class = "form-control" required = "required" data-error = "Sorry, but you must include the date" value = "">
+				         
+				         <div class="help-block with-errors"></div>
+			         </div>
+		         </div> --}}<!--end of row-fluid-->
+		         
 		        <div class = "row-fluid">
 		        {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			        <div class = "form-group subject col-md-6 col-md-offset-3 column">			       

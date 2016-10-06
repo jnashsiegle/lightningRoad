@@ -37,7 +37,6 @@ class ContactController extends Controller
         array(
             'name' => $request->get('name'),
             'email' => $request->get('email'),
-            /*'date' => $request->get('date'),*/
             'subject' => $request->get('subject'),
             'customSubject' => $request->get('customOther'),
             'user_message' => $request->get('message')
@@ -52,7 +51,6 @@ class ContactController extends Controller
   $request->session()->flash('alert-success', 'Thank you for contacting us! Your email was sent successfully and we shall respond as soon as we can! - Steve &amp; Rose!!');
   // Generating Redirects...with message
 return Redirect::to(URL::previous('home') . "#contact");
-
 
 }
 

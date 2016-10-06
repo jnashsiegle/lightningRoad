@@ -22,12 +22,21 @@ class UserEditFormRequest extends Request
      * @return array
      */
     public function rules()
+
     {
         return [
             'name' => 'required',
             'email' => 'required',            
             'password' => 'alpha_num|min:6|confirmed',
             'password_confirmation' => 'alpha_num|min:6',
-        ];
-    }
+            ];
+
+   /* {  */      
+        // default the value of the is_admin checkbox
+    /*$this->merge(['isAdmin' => $this->input('isAdmin', 0)]);*/
+
+                
+
+   /* }*/
+}
 }

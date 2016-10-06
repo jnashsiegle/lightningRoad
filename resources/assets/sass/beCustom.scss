@@ -100,6 +100,9 @@ h1, h2, h3, h4, h5, h6{
   max-width: 100%;
   margin: 0 auto;  
 }
+/* .hidden_field{
+  display: none;
+} */
 .panel {  
   margin-bottom: 27px;
   background-color: $brand-primary;
@@ -109,6 +112,7 @@ h1, h2, h3, h4, h5, h6{
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.50);
   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.50);
 }  
+
 .panel-default > .panel-heading{ 
   color: $brand-accent;
   background-color: $brand-primary;
@@ -186,12 +190,14 @@ form#deletion{
   h3{
     font-size: 18px;  
   } 
+
   } 
   @media screen and (max-width: 450px){
   .controls{
   padding: 15% 0 30% 0;
 }
 }
+
 
 
 

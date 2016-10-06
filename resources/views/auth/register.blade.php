@@ -6,7 +6,7 @@
     <div class="row-fluid col-md-8 col-md-offset-2">
         <div class="panel panel-default">
           <div class="panel-heading mycontainer"> 
-              <span><a href="#"><img src="../images/logos/boltLogo.png" alt = "Lightning Road Biker Outreach" /></a></span>
+              <span><a href="/"><img src="../images/logos/boltLogo.png" alt = "Lightning Road Biker Outreach" /></a></span>
               <span><h1 class = "panel-title text-right"><a href = "../adminP">Admin Area</a></h1></span>
           </div><!--end of panel-heading-->
 		{{-- <div class ="well well bs-component">  --}}
@@ -32,6 +32,7 @@
 						</div><!--end of row fluid-->
 						<div class = "row-fluid col-md-12" data-toggle = "validator">
 						<div class = "form-group">
+
 							<label for ="password" class ="control-label"> Password </label> 
 							<input type ="password" class ="form-control" name ="password" id = "password" data-error = "You must give a default password" required = "required" placeholder = "Password"> 
 							<div class="help-block with-errors"></div>
@@ -45,6 +46,7 @@
 
 						</div> <!--end of form group-->
 						</div><!--end of row fluid-->
+
 						<div class = "row-fluid col-md-12">
 						<div class = "form-group">
 						<label for "isAdmin" class = "control-label">Is Admin?</label>
@@ -56,12 +58,14 @@
 						<div class = "form-group">	
 								<a href="{{ URL('users') }}" class="btn btn-info btn-close ">Back</a>
 								<button type ="submit" class ="btn btn-default btn-send  pull-right"> Submit </button> 
+
 						</div> <!--end of form group-->
 						</div><!--end of row fluid-->
 				</fieldset> 
 		</form><!--end of form-->
          </div><!--end of panel body-->
       </div><!--end of panel panel default-->  
+
   </div><!--end of row fluid-->
 </div><!--end of container-->
 @endsection

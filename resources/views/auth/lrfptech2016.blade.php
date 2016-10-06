@@ -9,6 +9,7 @@
         <div class="panel panel-default">
           <div class="panel-heading mycontainer"> 
               <span><a href="/"><img src="../images/logos/boltLogo.png" alt = "Lightning Road Biker Outreach" /></a></span>
+
               <span><h1 class = "panel-title text-right">Admin</h1></span>
           </div><!--end of panel-heading-->
         <div class="panel-body">
