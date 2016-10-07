@@ -18,14 +18,7 @@
                     @endif
                 @endforeach
               </div> <!-- end .flash-message -->
-              <div class="panel-body">  
-        <!--breadcrumbs-->
-         <nav class="breadcrumb">
-           <a class="breadcrumb-item" href="../adminP">Admin Panel / </a> 
-            <a class="breadcrumb-item" href="/">Image Listing / </a>    
-           <a class="breadcrumb-item active" href="#">Edit Image / </a>     
-         </nav>
-         <!--end of breadcrumbs-->
+              <div class="panel-body"> 
    @include('partials.alerts.errors')
    {!! Form::model($image,['url' => '/image/'.$image->id, 'method' => 'PUT', 'files'=>true]) !!}
       <img src="{{ asset($image->file) }}" height="150" />
