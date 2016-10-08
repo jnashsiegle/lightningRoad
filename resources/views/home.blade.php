@@ -43,7 +43,7 @@
 		<div class = "row-fluid ">
 			<div class = "col-md-12">
 				<img src = "../images/SteveRose-216x300.jpg" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />
-				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through TOLC to facilitate entry into area jails and detention centers.</p>
+				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through <a href = "http://treeoflifechurch.org" target = "_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
 					<div class = "vtext">
@@ -51,7 +51,7 @@
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
 					</div> <!--end of verse center-block & verse styling-->
-				<p>As members of Chariots of Light Christian Bikers, we co-labor as partners and a parallel ministry to COL and Jerry Savelle Ministries International participating in the biggest soul-winning outreach in the country.</p>
+				<p>As members of <a href = "http://www.chariotsoflight.com/">Chariots of Light Christian Bikers</a>, we co-labor as partners and a parallel ministry to COL and <a href = "http://www.jerrysavelle.org/">Jerry Savelle Ministries International</a> participating in the biggest soul-winning outreach in the country.</p>
 				<p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>					
 			</div>			
 			</div><!--end of row -->
@@ -111,7 +111,7 @@
 						<div class = "carousel-inner" role = "listbox">
 							<div class = "item active">
 							<h5>Outreach Systems Information</h5>
-							<p class = "text-justify">Each system both Federal and County, youth or adult has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
+							<p class = "text-justify">Each system both Federal and County, youth or adult, has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
 						</div>
 								<div class = "item">
 								<h5>Federal Systems</h5>
@@ -119,7 +119,7 @@
 							</div>
 							<div class = "item">
 							<h5>TDCJ - Texas Dept of Corrections</h5>
-								<p class = "text-justify">TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation & Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
+								<p class = "text-justify">TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation &amp; Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here&semi; <a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ</a>. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
 								<p class = "text-justify">County jail systems are run individually through the sheriff and the jail administrator. Background checks may be ordered or ministry credentials requested to authenticate individuals who desire to volunteer at chapel services or Bible studies. Be advised that each jail can operate completely different from one another due to local government. NOTE: Do not be discouraged by individuals who are not “friendly” with “faith-based” volunteers. Your strength, commitment, and perseverance in serving God will overcome the most stubborn obstacles.</p>
 							</div>
 							<div class = "item">
