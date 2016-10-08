@@ -51,7 +51,7 @@
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
 					</div> <!--end of verse center-block & verse styling-->
-				<p>As members of <a href = "http://www.chariotsoflight.com/">Chariots of Light Christian Bikers</a>, we co-labor as partners and a parallel ministry to COL and <a href = "http://www.jerrysavelle.org/">Jerry Savelle Ministries International</a> participating in the biggest soul-winning outreach in the country.</p>
+				<p>As members of <a href = "http://www.chariotsoflight.com/" target = "_blank">Chariots of Light Christian Bikers</a>, we co-labor as partners and a parallel ministry to COL and <a href = "http://www.jerrysavelle.org/" target = "_blank">Jerry Savelle Ministries International</a> participating in the biggest soul-winning outreach in the country.</p>
 				<p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>					
 			</div>			
 			</div><!--end of row -->
