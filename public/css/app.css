@@ -4847,10 +4847,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-shadow: 6px 6px 5px rgba(150, 150, 150, 0.75); }
 
-a {
+/* a {
   color: #A8850e;
-  text-decoration: none; }
-
+  text-decoration: none; 
+} */
 cite {
   float: right;
   font-family: "Quicksand", "Times New Roman", Times, serif; }
@@ -4967,20 +4967,8 @@ a:hover, a:focus {
   margin-bottom: 15px; }
   .verse h5 {
     color: #e1e0db;
-    max-width: 75%; }
-
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  /* Optional, to align inner items 
-                              horizontally inside the column */ }
+    max-width: 75%;
+    font-weight: normal; }
 
 .vtext {
   display: table-cell;
@@ -5052,34 +5040,38 @@ p.tagline {
   color: #122B40;
   background-color: #D8DABE; }
 
-div#what.container-fluid, div#contact.container-fluid {
+#what.container-fluid, div#contact.container-fluid {
   background-color: #e1e0db; }
 
-div#what h3 {
-  margin-top: 18px;
+#what h1 + h3 {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+  #what h1 + h3:first-of-type {
+    font-weight: normal; }
+
+#what img {
   margin-bottom: 27px; }
 
-div#what img {
-  margin-bottom: 27px; }
-
-div#what #outreach {
+#what #outreach {
   width: 33%;
   height: auto; }
-  div#what #outreach ul {
+  #what #outreach ul {
     list-style-type: none;
     padding: 0; }
-    div#what #outreach ul li {
+    #what #outreach ul li {
       display: table;
       margin: 0 auto; }
 
 #carousel-systems {
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 60%; }
+  margin: 20px auto 35px;
+  padding: 20px;
+  width: 60%;
+  min-height: 19.44em;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75); }
 
 .carousel-inner {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  min-height: inherit; }
 
 .carousel-indicators .active, .carousel-indicators li {
   margin: 0 5px -50px; }
@@ -5175,7 +5167,8 @@ div#what #outreach {
   z-index: 10; }
   #information ul {
     display: inline;
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 0; }
   #information p.text-center {
     color: #e1e0db; }
   #information .navbar {
@@ -5190,7 +5183,7 @@ div#what #outreach {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
     #information .navbar .navbar-nav {
       display: inline-block;
-      float: none;
+      clear: both;
       vertical-align: top;
       min-width: 100%; }
   #information .nav > li {
@@ -5219,14 +5212,75 @@ div#what #outreach {
       opacity: .5;
       border-radius: 40px; }
 
-@media only screen and (min-width: 1024px) and (max-width: 1599px) {
-  #information .credits .col-md-6 {
-    margin-top: 50px; }
+@media screen and (min-width: 300px) {
+  #information .col-md-4:first-child {
+    margin-bottom: 20px; }
+    #information .col-md-4:first-child img {
+      max-width: 5.75em; }
+  #information .col-md-4 a {
+    text-decoration: none; }
+    #information .col-md-4 a .fa.fa-5x.fa-facebook.center-icon.pullR {
+      max-width: 1em;
+      text-decoration: none;
+      line-height: 100px; } }
+
+/* @media screen and (max-width: 450px){
+  #landingR img{ 
+  max-width: 50%;
+  margin-left: 10px;
+  }
+  &blockquote{
+  max-width: 100%;
+  padding-top: 3px;
+  }
+  #contact .verse{
+  max-width: 80%;
+  }
+} */
+@media (max-width: 500px) {
+  .btn-responsive {
+    padding: 6px 10px;
+    width: 100%;
+    font-size: 85%;
+    line-height: 1;
+    border-radius: 3px;
+    margin-bottom: 20px; }
   .verse {
-    max-width: 33%; }
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  a.breadcrumb-item {
+    font-size: 75%; }
+  #carousel-systems {
+    width: 90%;
+    min-height: 25em; }
+  .carousel-indicators {
+    width: 100%;
+    text-align: center;
+    margin-left: -50%; }
+  #information .col-md-4:first-child {
+    margin-bottom: 20px; }
+  #landingR img {
+    max-width: 50%;
+    margin-left: 10px; }
+  blockquote {
+    max-width: 100%;
+    padding-top: 3px; }
   #contact .verse {
-    max-width: 80%;
-    margin: 0 auto; } }
+    max-width: 80%; } }
+
+@media screen and (max-width: 750px) {
+  blockquote, p, input, span, div, h4, h5, li {
+    font-size: 90%; }
+  h1 {
+    font-size: 20px; }
+  h2 {
+    font-size: 18px; }
+  h3 {
+    font-size: 16px; }
+  #contact, #what {
+    background-color: #e1e0db;
+    background-size: 100%;
+    min-width: 100%; } }
 
 @media screen and (max-width: 992px) {
   blockquote, p, input, span, h4, h5 div, li {
@@ -5260,11 +5314,11 @@ div#what #outreach {
     margin-bottom: 27px; }
   #about > .row-fluid > .col-md-12 > img, #about > .row-fluid > .col-md-12 > .verse {
     margin-bottom: 27px; }
-  div#what #outreach {
+  #what #outreach {
     width: 100%;
     height: auto;
     margin: 27px 0; }
-  div#mission > .row-fluid > .col-xs-12 > .statement.clearfix > .verse.pullR.gapL {
+  #mission > .row-fluid > .col-xs-12 > .statement.clearfix > .verse.pullR.gapL {
     margin-bottom: 13.5px; }
   #what, #contact {
     background: none; }
@@ -5280,65 +5334,24 @@ div#what #outreach {
     max-width: 75%;
     padding-top: 3px; } }
 
-@media screen and (max-width: 750px) {
-  blockquote, p, input, span, div, h4, h5, li {
-    font-size: 90%; }
-  h1 {
-    font-size: 20px; }
-  h2 {
-    font-size: 18px; }
-  h3 {
-    font-size: 16px; }
-  #contact, #what {
-    background-color: #e1e0db;
-    background-size: 100%;
-    min-width: 100%; } }
-
-@media (max-width: 500px) {
-  .btn-responsive {
-    padding: 6px 10px;
-    width: 100%;
-    font-size: 85%;
-    line-height: 1;
-    border-radius: 3px;
-    margin-bottom: 20px; } }
-
-@media screen and (max-width: 500px) {
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
   #carousel-systems {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 75%; }
-  /* div#what .carousel-indicators .active, div#what .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px -50px;
-  } */
-  .verse {
-    margin-top: 15px;
-    margin-bottom: 15px; }
+    width: 80%;
+    min-height: 22.5em; }
+  .carousel-indicators {
+    width: 100%;
+    text-align: center;
+    margin-left: -50%; }
   #information .col-md-4:first-child {
     margin-bottom: 20px; } }
 
-@media screen and (min-width: 300px) {
-  #information .col-md-4:first-child {
-    margin-bottom: 20px; }
-    #information .col-md-4:first-child img {
-      max-width: 5.75em; }
-  #information .col-md-4 a {
-    text-decoration: none; }
-    #information .col-md-4 a .fa.fa-5x.fa-facebook.center-icon.pullR {
-      max-width: 1em;
-      text-decoration: none;
-      line-height: 100px; } }
-
-@media screen and (max-width: 450px) {
-  #landingR img {
-    max-width: 50%;
-    margin-left: 10px; }
-  blockquote {
-    max-width: 100%;
-    padding-top: 3px; }
+@media only screen and (min-width: 1024px) and (max-width: 1599px) {
+  #information .credits .col-md-6 {
+    margin-top: 50px; }
+  .verse {
+    max-width: 33%; }
   #contact .verse {
-    max-width: 80%; } }
+    max-width: 80%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=app.css.map */

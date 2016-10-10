@@ -8,10 +8,10 @@ h1, h2, h3, h4, h5, h6{
 h1{
   text-shadow: 6px 6px 5px rgba(150, 150, 150, 0.75);
 }
-a {
+/* a {
   color: #A8850e;
   text-decoration: none; 
-}
+} */
 cite{
   float: right;
   font-family: $font-family-serif;
@@ -40,12 +40,11 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */ 
 }
-
 .antispam{
   display: none;
 }
 .breadcrumb{
-  background: transparent;
+  background: transparent;  
 }
 .btn{
   padding: 6px 12px;
@@ -142,20 +141,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     h5{
       color: $brand-secondary;
       max-width: 75%;
+      font-weight: normal;
     }    
 } 
-//.vertical-align {
-//  display: flex;
-//  flex-direction: row;
-//}
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; /* Optional, to align inner items 
-                              horizontally inside the column */
-}
 .vtext{   //text for verses
   display: table-cell;
   vertical-align: middle;
@@ -164,12 +152,10 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     margin-bottom: 0;    
   }
 }
- 
 //--------SECTIONS
 #what.container-fluid, #about.container-fluid, #mission.container-fluid, #contact.container-fluid{
  padding-bottom: 40px;
  position: relative;
- 
 }
 #landing {
 	background: url('../images/lrBkg.jpg') no-repeat center center scroll;
@@ -187,7 +173,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 	bottom: 5%;
   width: 100%; 
   margin: 0 auto;  
-}
+  }
 }
 @-webkit-keyframes fadeIn { 
   from { 
@@ -233,7 +219,7 @@ opacity:0;  /* make things invisible upon start */
  #landingL, #landingR, #vHeadingR, #vHeadingL{
   width: 98%;
   display: inline-block;
-  }  
+}  
 #landingL img, #landingR img{      //remove background global styling from landing section images
   max-width: 75%;
   padding: 0;
@@ -248,33 +234,29 @@ opacity:0;  /* make things invisible upon start */
   line-height: 1;
 	margin-bottom: 0;	  
 }
-
 #landingR img:last-of-type{
 	max-width: 12em;  //based on 18px font for alpha Omega svg only
   blockquote{
     width: 75%;
   }
-  }
-
+}
 //end of landing
 #about{  
   color: $brand-primary;
-  background-color: $brand-background;  
-  //img{
-  //  margin-left:10px;
-  //}
+  background-color: $brand-background; 
 }
 //end of about 
-//#contact, #what{  
-//  background-size: 90%;  
-//}
-div#what.container-fluid, div#contact.container-fluid{
+//Beginning of #WHAT
+#what.container-fluid, div#contact.container-fluid{
   background-color: $brand-secondary;      
 }
-div#what{ 
-  h3{
-      margin-top: 18px;
-      margin-bottom: 27px;
+#what{ 
+  h1 + h3{
+      margin-top: 25px;
+      margin-bottom: 25px;
+        &:first-of-type{
+      font-weight: normal;
+      } 
     }
   img{
     margin-bottom: 27px;
@@ -294,13 +276,17 @@ div#what{
 }
 //custom css for carousel and indicators
   #carousel-systems{
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom:20px;
-    width: 60%; 
+    margin:20px auto 35px;
+    padding:20px;
+    width: 60%;
+    min-height: 19.44em;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75); 
     }
   .carousel-inner{
     padding-bottom: 20px;
+    min-height: inherit;
   }   
   .carousel-indicators .active, .carousel-indicators li{  
     margin: 0 5px -50px;
@@ -337,15 +323,6 @@ div#what{
   background:url("../images/logos/alphaLg.svg")no-repeat center center;
   background-size: 120% 100%;
 } 
- //#contact .header.row-fluid .col-md-6.block-center #vHeadingL, #contact .header.row-fluid .col-md-6.block-center #vHeadingR{
- //   margin-top: 27px; 
- //   width: 100%; 
- // }
- // #contact  > .verse.hidden-sm.hidden-xs, #vHeadingR > .verse.hidden-sm.hidden-xs{
-  //    max-width: 50%;
-  //    margin: 0 auto;
-    
-   
   #contact{
  .row-fluid{
   margin-top: 27px;
@@ -365,7 +342,7 @@ div#what{
     }
     .hiddenField{
     display: none;
-} 
+  } 
 }
 #contact-form{
   display:inline-block;
@@ -377,7 +354,6 @@ div#what{
   margin-top:15px;
   }
 }
-
 //end of contact
 #gallery{  
   min-width: 100%; 
@@ -413,7 +389,6 @@ div#what{
 .thumbnail {
   margin-bottom:6px;
 }
-
 //end of lightbox
 //end of gallery
 //beginning of footer
@@ -423,96 +398,157 @@ div#what{
   min-width: 100%;
   padding: 0;
   z-index: 10;
-//img, i.fa.fa-5x.fa-facebook.center-icon.pullR{
-  
-//}
-ul{
-  display: inline;
-  list-style-type: none;
-}
-p.text-center{
-  color: #e1e0db;
-}
-.navbar {
-  border-top:3px solid black;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 0;
-  min-width: 100%;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 71%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 71%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 71%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
-      min-width: 100%;
-    }    
-}
-.nav > li {
+  ul{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+
+  }
+  p.text-center{
+    color: #e1e0db;
+  }
+  .navbar {
+    border-top:3px solid black;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    min-width: 100%;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 71%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 71%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 71%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      .navbar-nav {
+        display: inline-block;
+        clear: both;
+        vertical-align: top;
+        min-width: 100%;
+      }    
+  }
+  .nav > li {
     position: relative;
     display: block;
     vertical-align: middle;
-}
-.nav > li > a {
-      position: relative;
-      display: block;
-      padding: 10px 15px; 
-}
-.nav > li > a:hover, .nav > li > a:focus{
-        text-decoration: none;            
-        background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-    }
-.credits .col-md-6{    
-  p{
-    display: inline;
-    //padding-right: 15px;
-}  // end of p
-}  //end of credits
-.row-fluid:nth-of-type(2){
-  padding-right: 30px;
-  padding-left: 30px;
-  .col-md-4:nth-child(2){
- background-color: $gray-darker;
- opacity: .5;
- border-radius: 40px;
-}
-}  //end of .row
+  }
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+  .nav > li > a:hover, .nav > li > a:focus{
+    text-decoration: none;            
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+      }
+  .credits .col-md-6{    
+    p{
+      display: inline;
+    }  // end of p
+  }  //end of credits
+  .row-fluid:nth-of-type(2){
+    padding-right: 30px;
+    padding-left: 30px;
+    .col-md-4:nth-child(2){
+      background-color: $gray-darker;
+      opacity: .5;
+      border-radius: 40px;
+      }
+    }  //end of .row
 }  //end of #information
-
-
-
-
-
-
-    		
-    	
-
-
-
-
 
 //General Media Queries
 ///* responsive text queries */
-///
-///Tablet landscape only
-@media only screen and (min-width: 1024px) and (max-width: 1599px) {  //only add footer credit margin top on larger resolutions
-    #information .credits .col-md-6{
-      margin-top: 50px;
-    }  
-  .verse {
-    max-width: 33%;
+@media screen and (min-width: 300px){
+  #information .col-md-4:first-child{   //correcting img scaling in footer at 600 and above
+    margin-bottom: 20px;
+    img{
+    max-width: 5.75em;
+  }  
+}
+  #information .col-md-4 a{
+    text-decoration: none;
+    .fa.fa-5x.fa-facebook.center-icon.pullR{
+    max-width: 1em;    
+    text-decoration:none;
+    line-height: 100px;
+    }
+  }  
+}
+///450PX
+/* @media screen and (max-width: 450px){
+  #landingR img{ 
+  max-width: 50%;
+  margin-left: 10px;
   }
-  #contact .verse{    
-    max-width: 80%;
-    margin: 0 auto;
+  &blockquote{
+  max-width: 100%;
+  padding-top: 3px;
   }
+  #contact .verse{
+  max-width: 80%;
   }
-
-///Through Tablet Portrait
+} */
+@media (max-width: 500px) {
+  .btn-responsive {
+    padding:6px 10px;
+    width: 100%;
+    font-size:85%;
+    line-height: 1;
+    border-radius:3px;
+    margin-bottom: 20px;
+  }
+  .verse{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  } 
+  a.breadcrumb-item{
+    font-size: 75%;
+  }
+  #carousel-systems{
+    width: 90%;
+    min-height: 25em; 
+    }
+  .carousel-indicators{
+    width: 100%;
+    text-align: center;
+    margin-left: -50%;
+  } 
+  #information .col-md-4:first-child {
+    margin-bottom: 20px;
+  }
+  #landingR img{ 
+  max-width: 50%;
+  margin-left: 10px;
+  }
+  &blockquote{
+  max-width: 100%;
+  padding-top: 3px;
+  }
+  #contact .verse{
+  max-width: 80%;
+  }
+}
+///750PX
+@media screen and (max-width: 750px) {
+  blockquote, p,input,span,div, h4, h5, li {
+    font-size: 90%;
+  }  
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+  #contact, #what{  
+  background-color: $brand-secondary;
+  background-size: 100%;  
+  min-width: 100%; 
+  }
+}
+///Through Tablet Portrait  992PX
 @media screen and (max-width: 992px) {
   blockquote, p,input,span,h4,h5 div, li {
     font-size: 95%;
@@ -527,16 +563,15 @@ p.text-center{
     font-size: 18px;  
   }  
   #information img, .center-icon{
-  float: none !important;
+    float: none !important;
     margin-left: auto;    
     margin-right: auto;
     display: block;
-    //text-align: center;
   }    
  #information .center-icon{
     margin-top: 20px;
     margin-bottom: 20px;    
-  } //end of .center icon
+  } 
 .verse{
   max-width: 80%;  
 }
@@ -551,193 +586,66 @@ p.text-center{
   margin: 0 auto;
   width: 50%;  
 }
-//#gallery > .row-fluid > .col-lg-12 > .vwrapper > img{
-//    width: 50%;
-//  }
 #gallery > .row-fluid > .col-lg-12 > .verse{
   margin-top: 27px;
   margin-bottom: 27px;
 }
 #about > .row-fluid > .col-md-12 > img, #about > .row-fluid > .col-md-12 > .verse{
   margin-bottom: 27px;
-}
-div#what {
+  }
+#what {
   #outreach {
     width: 100%;
     height: auto;
     margin: 27px 0;
+  }
 }
-}
-div#mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
+  #mission > .row-fluid > .col-xs-12 > .statement.clearfix >.verse.pullR.gapL{
   margin-bottom: 13.5px;
-}
-#what, #contact{   
+  }
+  #what, #contact{   
   background:none;  
-}
-#information .credits{
+  }
+  #information .credits{
   display: block;
   width: 95%;
-}
-#information .credits p.col-md-6.text-muted.pullR{
+  }
+  #information .credits p.col-md-6.text-muted.pullR{
   float: right;
-}
- // li{
- // float:left;
-//}
-
-#landingR img{ 
+  }
+  #landingR img{ 
   max-width: 33%;
   margin-left: 10px;
-}
-&blockquote{
+  }
+  &blockquote{
   max-width: 75%;
   padding-top: 3px;
-}
-
-}
-
-
-
-
-@media screen and (max-width: 750px) {
-  blockquote, p,input,span,div, h4, h5, li{
-    font-size: 90%;
-  }  
-  h1 {
-    font-size: 20px;  
-  }
-  h2 {
-    font-size: 18px;  
-  }
-  h3 {
-    font-size: 16px;  
-  }
-  #contact, #what{  
-  background-color: $brand-secondary;
-  //background:url("../images/logos/alphaLg.svg")no-repeat center center;
-  background-size: 100%;  
-  min-width: 100%; 
-}
-}
-@media (max-width: 500px) {
-  .btn-responsive {
-    padding:6px 10px;
-    width: 100%;
-    font-size:85%;
-    line-height: 1;
-    border-radius:3px;
-    margin-bottom: 20px;
   }
 }
-
-  //Removing display:flex at lower resolutions from landing page
- 
-//blockquote{
- //display: block;
-  //  p{
-  //  text-align: left;
-  // }
- // }
-//#what > .row-fluid > .col-md-12.clearfix > #outreach{      
-//    width: 100%;      
-//}
-
-//#information ul.credits li{
-  // float: none !important;
-//}  
-//#information li:last-of-type{
- // float:left !important;
- // text-align: left;
- // } 
-//}
-
-
-
-
-
-  //fixing image at smaller resolution 480x320 landscape where it was too big
-@media screen and (max-width: 500px){
-  #carousel-systems{
-    padding-top: 20px;
-    padding-bottom:20px;
-    width: 75%; 
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+#carousel-systems{
+    width: 80%;
+    min-height: 22.5em; 
     }
-  //#landing img{
-   // width:25%;
- // }
-  //form{
-  //  float:none;
-  //}
-  /* div#what .carousel-indicators .active, div#what .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px -50px;
-  } */
-  //.pullL{
-   // float: left;
-  //}
- // .pullR{
- //   float: right;
- // }  
- // .gapL{
- //   margin: 0;
- // }
- // .gapR{
- //   margin:0;
- // }
-  .verse{
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }  
-  //#mission img, #what img{
- //   margin-right: 15px;
- // }
+  .carousel-indicators{
+    width: 100%;
+    text-align: center;
+    margin-left: -50%;
+  } 
   #information .col-md-4:first-child {
     margin-bottom: 20px;
-}
-}
-//Adding flex to larger resolutions to aid in vertical alignment of column
-@media screen and (min-width: 600px ){
- // .flex1{  
- // height: 450px; 
- // display:flex;
- //justify-content:center; 
- // flex-flow: column;  
-// //.flex2{ 
- // float: right;  
-//  height: 450px;
-//  display:flex;
- // justify-content:center;  
- // flex-flow: column;
-//  }  
-  
-}
-@media screen and (min-width: 300px){
-  #information .col-md-4:first-child{   //correcting img scaling in footer at 600 and above
-    margin-bottom: 20px;
-    img{
-    max-width: 5.75em;
-  }  
   }
-  #information .col-md-4 a{
-    text-decoration: none;
-    .fa.fa-5x.fa-facebook.center-icon.pullR{
-    max-width: 1em;    
-    text-decoration:none;
-    line-height: 100px;
-    }
-}  
 }
-@media screen and (max-width: 450px){
-  #landingR img{ 
-  max-width: 50%;
-  margin-left: 10px;
-}
-&blockquote{
-  max-width: 100%;
-  padding-top: 3px;
-}
-#contact .verse{
-  max-width: 80%;
-}
+///Tablet landscape only
+@media only screen and (min-width: 1024px) and (max-width: 1599px) {  //only add footer credit margin top on larger resolutions
+    #information .credits .col-md-6{
+      margin-top: 50px;
+    }  
+  .verse {
+    max-width: 33%;
+  }
+  #contact .verse{    
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }

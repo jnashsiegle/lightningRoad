@@ -25,7 +25,7 @@
 				<div class = "verse"><!--the following divs style the verse-->
 				<div class = "innerBox center-block ">
 				<div class = "vtext">
-				<h5 class = "center-block">Join us as we attack the spirit of lack, defeat, despair, doubt, and unbelief through the uncompromising Word of God.<cite>~&lpar;Isaiah 6&colon;1&dash;&rpar;</cite></h5>
+				<h5 class = "center-block">Join us as we attack the spirit of lack, defeat, despair, doubt, and unbelief through the uncompromising Word of God.<br /><cite>~&lpar;Isaiah 6&colon;1&dash;&rpar;</cite></h5>
 				</div><!--end of vtext-->
 				</div><!--end of inner-box-->
 				</div><!--end of verse & verse styling-->
@@ -36,7 +36,7 @@
 				<div class = "verse hidden-sm hidden-xs"><!--the following divs style the verse-->
 				<div class = "innerBox center-block">
 				<div class = "vtext">
-				<h5 class = "center-block">Expect change in your life, and choose this day to walk in the fullness of His blessing!<cite>~&lpar;Gal 3&colon;14&rpar;</cite></h5>
+				<h5 class = "center-block">Expect change in your life, and choose this day to walk in the fullness of His blessing!<cite>~&lpar;Gal 3&colon;14&rpar;<br /></cite></h5>
 				</div><!--end of vtext-->
 				</div><!--end of inner box-->
 				</div><!--end of verse & verse styling-->

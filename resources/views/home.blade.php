@@ -47,7 +47,7 @@
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
 					<div class = "vtext">
-					<h5 class = "center-block">Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.<cite>~&lpar;3 John 1&colon;2&rpar;</cite></h5>
+					<h5 class = "center-block">Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.<br /><cite>~&lpar;3 John 1&colon;2&rpar;</cite></h5>
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
 					</div> <!--end of verse center-block & verse styling-->
@@ -71,7 +71,7 @@
 			<div class = "row-fluid">
 				<div class = "col-md-12">
 					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" class = "img-responsive pullL gapR" alt = "Day of Champions">
-						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor. The time and availability is dependant on each unit. The extent of the program is dependant ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
+						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor.  The extent of the program is dependent ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
 				</div> <!--end of col-md-9... -->
 			</div><!--end of row-->
 			<div class = "row-fluid">
@@ -87,7 +87,7 @@
 					<div class = "hcenter verse pullR gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
 					<div class = "vtext">
-					<h5 class = "center-block">You are empowered to prosper in everything you put your hands to according to the Word of God.<cite>~&lpar;2 Peter 1&colon;3&dash;4&rpar;</cite></h5>						
+					<h5 class = "center-block">You are empowered to prosper in everything you put your hands to according to the Word of God.<br /><cite>~&lpar;2 Peter 1&colon;3&dash;4&rpar;</cite></h5>						
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
 					</div> <!--end of verse center-block & verse styling-->
@@ -103,40 +103,41 @@
 				</div>
 				</div>
 			</div>			
-			<div class = "row-fluid">	<!--Carousel Info-->			
-					<div class = "col-md-12">
-					<div class="clearfix visible-xs-block clearfix visible-sm-block"></div>	
-						<div id="carousel-systems" class="carousel slide center-block well" data-ride="carousel" data-interval="false">
-						<h3 class = "text-center">Details of current outreaches </h3>	
-						<div class = "carousel-inner" role = "listbox">
-							<div class = "item active">
-							<h5>Outreach Systems Information</h5>
-							<p class = "text-justify">Each system both Federal and County, youth or adult, has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
-						</div>
-								<div class = "item">
-								<h5>Federal Systems</h5>
-								<p class = "text-justify">We are ONLY allowed to enter the federal system as visitors on an offenders approved visitors list. Federal law requires that all faiths be tolerated. Unit chaplains are unable to accommodate the requests of anyone who desires to volunteer for chaplain services for any faith. As a result, no visitor may carry a Bible, Koran, Torah, etc. No personal items may be on your person, including caps, studded clothing or any item that could be considered a weapon. Individuals are thoroughly searched, and electronically drug screened. We pray that the roadblocks to witnessing in the federal system will be taken down by prayer, obedience, and the will of God.</p>
-							</div>
-							<div class = "item">
-							<h5>TDCJ - Texas Dept of Corrections</h5>
-								<p class = "text-justify">TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation &amp; Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here&semi; <a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ</a>. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
-								<p class = "text-justify">County jail systems are run individually through the sheriff and the jail administrator. Background checks may be ordered or ministry credentials requested to authenticate individuals who desire to volunteer at chapel services or Bible studies. Be advised that each jail can operate completely different from one another due to local government. NOTE: Do not be discouraged by individuals who are not “friendly” with “faith-based” volunteers. Your strength, commitment, and perseverance in serving God will overcome the most stubborn obstacles.</p>
-							</div>
-							<div class = "item">
-							<h5>Texas Juvenile Justice Dept</h5>
-								<p class = "text-justify">Texas Juvenile Justice Department has undergone MAJOR changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
-								<p class = "text-justify">County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
-							</div>		
-							<!--indicators-->
-						<ol class="carousel-indicators">
-        					<li data-target="#carousel-systems" data-slide-to="0" class="active"></li>
-        					<li data-target="#carousel-systems" data-slide-to="1"></li>
-        					<li data-target="#carousel-systems" data-slide-to="2"></li>
-        					<li data-target="#carousel-systems" data-slide-to="3"></li>
-    					</ol>	
-						</div><!--end of carousel inner -->	
-					</div><!--end of carousel systems -->
-				</div><!--end of col-md-12-->
+			<div class = "row-fluid col-xs-12 ">	<!--Carousel Info-->
+			<div id="carousel-systems" class="carousel slide well center-block" data-ride="carousel" data-interval="false">
+			<h3 class = "text-center">Details of current outreaches </h3>	
+			<div class = "carousel-inner" role = "listbox">
+				<div class = "item active">
+				<h5>Outreach Systems Information</h5>
+				<p class = "text-justify">Each system both Federal and County, youth or adult, has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
+			</div>
+					<div class = "item">
+					<h5>Federal Systems</h5>
+					<p class = "text-justify">We are ONLY allowed to enter the federal system as visitors on an offenders approved visitors list. Federal law requires that all faiths be tolerated. Unit chaplains are unable to accommodate the requests of anyone who desires to volunteer for chaplain services for any faith. As a result, no visitor may carry a Bible, Koran, Torah, etc. No personal items may be on your person, including caps, studded clothing or any item that could be considered a weapon. Individuals are thoroughly searched, and electronically drug screened. We pray that the roadblocks to witnessing in the federal system will be taken down by prayer, obedience, and the will of God.</p>
+				</div>
+				<div class = "item">
+				<h5>TDCJ - Texas Dept of Corrections</h5>
+					<p class = "text-justify">TDCJ requirements are less restrictive. Perspective volunteers must apply through the Rehabilitation &amp; Reentry Programs Division in Huntsville, Texas. Applications can be downloaded here&semi; <a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ</a>. The application is considered after a background check is run. The volunteer candidate is sent a letter with approval to proceed. Initial training MUST be completed at any unit listed in the letter before being placed on the approved master list in the individual unit requested for volunteer service. Individuals typically work through a church or faith-based organization such as Kairos.</p>
+				</div>
+				<div class = "item">
+				<h5>TDCJ - Texas Dept of Corrections - County</h5>
+					<p class = "text-justify">The County jail systems are run individually through the sheriff and the jail administrator. Background checks may be ordered or ministry credentials requested to authenticate individuals who desire to volunteer at chapel services or Bible studies. Be advised that each jail can operate completely different from one another due to local government. <em>NOTE:</em> Do not be discouraged by individuals who are not “friendly” with “faith-based” volunteers. Your strength, commitment, and perseverance in serving God will overcome the most stubborn obstacles.</p>
+				</div>
+				<div class = "item">
+				<h5>Texas Juvenile Justice Dept</h5>
+					<p class = "text-justify">Texas Juvenile Justice Department has undergone <em>MAJOR</em> changes in administration from it’s former organization, Texas Youth Commission. Volunteers must follow similar procedures to TDCJ to enable them to volunteer at the local units.</p> 
+					<p class = "text-justify">County Juvenile Boot Camps are similar to the county jail system. The requirements are normally less stringent. The administrators are typically the Chief Probation Officer in that county. We have found extreme favor locally in our mentoring initiative.</p>
+				</div>		
+				<!--indicators-->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-systems" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-systems" data-slide-to="1"></li>
+				<li data-target="#carousel-systems" data-slide-to="2"></li>
+				<li data-target="#carousel-systems" data-slide-to="3"></li>
+				<li data-target="#carousel-systems" data-slide-to="4"></li>
+			</ol>	
+			</div><!--end of carousel inner -->	
+		</div><!--end of carousel systems -->
 			</div><!--end of row-->
 			<div class = "row-fluid">				
 				<div class = "col-md-11 col-md-offset-1">
@@ -168,7 +169,7 @@
 							<div class = "verse pullR gapL"><!--the following divs style the verse-->
 							<div class = "innerBox center-block">
 							<div class = "vtext">
-							<h5 class = "center-block">We endeavor to reach out to anyone who is hurting in a lost and desperate world.<cite>~(Phil 2&colon;15)</cite></h5>
+							<h5 class = "center-block">We endeavor to reach out to anyone who is hurting in a lost and desperate world.<br /><cite>~(Phil 2&colon;15)</cite></h5>
 							</div><!--end of vtext-->
 							</div><!--end of inner box-->
 							</div> <!--end of verse center-block & verse styling-->
@@ -197,7 +198,7 @@
                 <div class = "verse pullL gapR"><!--the following divs style the verse-->
                 <div class = "innerBox center-block">
 				<div class = "vtext">
-				<h5 class = "center-block">Discover the tools available to chase the darkness out of this present day.<cite>~&lpar;Ephesians 6&colon;11&dash;18&rpar;</cite></h5>
+				<h5 class = "center-block">Discover the tools available to chase the darkness out of this present day.<br /><cite>~&lpar;Ephesians 6&colon;11&dash;18&rpar;</cite></h5>
 				</div><!--end of vtext-->
 				</div><!--end of innerbox-->
 				</div><!--end of verse & verse styling-->
@@ -282,7 +283,7 @@
             <div class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
             <div class = "innerBox center-block">
 			<div class = "vtext">
-			<h5 class = "center-block">Show up and be counted as faithful to the cause of changing hearts, young and old.<cite>~&lpar;John 20&colon;21, Acts 1&colon;8&rpar;</cite></h5>
+			<h5 class = "center-block">Show up and be counted as faithful to the cause of changing hearts, young and old.<br /><cite>~&lpar;John 20&colon;21, Acts 1&colon;8&rpar;</cite></h5>
 			</div><!--end of vtext-->
 			</div><!--end of inner box-->
 			</div> <!--end of verse center-block & verse styling-->
