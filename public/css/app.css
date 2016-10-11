@@ -4909,7 +4909,7 @@ a:hover, a:focus {
 .cta {
   color: #A8850e; }
 
-.fa-2x, #about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i {
+#about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i {
   position: absolute;
   bottom: 0;
   left: 50%; }
@@ -4997,21 +4997,16 @@ a:hover, a:focus {
     width: 100%;
     margin: 0 auto; }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
+#arrow.fa-5x {
+  position: absolute;
+  bottom: 0;
+  left: 45%; }
 
-.fade-in {
-  animation-delay: 10s;
-  opacity: 0;
-  /* make things invisible upon start */
-  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  animation: fadeIn ease-in 1;
-  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  animation-fill-mode: forwards;
-  animation-duration: 5s; }
+.animated.bounceInDown {
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s; }
 
 #landingL, #landingR, #vHeadingR, #vHeadingL {
   width: 98%;
@@ -5033,8 +5028,9 @@ p.tagline {
 
 #landingR img:last-of-type {
   max-width: 12em; }
-  #landingR img:last-of-type blockquote {
-    width: 75%; }
+
+blockquote {
+  border-left: 0 solid #eeeeee; }
 
 #about {
   color: #122B40;
@@ -5291,6 +5287,8 @@ p.tagline {
     font-size: 22px; }
   h3 {
     font-size: 18px; }
+  #arrow.fa-5x {
+    font-size: 3em; }
   #information img, .center-icon {
     float: none !important;
     margin-left: auto;

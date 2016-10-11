@@ -4,9 +4,6 @@
 		<div id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
 @endsection <!--end of title section-->	
-@if(Session::has('message'))
-    <div class="alert alert-success"><em> {!! session('message') !!}</em></div>
-@endif
 						<div class = "row-fluid">	
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
 	                		<div id = "landingL">
@@ -26,7 +23,7 @@
 	                	</div> <!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->	
 	                	</div><!--end of row-fluid-->
 	                	<!--scroll arrow-->	               
-						<a href = "#about"><i class = "fa fa-arrow-down fa-2x fade-in" aria-hidden = "true"></i></a>	
+						<a href = "#about"><i id = "arrow" class = "fa fa-arrow-down fa-5x" aria-hidden = "true"></i></a>	
 						<!--end of scroll arrow-->             	           	
 	            	</div><!--end of Landing"-->
 	            <!--beginning of #About-->

@@ -72,7 +72,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 .cta{
   color: $brand-link;
 }
-.fa-2x, #about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i{
+#about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i{
   position:absolute;
   bottom: 0;
   left: 50%;
@@ -175,46 +175,16 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   margin: 0 auto;  
   }
 }
-@-webkit-keyframes fadeIn { 
-  from { 
-    opacity:0;
-     } 
-  to { 
-    opacity:1; 
-    } 
-  }
-@-moz-keyframes fadeIn {
- from { 
-  opacity:0; 
-  } 
-  to { 
-  opacity:1; 
-  } 
+#arrow.fa-5x{
+  position:absolute;
+  bottom: 0;
+  left: 45%;
 }
-@keyframes fadeIn { 
-  from { 
-    opacity:0;
-     } 
-     to {
-    opacity:1; 
-    } 
-  }
-.fade-in {
--webkit-animation-delay: 10s;
--moz-animation-delay: 10s;
-animation-delay: 10s;
-opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
- 
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
- 
-  -webkit-animation-duration: 5s;
-  -moz-animation-duration: 5s;
+.animated.bounceInDown{
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
   animation-duration:5s;
+  -webkit-animation-duration: 5s;
 }
  #landingL, #landingR, #vHeadingR, #vHeadingL{
   width: 98%;
@@ -236,10 +206,10 @@ opacity:0;  /* make things invisible upon start */
 }
 #landingR img:last-of-type{
 	max-width: 12em;  //based on 18px font for alpha Omega svg only
-  blockquote{
-    width: 75%;
-  }
 }
+  blockquote{   
+    border-left: 0 solid #eeeeee;
+  }
 //end of landing
 #about{  
   color: $brand-primary;
@@ -562,6 +532,9 @@ opacity:0;  /* make things invisible upon start */
   h3{
     font-size: 18px;  
   }  
+  #arrow.fa-5x{
+    font-size:3em;
+  }
   #information img, .center-icon{
     float: none !important;
     margin-left: auto;    

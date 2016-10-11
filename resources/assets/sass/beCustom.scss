@@ -8,6 +8,17 @@ html, body{
 h1, h2, h3, h4, h5, h6{
   font-weight: bold; 
 }
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
 .container-fluid{
   max-width: 100%; 
   margin-top: 5%;

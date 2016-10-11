@@ -40,4 +40,16 @@ else{
     }
   });
 
-});
+
+/*jslint browser: true*/
+
+   
+   var animationName = "animated bounceInDown";
+   var animationEnd = "webkitAnimationEnd mozAnimatinEnd MsAnimationEnd oanimationend animationend";
+           $('#arrow').addClass(animationName).one(animationEnd,
+             function() {
+               $(this).removeClass(animationName);
+             });
+       
+
+}); //end of first document.

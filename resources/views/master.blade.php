@@ -22,8 +22,8 @@
         <script src="https://use.fontawesome.com/fe25733dc5.js"></script>
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
-        <!--datepicker-->
-        {{-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css"> --}}
+        <!--animate-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
 
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
