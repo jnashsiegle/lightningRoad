@@ -9,7 +9,7 @@
         <META NAME="robots" CONTENT="NOINDEX, NOFOLLOW">
         <meta name = "author" content = "Jana Nash-Siegle">        
         <link rel="shortcut icon" href="../images/logos/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="../images/logos/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
         <!--Font Awesome CDN-->
         <script src="https://use.fontawesome.com/fe25733dc5.js"></script>
         <!-- Customized stylesheet from SASS -->
