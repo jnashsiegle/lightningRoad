@@ -39,7 +39,7 @@
 		<h1 class = "text-center">Who We Are</h1>
 		<div class = "row-fluid ">
 			<div class = "col-md-12">
-				<img src = "../images/SteveRose-216x300.jpg" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />
+				<img src = "../images/SteveRose-216x300.jpg" id = "moore" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" />
 				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through <a href = "http://treeoflifechurch.org" target = "_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
