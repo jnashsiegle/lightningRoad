@@ -8,7 +8,7 @@
         <title>@yield('title')</title>
         <META NAME="robots" CONTENT="NOINDEX, NOFOLLOW">
         <meta name = "author" content = "Jana Nash-Siegle">        
-        <link rel="shortcut icon" href="../images/logos/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/x-icon">
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
         
         <!-- Customized stylesheet from SASS -->
