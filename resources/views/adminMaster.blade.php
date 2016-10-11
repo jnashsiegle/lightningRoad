@@ -10,12 +10,11 @@
         <meta name = "author" content = "Jana Nash-Siegle">        
         <link rel="shortcut icon" href="../images/logos/favicon.ico" type="image/x-icon">
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
-        <!--Font Awesome CDN-->
-        <script src="https://use.fontawesome.com/fe25733dc5.js"></script>
+        
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/beApp.css') }}" rel="stylesheet" type="text/css" >
+        <link async href="{{ asset('css/beApp.css') }}" rel="stylesheet" type="text/css" >
         <!--Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">  
+        <link async href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">  
         <!--Necessary shims-->
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js">
@@ -49,6 +48,8 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous"></script>
+    <!--Font Awesome CDN-->
+    <script src="https://use.fontawesome.com/fe25733dc5.js"></script>
     <script type = "text/javascript" src = "{{ asset('js/myOther.js')  }}"></script>    
 
 

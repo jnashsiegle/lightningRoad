@@ -20,13 +20,13 @@
         <link rel="icon" href="../images/logos/favicon.ico" type="image/x-icon">
         
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+        <link async href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
         <!--animate-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
 
         <!--Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet"> 
+        <link async href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+        <link async href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet"> 
 
         
         <!--Necessary shims-->
