@@ -18,7 +18,7 @@
         <link rel="canonical" href="http://lightningroadfp.tech/">
         <?php
        //cache control
-          header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
+          header("Cache-Control: public, max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
         ?>
         <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
@@ -49,8 +49,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <!--Font Awesome CDN-->
     <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script> 
-    <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}"></script>
-    <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" defer = "defer"></script>  
+    <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}" async = "async" defer = "defer"></script>
+    <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script>  
     
     </body>
 </html>
