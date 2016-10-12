@@ -11,18 +11,21 @@ var elixir = require('laravel-elixir');
  |
  */
 
-/*git s*/
+
 /*elixir(function(mix) {
     mix.sass('app.scss');
 });*/
+elixir(function(mix) {
+    mix.sass('beApp.scss');
+});
 /*elixir(function(mix) {
     mix.scripts(['arrow.js'],
     	'public/js/arrow.min.js');
 });*/
-elixir(function(mix) {
+/*elixir(function(mix) {
     mix.scripts([
         'defer.js',
         'mLightbox.js'
     ],
     'public/js/all.min.js');
-});
+});*/

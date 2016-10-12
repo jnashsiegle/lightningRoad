@@ -251,8 +251,8 @@
     		<div class="modal-dialog">
         		<div class="modal-content">
             		<div class="modal-header">
-		                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-		                <h4 class="modal-title" id="image-gallery-title"></h4>
+		                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" aria-label = "close">×</span><span class="sr-only">Close</span></button>
+		                <div class="modal-title" id="image-gallery-title"></div>
             		</div><!--end modal header-->
 		            <div class="modal-body">
 		                <img id="image-gallery-image" class="img-responsive" src="#" alt = "" aria-hidden="true">

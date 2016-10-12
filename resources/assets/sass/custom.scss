@@ -340,6 +340,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   }  
 }
 //lightbox
+.modal-title, #image-gallery-caption{
+  font-family: $font-family-serif;
+}
 .modal-dialog {
  max-width:600px;  
 }
