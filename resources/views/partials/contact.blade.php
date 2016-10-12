@@ -6,7 +6,7 @@
 			  <a class="breadcrumb-item" href="#about">Who / </a>
 			  <a class="breadcrumb-item" href="#what">What / </a>
 			  <a class="breadcrumb-item" href="#mission">Mission / </a>
-			  <span class="breadcrumb-item active" href = "#contact">Contact / </span>
+			  <a class="breadcrumb-item active" href = "#contact">Contact / </a>
 			  <a class="breadcrumb-item" href = "#gallery">Gallery</a>
 			</nav>
 			<!--Flash Message -->
@@ -54,7 +54,7 @@
 
 
 
-			<form id="contact-form" data-toggle = "validator" name = "contact" method="POST" action="contact" role="form">
+			<form id="contact-form" data-toggle = "validator" name = "contact" method="POST" action="contact">
 			{{ csrf_field() }}
 			    <h1 class = "clearfix text-center">Request Information</h1>
 			    <div class="row-fluid">
@@ -80,35 +80,17 @@
 		                </div><!--end of form-group-->
 		           {{--  </div>   --}}          
 		        </div><!--end of row-->
-		        {{-- <div class = "row-fluid">
-			        <div class="form-group date col-md-6 col-md-offset-3 column">
-				        <label for ="date" class = "control-label">Date <span class = "requiredNotice">*</span></label>
-				         <input id = "datepicker" type = "text" name = "date" class = "form-control" required = "required" data-error = "Sorry, but you must include the date" value = "">
-				         
-				         <div class="help-block with-errors"></div>
-			         </div>
-		         </div> --}}<!--end of row-fluid-->
-		         
-		        {{-- <div class = "row-fluid">
-			        <div class="form-group date col-md-6 col-md-offset-3 column">
-				        <label for ="date" class = "control-label">Date <span class = "requiredNotice">*</span></label>
-				         <input id = "datepicker" type = "text" name = "date" class = "form-control" required = "required" data-error = "Sorry, but you must include the date" value = "">
-				         
-				         <div class="help-block with-errors"></div>
-			         </div>
-		         </div> --}}<!--end of row-fluid-->
-		         
 		        <div class = "row-fluid">
 		        {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			        <div class = "form-group subject col-md-6 col-md-offset-3 column">			       
 						<label for = "subject" class = "control-label">Subject: <span class = "requiredNotice">*</span></label>
-						<select class = "form-control" id = "subject" name = "subject" required = "required" data-error = "You forgot to fill in the subject, thank you!" value=""> 	
+						<select class = "form-control" id = "subject" name = "subject" required = "required" data-error = "You forgot to fill in the subject, thank you!"> 	
 							<option value = "">Please select a subject...</option>
 							<option value = "Mentoring">Mentoring</option>
 							<option value = "Prison Ministry">Prison Ministry</option>
 							<option value = "How can I get involved?">How can I get involved?</option>
 							<option value = "Financial Support">Financial Support</option>
-							<option name = "customSubject" value = "Other">Other</option>
+							<option id = "customSubject" value = "Other">Other</option>
 						</select>						
 							<input id = "customOther" class = "form-control hiddenField" type = "text" name = "customOther" placeholder = "Write your subject here" value = ""/><span id = "charCount" class = "text-muted hiddenField"></span>
 							<p id="count-subject" class="form-text text-muted hiddenField">

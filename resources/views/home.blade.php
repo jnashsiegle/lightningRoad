@@ -28,7 +28,7 @@
 	            	</div><!--end of Landing"-->
 	            <!--beginning of #About-->
 	<div id = "about" class = "container-fluid"> <!--Who we are section -->
-	<nav class="breadcrumb" role = "navigation">
+	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
 	  <a class="breadcrumb-item active" href="#about">Who / </a>
 	  <a class="breadcrumb-item" href="#what">What / </a>
@@ -55,7 +55,7 @@
 	</div><!--end of #About-->
 	<div id = "what" class = "container-fluid"> <!--What We Do section -->
 	<!--breadcrumbs-->
-	<nav class="breadcrumb" role = "navigation">
+	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
 	  <a class="breadcrumb-item" href="#about">Who / </a>
 	  <a class="breadcrumb-item active" href="#what">What / </a>
@@ -106,7 +106,7 @@
 			<div class = "carousel-inner" role = "listbox">
 				<div class = "item active">
 				<h5>Outreach Systems Information</h5>
-				<p class = "text-justify">Each system both Federal and County, youth or adult, has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a hef = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
+				<p class = "text-justify">Each system both Federal and County, youth or adult, has a summary of information within this carousel for you to read if you have an interest. <span class = "text-uppercase"><strong>Scroll</strong></span> through the slides of information with the control circles below. Feel free to <a href = "#contact">contact us </a>if we can offer you more information on how you can "Show Up" and get involved.</p>
 			</div>
 					<div class = "item">
 					<h5>Federal Systems</h5>
@@ -145,7 +145,7 @@
 		
 		<div id = "mission" class = "container-fluid"> <!--Mission section -->
 		<!--breadcrumbs-->
-		<nav class="breadcrumb" role = "navigation">
+		<nav class="breadcrumb">
 		  <a class="breadcrumb-item" href="#">Home / </a>
 		  <a class="breadcrumb-item" href="#about">Who / </a>
 		  <a class="breadcrumb-item" href="#what">What / </a>
@@ -205,43 +205,43 @@
 
             <div class = "row-fluid hcenter">            
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Jerry Savelle and team praying for Rev" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Jerry Savelle and team praying for Rev" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
+		                <a class = "gImage" title = "Jerry Savelle and team praying for Rev" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Jerry Savelle and team praying for Rev" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JerrySavelleandteamprayingforRevT.jpg" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
 		                </a> 
 		            </div>
 			               
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-target = "#image-gallery" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
+		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJC_PINKGLOVEST.jpg" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Johnny Spinks motivating the youth" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks motivates" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-target = "#image-gallery" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
+		                <a class = "gImage" title = "Johnny Spinks motivating the youth" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks motivates" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJCT.jpg" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Blessing Colors" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy blessing colors for James at a street outreach" data-image = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-target = "#image-gallery" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
+		                <a class = "gImage" title = "Blessing Colors" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy blessing colors for James at a street outreach" data-image = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/PastorBillyblessingolorsforJamesatstreetoutreach_SAT.jpg" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Slow Race at Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
+		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Slow Race at Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Tough Love Rally - Another View" data-image = "../images/fullsize/ToughLoveRally_slowrace.jpg" data-target = "#image-gallery" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
+		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Tough Love Rally - Another View" data-image = "../images/fullsize/ToughLoveRally_slowrace.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowraceT.jpg" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 		            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Pastor Billy at the Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-target = "#image-gallery" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
+		                <a class = "gImage" title = "Pastor Billy at the Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_PastorBillyT.jpg" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Ring Toss Fun" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring toss fun at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery" alt = "Ring toss fun at the Tough Love Rally" aria-hidden="true">
+		                <a class = "gImage" title = "Ring Toss Fun" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring toss fun at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt = "Ring toss fun at the Tough Love Rally" aria-hidden="true">
 		                </a> 
 		            </div>
@@ -255,17 +255,17 @@
 		                <h4 class="modal-title" id="image-gallery-title"></h4>
             		</div><!--end modal header-->
 		            <div class="modal-body">
-		                <img id="image-gallery-image" class="img-responsive" src="" alt = "" aria-hidden="true">
+		                <img id="image-gallery-image" class="img-responsive" src="#" alt = "" aria-hidden="true">
 		            </div>
 		            <div class="modal-footer  center-block">
 		                <div class="col-xs-3 col-md-4 col-lg-3">		               
-		                    <button type="button" role = "button" class="btn btn-primary  btn-responsive pull-left" id="show-previous-image" aria-label = "back">Back</button>
+		                    <button type="button" class="btn btn-primary  btn-responsive pull-left" id="show-previous-image" aria-label = "back">Back</button>
 		                </div>
 		                <div class="col-xs-6 col-md-5 col-lg-6 center-block text-center" id="image-gallery-caption">
 		                    This text will be overwritten by jQuery
 		                </div>
 		                <div class="col-xs-3 col-md-3 col-lg-2 pull-right">
-		                    <button type="button" role = "button" id="show-next-image" class="btn btn-default btn-responsive" aria-label = "next">Next</button>
+		                    <button type="button" id="show-next-image" class="btn btn-default btn-responsive" aria-label = "next">Next</button>
 		                </div>
 
             		</div><!--end modal footer-->
@@ -276,7 +276,7 @@
 
             <div class = "row-fluid">
 	            <div class = "col-lg-12"> 	            
-					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" alt = "Lightning Road Biker Outreach" alt = "Lightning Road Biker Outrach Logo" aria-hidden="true"/> 
+					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" alt = "Lightning Road Biker Outreach" aria-hidden="true"/> 
             <div class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
             <div class = "innerBox center-block">
 			<div class = "vtext">
@@ -289,22 +289,15 @@
         </div><!--end of container-->
        
        	
-        	<div id = "information" class="container-fluid"><!--footer-->
+        	<div id = "information" class="container-fluid" role = "contentinfo"><!--footer-->
            		<div class = "row-fluid"> 
            			<div class="navbar" role = "navigation">
 	                <ul class="nav navbar-nav">
-	                
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#landing">Back To Top</a></li>
-	                
-	                
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#about">About Us</a></li>
-	                    
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#what">What We Do</a></li>
-	                    
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#mission">Mission Statement</a></li>
-	                    
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#contact">Request Information</a></li>
-	                    
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#gallery">Our Journey</a></li>  	                   
 	                	</ul>            	
        		 		</div><!--end navbar-->
@@ -325,7 +318,7 @@
 			<div class = "row-fluid">	
 			<div class = "credits">
 					<div class = "col-md-6">
-						<p class = "text-muted">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'">LightPoint Development</a></p>
+						<p class = "text-muted">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'>LightPoint Development</a></p>
 					</div>
 				
 					<div class = "col-md-6">
@@ -333,7 +326,6 @@
 					</div><!--end of col-md-6-->
 				</div><!--end of credits-->	
 				</div><!--end of row-fluid-->
-							
 			</div><!--end of footer-->
     	</div><!--end #information-->
  @endsection {{-- end of content1 --}}
