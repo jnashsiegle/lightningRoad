@@ -138,7 +138,7 @@
 			</div><!--end of row-->
 			<div class = "row-fluid">				
 				<div class = "col-md-11 col-md-offset-1">
-					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Day of Champions">
+					<img src = "../images/thumbnails/HaysCo_Juvenile_Bible_deliveryT.jpg" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Day of Champions">
 				</div>
 			</div><!--end of row-->			
 		</div><!--end of #What section-->
@@ -156,7 +156,7 @@
 			<h1 class = "text-center">Mission Statement</h1>
 			<div class = "row-fluid">
 				<div class = "col-xs-12">
-					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" class = "img-responsive pullL gapR" alt = "Day of Champions">
+					<img src = "../images/thumbnails/IMG_0152T.jpg" class = "img-responsive pullL gapR" alt = "Day of Champions">
 						<div class = "statement clearfix">
 						<p class = "text-left">SPREADING the gospel of Jesus Christ through itinerant evangelism primarily but not limited to, by motorcycle.</p> 
 						<p class = "text-left">REACHING OUT to the biker world through tours, rallies, organized rides, meetings, services, etc: using printed, audio, video, Internet, and other media sources to disseminate information.</p>
@@ -205,44 +205,44 @@
 
             <div class = "row-fluid hcenter">            
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JerrySavelleandteamprayingforRevT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 			               
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions1" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions1" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions1" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions1" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJC_PINKGLOVEST.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions2" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions2" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions2" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions2" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJCT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions3" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions3" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions3" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions3" data-image = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/PastorBillyblessingolorsforJamesatstreetoutreach_SAT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions4" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions4" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions4" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions4" data-image = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions5" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions5" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions5" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions5" data-image = "../images/fullsize/ToughLoveRally_slowrace.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowraceT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 		            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions6" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions6" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions6" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions6" data-image = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_PastorBillyT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Day of Champions7" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions7" data-image = "../images/fullsize/DayofChampions_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" alt="Day of Champions">
+		                <a class = "gImage" title = "Day of Champions7" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions7" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt="Day of Champions">
 		                </a> 
 		            </div>
 	        </div><!--end of row-fluid-->  
