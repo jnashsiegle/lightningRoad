@@ -16,16 +16,13 @@ var elixir = require('laravel-elixir');
     mix.sass('app.scss');
 });*/
 /*elixir(function(mix) {
-    mix.scripts(['myOther.js'],
-    	'public/js/myOther.min.js');
-});*/
-/*elixir(function(mix) {
-    mix.scripts(['mLightbox.js'],
-    	'public/js/mLightbox.min.js');
+    mix.scripts(['arrow.js'],
+    	'public/js/arrow.min.js');
 });*/
 elixir(function(mix) {
     mix.scripts([
-        'myOther.js',
+        'defer.js',
         'mLightbox.js'
-    ]);
+    ],
+    'public/js/all.min.js');
 });

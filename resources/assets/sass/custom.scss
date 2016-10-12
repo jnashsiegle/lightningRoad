@@ -72,7 +72,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 .cta{
   color: $brand-link;
 }
-#about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i{
+ #about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i{
   position:absolute;
   bottom: 0;
   left: 50%;
@@ -520,7 +520,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 }
 ///Through Tablet Portrait  992PX
 @media screen and (max-width: 992px) {
-  blockquote, p,input,span,h4,h5 div, li {
+  blockquote, p,input,span,h4,h5 div, li, .modal-title, .modal-caption, .image-gallery-title {
     font-size: 95%;
   }  
   h1 {
@@ -543,7 +543,8 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   }    
  #information .center-icon{
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    display: block;    
   } 
 .verse{
   max-width: 80%;  

@@ -205,43 +205,43 @@
 
             <div class = "row-fluid hcenter">            
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Jerry Savelle and Team" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
+		                <a class = "gImage" title = "Jerry Savelle and team praying for Rev" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Jerry Savelle and team praying for Rev" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JerrySavelleandteamprayingforRevT.jpg" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
 		                </a> 
 		            </div>
 			               
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions1" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-target = "#image-gallery" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
+		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-target = "#image-gallery" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJC_PINKGLOVEST.jpg" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions2" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-target = "#image-gallery" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
+		                <a class = "gImage" title = "Johnny Spinks motivating the youth" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks motivates" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-target = "#image-gallery" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJCT.jpg" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Blessing Colors" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions3" data-image = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-target = "#image-gallery" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
+		                <a class = "gImage" title = "Blessing Colors" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy blessing colors for James at a street outreach" data-image = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-target = "#image-gallery" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/PastorBillyblessingolorsforJamesatstreetoutreach_SAT.jpg" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions4" data-image = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
+		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Slow Race at Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions5" data-image = "../images/fullsize/ToughLoveRally_slowrace.jpg" data-target = "#image-gallery" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
+		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Tough Love Rally - Another View" data-image = "../images/fullsize/ToughLoveRally_slowrace.jpg" data-target = "#image-gallery" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowraceT.jpg" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 		            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Pastor Billy at the Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions6" data-image = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-target = "#image-gallery" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
+		                <a class = "gImage" title = "Pastor Billy at the Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-target = "#image-gallery" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_PastorBillyT.jpg" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Ring Toss Fun" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring of Champions7" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery" alt = "Ring toss fun at the Tough Love Rally" aria-hidden="true">
+		                <a class = "gImage" title = "Ring Toss Fun" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring toss fun at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery" alt = "Ring toss fun at the Tough Love Rally" aria-hidden="true">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt = "Ring toss fun at the Tough Love Rally" aria-hidden="true">
 		                </a> 
 		            </div>
@@ -318,7 +318,7 @@
 						<p class = "text-center" role = "link"><a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ Download</a></p>
 						<p class = "text-center" role = "link"><a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a></p>
 				</div>				
-				<div class = "col-md-4 center-block">										
+				<div class = "col-md-4 center-block">
 						<a href = "https://www.facebook.com/sozosam/" target = "_blank"><i class="fa fa-5x fa-facebook center-icon pullR text-center" aria-hidden="true"></i></a>
 				</div>
 			</div><!--end row fluid-->
