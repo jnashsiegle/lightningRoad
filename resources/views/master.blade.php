@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,18 +15,18 @@
         <meta name="keywords" content="tdcj, texas inmate, texas offender, texas prison inmate, county jail, texas department of criminal justice, texas inmates, tdcj offender, texas department of corrections, tdcj website, texas juvenile justice department, county juvenile boot camps, texas youth
         commission, hays county detention center, texas mentoring, faith-based mentoring, motorcycle outreach, christian bikers, biker evangelism">
         <meta name = "author" content = "Jana Nash-Siegle">
-        <link rel=”canonical” href=”http://lightningroadfp.tech” />
+        <link rel="canonical" href="http://lightningroadfp.tech/">
         <?php
        //cache control
           header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
         ?>
         <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
-        <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/image/png">
+        <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
         
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
         <!--animate-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel = "stylesheet" type = "text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel = "stylesheet" type = "text/css">
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css">
         <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet" type = "text/css"> 
@@ -38,7 +38,7 @@
     </head>
     <body>
     <!--google analytics tracking  - MOVE TO MASTER BLADE TEMPLATE when developed -->
-    <script async>
+    <script async = "async" defer = "defer">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
