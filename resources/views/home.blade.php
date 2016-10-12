@@ -182,7 +182,7 @@
 
 @section('content1') 	
 	<div id = "gallery" class = "container-fluid"> <!--gallery section -->	
-	<nav class="breadcrumb" role = "navigation">
+	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
 	  <a class="breadcrumb-item" href="#about">Who / </a>
 	  <a class="breadcrumb-item" href="#what">What / </a>
@@ -326,6 +326,5 @@
 					</div><!--end of col-md-6-->
 				</div><!--end of credits-->	
 				</div><!--end of row-fluid-->
-			</div><!--end of footer-->
-    	</div><!--end #information-->
+			</div><!--end of information-->
  @endsection {{-- end of content1 --}}
