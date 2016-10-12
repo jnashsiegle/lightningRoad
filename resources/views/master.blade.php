@@ -63,7 +63,7 @@
     <!--Font Awesome CDN-->
     {{-- <script async src="https://use.fontawesome.com/fe25733dc5.js"></script> --}}
     <script type = "text/javascript" src = "{{ asset('/js/mLightbox.min.js') }}" async="async" defer = "defer"></script> 
-    <script type = "text/javascript" src = "{{ asset('/js/myOther.min.js')  }}" async="async" defer = "defer"></script>  
+    <script type = "text/javascript" src = "{{ asset('/js/myOther.min.js')  }}"></script>  
     
     </body>
 </html>
