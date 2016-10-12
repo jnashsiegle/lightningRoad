@@ -24,12 +24,12 @@
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
         
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" media="screen">
         <!--animate-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel = "stylesheet" type = "text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel = "stylesheet" type = "text/css" media="screen">
         <!--Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css">
-        <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet" type = "text/css"> 
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css" media="screen">
+        <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet" type = "text/css" media="screen"> 
         <!--Necessary shims-->
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js">

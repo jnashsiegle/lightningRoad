@@ -12,12 +12,12 @@ var elixir = require('laravel-elixir');
  */
 
 
-/*elixir(function(mix) {
-    mix.sass('app.scss');
-});*/
 elixir(function(mix) {
-    mix.sass('beApp.scss');
+    mix.sass('app.scss');
 });
+/*elixir(function(mix) {
+    mix.sass('beApp.scss');
+});*/
 /*elixir(function(mix) {
     mix.scripts(['arrow.js'],
     	'public/js/arrow.min.js');
