@@ -17,12 +17,9 @@
         <meta name = "author" content = "Jana Nash-Siegle">
         <link rel=”canonical” href=”http://lightningroadfp.tech” />
         <?php
-          
-          
        //cache control
           header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
-
-?>
+        ?>
         <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/image/png">
         
@@ -30,12 +27,9 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
         <!--animate-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel = "stylesheet" type = "text/css">
-
         <!--Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css" media = "bogus">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css">
         <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet" type = "text/css"> 
-
-        
         <!--Necessary shims-->
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js">
@@ -69,7 +63,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <!--Font Awesome CDN-->
     <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script> 
-   {{--  <script type = "text/javascript" src = "{{ asset('/js/mLightbox.min.js') }}" async="async" defer = "defer"></script>  --}}
     <script type = "text/javascript" src = "{{ asset('/js/all.js')  }}"></script>  
     
     </body>
