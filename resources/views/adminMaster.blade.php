@@ -23,7 +23,7 @@
     </head>
     <body>
     <!--google analytics tracking  - MOVE TO MASTER BLADE TEMPLATE when developed -->
-    <script async>
+    <script async = "async" defer = "defer">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -49,7 +49,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" async="async" defer = "defer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <!--Font Awesome CDN-->
-    {{-- <script src="https://use.fontawesome.com/fe25733dc5.js"></script> --}}
+    <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script>
     <script type = "text/javascript" src = "{{ asset('js/myOther.js')  }}" async="async" defer = "defer"></script>    
 
 

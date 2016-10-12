@@ -11,9 +11,9 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
+/*elixir(function(mix) {
     mix.sass('beApp.scss');
-});
+});*/
 /*elixir(function(mix) {
     mix.sass('app.scss');
 });*/
@@ -25,3 +25,9 @@ elixir(function(mix) {
     mix.scripts(['mLightbox.js'],
     	'public/js/mLightbox.min.js');
 });*/
+elixir(function(mix) {
+    mix.scripts([
+        'myOther.js',
+        'mLightbox.js'
+    ]);
+});

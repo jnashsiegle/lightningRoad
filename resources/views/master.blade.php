@@ -61,9 +61,9 @@
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" async="async" defer = "defer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <!--Font Awesome CDN-->
-    {{-- <script async src="https://use.fontawesome.com/fe25733dc5.js"></script> --}}
-    <script type = "text/javascript" src = "{{ asset('/js/mLightbox.min.js') }}" async="async" defer = "defer"></script> 
-    <script type = "text/javascript" src = "{{ asset('/js/myOther.min.js')  }}"></script>  
+    <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script> 
+   {{--  <script type = "text/javascript" src = "{{ asset('/js/mLightbox.min.js') }}" async="async" defer = "defer"></script>  --}}
+    <script type = "text/javascript" src = "{{ asset('/js/all.js')  }}"></script>  
     
     </body>
 </html>
