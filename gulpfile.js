@@ -18,14 +18,14 @@ var elixir = require('laravel-elixir');
 /*elixir(function(mix) {
     mix.sass('beApp.scss');
 });*/
-elixir(function(mix) {
+/*elixir(function(mix) {
     mix.scripts(['arrow.js'],
     	'public/js/arrow.min.js');
-});
-/*elixir(function(mix) {
+});*/
+elixir(function(mix) {
     mix.scripts([
         'defer.js',
         'mLightbox.js'
     ],
     'public/js/all.min.js');
-});*/
+});
