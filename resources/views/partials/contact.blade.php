@@ -66,7 +66,7 @@
 			            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			                <div class="form-group col-md-6 col-md-offset-3 column">
 			                    <label for="name" class = "control-label">Your Name <span class = "requiredNotice">*</span></label>
-			                    <input id="name" type="text" name="name" class="form-control" placeholder="Your Name " required="required" data-error="Your name is required." value="{{ old('name') }}">		
+			                    <input id="name" type="text" name="name" class="form-control" placeholder="Your Name " required="required" data-error="Your name is required." aria-required = "true" value="{{ old('name') }}">		
 			                    <div class="help-block with-errors"></div>
 			                </div><!--end of form group-->
 			            {{-- </div>end of col-md-6 --}}	
@@ -75,7 +75,7 @@
 		            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 		                <div class="form-group col-md-6 col-md-offset-3 column">
 		                    <label for="email" class = "control-label">Email <span class = "requiredNotice">*</span></label>
-		                    <input id="email" type="email" name="email" class="form-control"  placeholder= "Email Address" required="required"  data-error="Sorry, but that email is invalid." value="{{ old('email') }}">
+		                    <input id="email" type="email" name="email" class="form-control"  placeholder= "Email Address" required="required"  aria-required = "true" data-error="Sorry, but that email is invalid." value="{{ old('email') }}">
 		                    <div class="help-block with-errors"></div>
 		                </div><!--end of form-group-->
 		           {{--  </div>   --}}          
@@ -84,7 +84,7 @@
 		        {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 			        <div class = "form-group subject col-md-6 col-md-offset-3 column">			       
 						<label for = "subject" class = "control-label">Subject: <span class = "requiredNotice">*</span></label>
-						<select class = "form-control" id = "subject" name = "subject" required = "required" data-error = "You forgot to fill in the subject, thank you!"> 	
+						<select class = "form-control" id = "subject" name = "subject" required = "required" aria-required = "true" data-error = "You forgot to fill in the subject, thank you!"> 	
 							<option value = "">Please select a subject...</option>
 							<option value = "Mentoring">Mentoring</option>
 							<option value = "Prison Ministry">Prison Ministry</option>
@@ -106,7 +106,7 @@
 		            {{-- <div class="col-md-6 col-md-offset-3 column"> --}}
 		                <div class="form-group col-md-6 col-md-offset-3 column">
 		                    <label for="message">Message <span class = "requiredNotice">*</span></label>
-		                    <textarea id="message" name="message" class="form-control" placeholder="Write a message. *" rows="4" required="required" data-error="Write a message, please.">{{ old('message') }}</textarea>	
+		                    <textarea id="message" name="message" class="form-control" placeholder="Write a message. *" rows="4" required="required" aria-required = "true" data-error="Write a message, please.">{{ old('message') }}</textarea>	
 		                    <div class="help-block with-errors"></div>
 		                </div><!--end of form-group-->		                
 		            </div><!--end of row fluid-->

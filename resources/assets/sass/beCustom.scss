@@ -161,6 +161,9 @@ span > h1{
 .table > tbody > tr > td{
   vertical-align: middle;
 }
+#image-list > td{
+  word-wrap: break-word;
+}
 //table for user display
 table {
   min-width: 95%;

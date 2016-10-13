@@ -121,14 +121,14 @@ class UsersController extends Controller {
 
     //Delete User
     
-    public function destroy($id)
+    public function destroy($id, Request $request)
     {
         // delete
         $user = User::whereId($id)->firstOrFail();
         $user->delete();
 
         // redirect
-        Session::flash('success', 'Successfully deleted the user!');
+        $request->session()->flash('alert-success', 'User was successfully deleted!');
         return redirect('/users')->with('success', 'The user has been deleted');
     }
 

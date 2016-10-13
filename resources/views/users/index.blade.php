@@ -19,11 +19,13 @@
 				<h2>Users</h2>
 
 			@include('partials.alerts.errors')
-			@if(Session::has('success'))
-				<div class="alert alert-success in"><strong>
-				   <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>{!! Session::get('success') !!}</p>
-				   </strong></div>	    
-			@endif
+			<div class="flash-message">
+                      @foreach (['danger', 'warning', 'success', 'info'] as $msg)
+                          @if(Session::has('alert-' . $msg))
+                          <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
+                          @endif
+                      @endforeach
+                    </div> <!-- end .flash-message -->  
 			@if ($users->isEmpty())
 				<p> There are no users.</p>
 			@else
@@ -49,7 +51,7 @@
 							<td>{!! $user->isAdmin ? 'Yes' : 'No' !!}</td>
 						    <td>
 						        {!! Form::open(['method'=>'DELETE', 'id'=>'deletion', 'route'=>['users.destroy',$user->id]]) !!}	
-						            <button data-toggle="tooltip" data-placement="top" title="Delete" type="submit" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure you want to delete this item?');"><span> &times;</span></button>
+						            <button data-toggle="tooltip" data-placement="top" title="Delete" type="submit" class="btn btn-danger btn-xs" aria-label = "confirm" onclick="return confirm('Are you sure you want to delete this item?');"><span aria-label = "close"> &times;</span></button>
 						         {!! Form::close() !!}
 						    </td>						 
 						</tr>

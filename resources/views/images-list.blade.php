@@ -15,6 +15,7 @@
            <a class="breadcrumb-item" href="../adminP">Admin Panel / </a>    
            <a class="breadcrumb-item active" href="#">Image Listing / </a>     
          </nav>
+         <!--end breadcrumbs-->  
           @include('partials.alerts.errors')
                   <div class="flash-message">
                       @foreach (['danger', 'warning', 'success', 'info'] as $msg)
@@ -23,24 +24,18 @@
                           @endif
                       @endforeach
                     </div> <!-- end .flash-message -->  
-               
-      <!--end breadcrumbs-->  
 
          <div class="row-fluid">
-            @if(count($images) > 0)
                <div class="col-xs-12 text-center">
                   <a href="{{ url('/image/create') }}" class="btn btn-primary" role="button">
                      Add New Image
                   </a>
                   <hr />
-            @endif
-
-
-            @forelse($images as $image)      
-             <div class = "row-fluid text-center"> 
-
-             <div class = "table-responsive">
-                <table class = "table table-striped">
+           @if ($images->isEmpty())
+          <p> There are no images.</p>
+          @else              
+             <div id = "image-list" class = "table-responsive">
+                <table class = "table table-striped table-responsive">
                   <thead>
                     <tr>
                       <th align = "left">id</th>
@@ -61,33 +56,24 @@
                       </div>
                       </td>
                       <td>{!! $image->caption !!}</td>
-                      <td>{!! $image->description !!} </td>
+                      <td class = "word-wrap">{!! $image->description !!} </td>
                       <td>{!! $image->created_at !!}</td>
-                      <td><a href="{{ url('/image/'.$image->id.'/edit') }}" class="btn btn-default pull-left">Edit</a>
+                      <td><a href="{{ url('/image/'.$image->id.'/edit') }}" class="btn btn-default pull-left" aria-label = "Edit">Edit</a></td>
                         <td>
                             {!! Form::open(['method'=>'DELETE', 'id'=>'deletion', 'route'=>['image.destroy',$image->id]]) !!}  
-                                      <button data-toggle="tooltip"  data-placement="top" title="Delete" type="submit" class="btn btn-danger pull-right" onclick="return confirm('Are you sure you want to delete this item?');"><span> &times;</span></button>
+                                      <button data-toggle="tooltip"  data-placement="top" title="Delete" type="submit" class="btn btn-danger" aria-label = "Confirm" onclick="return confirm('Are you sure you want to delete this item?');"><span aria-label = "Close"> &times;</span></button>
                                    {!! Form::close() !!}
-                        </td>            
-                    </tr>
-                  @endforeach
+                        </td>  
+                        @endforeach 
+                    </tr>                  
                   </tbody>
                 </table>
-      </div><!--end of table-responsive--> 
-             
-              </div><!--end of controls-->
-              </div> <!-- end of col-lg-3....-->
-              </div><!--end of row-fluid textcenter -->
-
-          @empty
-               <p>No images yet, <a href="{{ url('image/create') }}">add a new one</a>?</p>
-            @endforelse
+            </div><!--end of table-responsive--> 
+            @endif
+              </div> <!-- end of col-xs-12....-->
          </div><!--end of row fluid-->
-         <div align="center">{!! $images->render() !!}</div>
-      @stop
-    </div><!--end of row fluid beneath breadcrumbs-->
+        @stop 
   </div><!--end of panel body-->
   </div><!--panel panel default-->
   </div><!--end of row fluid top-->
   </div><!--end of container-->
-

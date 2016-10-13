@@ -25,17 +25,17 @@
 
                     <div class="form-group">
                        <label for="userfile">Image File</label>
-                       <input type="file" class="form-control required" name="userfile">
+                       <input type="file" class="form-control required" aria-required = "true" name="userfile">
                     </div>
 
                     <div class="form-group">
                        <label for="caption">Caption</label>
-                       <input type="text" class="form-control required" name="caption" value="">
+                       <input type="text" class="form-control required" aria-required = "true" placeholder = "Caption" data-toggle = "tooltip" data-placement = "top" title = "Alpha only, no numeric inputs" name="caption" value="">
                     </div>
 
                     <div class="form-group">
                        <label for="description">Description</label>
-                       <textarea class="form-control required" name="description"></textarea>
+                       <textarea class="form-control required" aria-required = "true" name="description" placeholder = "Short Description"></textarea>
                     </div>
 
           
