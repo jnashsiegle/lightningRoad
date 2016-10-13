@@ -15,6 +15,7 @@
         <meta name="keywords" content="tdcj, texas inmate, texas offender, texas prison inmate, county jail, texas department of criminal justice, texas inmates, tdcj offender, texas department of corrections, tdcj website, texas juvenile justice department, county juvenile boot camps, texas youth
         commission, hays county detention center, texas mentoring, faith-based mentoring, motorcycle outreach, christian bikers, biker evangelism">
         <meta name = "author" content = "Jana Nash-Siegle">
+        <meta http-equiv="Cache-control" content="public">
         <link rel="canonical" href="http://lightningroadfp.tech/">
         <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
