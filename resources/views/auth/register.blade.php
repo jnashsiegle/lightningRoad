@@ -56,8 +56,8 @@
 						<hr>
 						<div class = "row-fluid col-md-12">
 						<div class = "form-group">	
-								<a href="{{ URL('users') }}" class="btn btn-info btn-close ">Back</a>
-								<button type ="submit" class ="btn btn-default btn-send  pull-right"> Submit </button> 
+								<a href="{{ URL('adminP') }}" class="btn btn-info btn-close" aria-label = "back">Back</a>
+								<button type ="submit" class ="btn btn-default btn-send  pull-right" aria-label = "submit"> Submit </button> 
 
 						</div> <!--end of form group-->
 						</div><!--end of row fluid-->
