@@ -521,8 +521,11 @@ $state-warning-text:             #8a6d3b !default;
 $state-warning-bg:               #fcf8e3 !default;
 $state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
+ /* uncss:ignore */
 $state-danger-text:              #a94442 !default;
+ /* uncss:ignore */
 $state-danger-bg:                #f2dede !default;
+ /* uncss:ignore */
 $state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
 
 

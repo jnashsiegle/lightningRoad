@@ -7,14 +7,14 @@
 						<div class = "row-fluid">	
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
 	                		<div id = "landingL">
-	                		<img src = "../images/logos/textLogoLight.svg" class = "img-responsive hidden-xs hidden-sm" alt = "Lightning Road Biker Outreach" aria-hidden = "true"/>
+	                		<img src = "../images/logos/textLogoLight.svg" width = "301" height = "107" class = "img-responsive hidden-xs hidden-sm" alt = "Lightning Road Biker Outreach" aria-hidden = "true"/>
 	                		<p class = "tagline text-left hidden-xs hidden-sm">B<span style="font-family: thequietscream">i</span>ker Outreach | Motorcycle Evangelism</p>
 	                		</div><!--end of landingL-->
 	                	</div><!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->
 	                	<div class = "col-xs-12 col-md-5 col-md-offset-1 vcenter">
 	                	    <div id = "landingR">       		
-	                		<img src = "../images/logos/textLogoLight.svg" class = ".img-responsive hidden-md hidden-lg hidden-xl" alt = "Lightning Road Biker Outreach Logo" aria-hidden = "true" >
-	                		<img src = "../images/logos/alphaLogo.svg" class = "hidden-sm hidden-xs center-block .img-responsive" alt = "Lightning Road Biker Outreach Logo" aria-hidden="true">
+	                		<img src = "../images/logos/textLogoLight.svg" width = "301" height = "107" class = ".img-responsive hidden-md hidden-lg hidden-xl" alt = "Lightning Road Biker Outreach Logo" aria-hidden = "true" >
+	                		<img src = "../images/logos/alphaLogo.svg" height = "480" width = "463" class = "hidden-sm hidden-xs center-block .img-responsive" alt = "Lightning Road Biker Outreach Logo" aria-hidden="true">
 	                		<blockquote>
 	                		<p>As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.</p>
 	                		<cite> ~ &lpar;Matthew 24&colon;27&rpar;</cite>
@@ -39,7 +39,7 @@
 		<h1 class = "text-center">Who We Are</h1>
 		<div class = "row-fluid ">
 			<div class = "col-md-12">
-				<img src = "../images/SteveRose-216x300.jpg" id = "moore" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" aria-hidden = "true"/>
+				<img src = "../images/SteveRose-216x300.jpg" width = "199" height = "282" id = "moore" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" aria-hidden = "true"/>
 				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through <a href = "http://treeoflifechurch.org" target = "_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
@@ -67,7 +67,7 @@
 		<h3 class = "text-center">When there are so many behind prison doors - VISIT, TEACH, TRAIN, EXHORT</h3>
 			<div class = "row-fluid">
 				<div class = "col-md-12">
-					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" class = "img-responsive pullL gapR" alt = "Day of Champions Outreach at Hays Country Juvenile Facility" aria-hidden="true">
+					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" width = "220" height = "165" class = "img-responsive pullL gapR" alt = "Day of Champions Outreach at Hays Country Juvenile Facility" aria-hidden="true">
 						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor.  The extent of the program is dependent ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
 				</div> <!--end of col-md-9... -->
 			</div><!--end of row-->
@@ -138,7 +138,7 @@
 			</div><!--end of row-->
 			<div class = "row-fluid">				
 				<div class = "col-md-11 col-md-offset-1">
-					<img src = "../images/thumbnails/HaysCo_Juvenile_Bible_deliveryT.jpg" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Delivering Bibles at the Hays County Juvenile Facility" aria-hidden="true">
+					<img src = "../images/thumbnails/HaysCo_Juvenile_Bible_deliveryT.jpg" width = "220" height = "165" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Delivering Bibles at the Hays County Juvenile Facility" aria-hidden="true">
 				</div>
 			</div><!--end of row-->			
 		</div><!--end of #What section-->
@@ -156,7 +156,7 @@
 			<h1 class = "text-center">Mission Statement</h1>
 			<div class = "row-fluid">
 				<div class = "col-xs-12">
-					<img src = "../images/thumbnails/IMG_0152T.jpg" class = "img-responsive pullL gapR" alt = "Reaching out at Rallies">
+					<img src = "../images/thumbnails/IMG_0152T.jpg" width = "220" height = "165" class = "img-responsive pullL gapR" alt = "Reaching out at Rallies">
 						<div class = "statement clearfix">
 						<p class = "text-left">SPREADING the gospel of Jesus Christ through itinerant evangelism primarily but not limited to, by motorcycle.</p> 
 						<p class = "text-left">REACHING OUT to the biker world through tours, rallies, organized rides, meetings, services, etc: using printed, audio, video, Internet, and other media sources to disseminate information.</p>
@@ -206,43 +206,43 @@
             <div class = "row-fluid hcenter">            
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Jerry Savelle and team praying for Rev" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Jerry Savelle and team praying for Rev" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JerrySavelleandteamprayingforRevT.jpg" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JerrySavelleandteamprayingforRevT.jpg" width = "220" height = "165" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
 		                </a> 
 		            </div>
 			               
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJC_PINKGLOVEST.jpg" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
+		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" width = "550" height = "413" data-target = "#image-gallery">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJC_PINKGLOVEST.jpg" width = "220" height = "165" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            <div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Johnny Spinks motivating the youth" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks motivates" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJCT.jpg" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJCT.jpg" width = "220" height = "165" alt = "Johnny Spinks motivating the youth" aria-hidden= "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Blessing Colors" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy blessing colors for James at a street outreach" data-image = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/PastorBillyblessingolorsforJamesatstreetoutreach_SAT.jpg" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/PastorBillyblessingolorsforJamesatstreetoutreach_SAT.jpg" width = "220" height = "165" alt = "Pastor Billy blessing colors for James at a street outreach" aria-hidden= "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Slow Race at Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" width = "220" height = "165" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Tough Love Rally - Another View" data-image = "../images/fullsize/ToughLoveRally_slowrace.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowraceT.jpg" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowraceT.jpg" width = "220" height = "165" alt = "Slow Race view at the Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 		            <div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Pastor Billy at the Tough Love Rally" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Pastor Billy at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_PastorBillyT.jpg" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_PastorBillyT.jpg" width = "220" height = "165" alt = "Pastor Billy at the Tough Love Rally" aria-hidden="true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Ring Toss Fun" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring toss fun at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt = "Ring toss fun at the Tough Love Rally" aria-hidden="true">
+		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt = "Ring toss fun at the Tough Love Rally" width = "220" height = "165" aria-hidden="true">
 		                </a> 
 		            </div>
 	        </div><!--end of row-fluid-->  
@@ -303,8 +303,8 @@
        		 		</div><!--end navbar-->
        		 	</div><!--end row-fluid-->
        		 	<div class = "row-fluid">
-       		 	<div class = "col-md-4 center-block">				
-					<img src = "../images/logos/alphaLogoThumb.svg" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
+       		 	<div class = "col-md-4">				
+					<img src = "../images/logos/alphaLogoThumb.svg" width = "120" height = "116" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
 				</div>				
 				<div class = "col-md-4">
 						<p class = "text-center">DOWNLOADS</p>

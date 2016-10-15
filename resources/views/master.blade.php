@@ -18,14 +18,10 @@
         <link rel="canonical" href="http://lightningroadfp.tech/">
         <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
         <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
-        
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" media="screen">
-        <!--animate-->
-        {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel = "stylesheet" type = "text/css" media="screen"> --}}
+        <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css" media="screen">
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700 | Trade+Winds" rel="stylesheet" type = "text/css" media="screen">
-        {{-- <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet" type = "text/css" media="screen">  --}}
         <!--Necessary shims-->
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js">
@@ -43,8 +39,6 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" async="async" defer = "defer"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" async="async" defer = "defer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
-    <!--Font Awesome CDN-->
-    <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script> 
     <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}" async = "async" defer = "defer"></script>
     <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script>  
     

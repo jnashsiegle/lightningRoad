@@ -8,21 +8,19 @@ h1, h2, h3, h4, h5, h6{
 h1{
   text-shadow: 6px 6px 5px rgba(150, 150, 150, 0.75);
 }
-/* a {
-  color: #A8850e;
-  text-decoration: none; 
-} */
 cite{
   float: right;
   font-family: $font-family-serif;
 }
+/* uncss:ignore */
 hr {
 height: 100px;
-background: url(../images/hr-gray.png) no-repeat center;
+background: url(../../images/hr-gray.png) no-repeat center;
 border: none;
 }
 img{
   max-width: 20%;
+  height: auto;
 }
 img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{ 
   padding: 0;
@@ -33,6 +31,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
+/* uncss:ignore */
  a:hover, a:focus{   
     text-decoration: underline;
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
@@ -64,6 +63,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     line-height: 1.5;
     border-radius:3px;
   }
+  /* uncss:ignore */
 .btn-responsive.disabled, .btn-responsive.disabled:hover{
   background-color: $gray-light;
   color: $brand-primary;
@@ -156,10 +156,11 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
  padding-bottom: 40px;
  position: relative;
 }
+/* uncss:ignore */
 #landing {
-	background: url('../images/lrBkg.jpg') no-repeat center center scroll;
+	background: url('../../images/lrBkg.jpg') no-repeat center center scroll;
 	background-size: cover;
-	min-width: 100%;
+	max-width: 100%;
 	min-height: 100vh;
 	color: $brand-secondary;
 .container-fluid{
@@ -180,10 +181,39 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+/* font-awesome */
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.fa-5x {
+    font-size: 5em
+}
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+    content: "\f00d"
+}
+.fa-arrow-down:before {
+    content: "\f063"
+}
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
+}
+/* font awesome end */
 #arrow.fa-5x{
   position:absolute;
   bottom: 0;
   left: 45%;
+}
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
 }
 .animated.bounceInDown{
   animation-delay: 2s;
@@ -196,102 +226,24 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -3000px, 0);
     transform: translate3d(0, -3000px, 0);
   }
-
   60% {
     opacity: 1;
     -webkit-transform: translate3d(0, 25px, 0);
     transform: translate3d(0, 25px, 0);
   }
-
   75% {
     -webkit-transform: translate3d(0, -10px, 0);
     transform: translate3d(0, -10px, 0);
   }
-
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
     transform: translate3d(0, 5px, 0);
   }
-
-  to {
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes bounceInDown {
-  from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -3000px, 0);
-    transform: translate3d(0, -3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 25px, 0);
-    transform: translate3d(0, 25px, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, -10px, 0);
-    transform: translate3d(0, -10px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, 5px, 0);
-    transform: translate3d(0, 5px, 0);
-  }
-
-  to {
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.bounceInDown {
-  -webkit-animation-name: bounceInDown;
-  animation-name: bounceInDown;
-}
-
-@-webkit-keyframes bounceInLeft {
-  from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-3000px, 0, 0);
-    transform: translate3d(-3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(25px, 0, 0);
-    transform: translate3d(25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(5px, 0, 0);
-    transform: translate3d(5px, 0, 0);
-  }
-
   to {
     -webkit-transform: none;
     transform: none;
@@ -301,8 +253,17 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   width: 98%;
   display: inline-block;
 }  
-#landingL img, #landingR img{      //remove background global styling from landing section images
-  max-width: 75%;
+#landingL img{
+  width: 150%;
+  height: auto;
+  padding: 0;
+  background-color: transparent;
+  border: 0;  
+  box-shadow: none; 
+}
+#landingR img{      //remove background global styling from landing section images
+  max-width: 100%;
+  height: auto;
   padding: 0;
   background-color: transparent;
   border: 0;  
@@ -317,6 +278,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 }
 #landingR img:last-of-type{
 	max-width: 12em;  //based on 18px font for alpha Omega svg only
+  height: auto;
 }
   blockquote{   
     border-left: 0 solid #eeeeee;
@@ -398,10 +360,11 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   }
 }
 //end of mission
+ /* uncss:ignore */
 #what, #contact{ 
   max-width: 100%; 
   background-color: $brand-secondary;
-  background:url("../images/logos/alphaLg.svg")no-repeat center center;
+  background:url("../../images/logos/alphaLg.svg")no-repeat center center;
   background-size: 120% 100%;
 } 
   #contact{
@@ -444,6 +407,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   }
   .col-lg-12 > img:only-of-type{
     width: 33%;
+    height: auto;
     background-color: transparent !important;
     border: none;
     box-shadow: none;
@@ -451,22 +415,47 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   }  
 }
 //lightbox
+ /* uncss:ignore */
 .modal-title, #image-gallery-caption{
   font-family: $font-family-serif;
   text-align: left;
 }
+ /* uncss:ignore */
 .modal-dialog {
  max-width:600px;  
 }
+.modal.in .modal-dialog {
+    transform: translate(0);
+}
+ /* uncss:ignore */
 .modal-content{
   background-color: $brand-secondary;
 }
+ /* uncss:ignore */
 .modal-header{
   border-bottom: 1px solid $brand-primary;
 }
+ /* uncss:ignore */
 .close{
   color: $brand-primary;
+  float: right;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20)
 }
+ /* uncss:ignore */
+.close:focus,
+.close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+ /* uncss:ignore */
 .modal-footer{
   border-top: 1px solid $brand-primary;
   /* text-align: none;   */
@@ -477,8 +466,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
 //end of lightbox
 //end of gallery
 //beginning of footer
+ /* uncss:ignore */
 #information{   
-  background: url('../images/footerBkg.jpg') no-repeat center center;
+  background: url('../../images/footerBkg.jpg') no-repeat center center;
   background-size: cover;
   min-width: 100%;
   padding: 0;
@@ -487,7 +477,6 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     display: inline;
     list-style-type: none;
     padding: 0;
-
   }
   p.text-center{
     color: #e1e0db;
@@ -518,6 +507,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     display: block;
     padding: 10px 15px;
   }
+  /* uncss:ignore */
   .nav > li > a:hover, .nav > li > a:focus{
     text-decoration: none;            
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
@@ -530,6 +520,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     }  // end of p
   }  //end of credits
   .row-fluid:nth-of-type(2){
+    padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
     .col-md-4:nth-child(2){
@@ -538,21 +529,24 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
       border-radius: 40px;
       }
     }  //end of .row
-}  //end of #information
+}
+  //end of #information
 
 //General Media Queries
 ///* responsive text queries */
 @media screen and (min-width: 300px){
   #information .col-md-4:first-child{   //correcting img scaling in footer at 600 and above
-    margin-bottom: 20px;
+    margin: 0 auto;
+    padding-bottom: 30px;
     img{
-    max-width: 5.75em;
+    max-width: 6em;
+    height: auto;
   }  
 }
   #information .col-md-4 a{
     text-decoration: none;
     .fa.fa-5x.fa-facebook.center-icon.pullR{
-    max-width: 1em;    
+    width: 1em;    
     text-decoration:none;
     line-height: 100px;
     }
@@ -597,11 +591,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     text-align: center;
     margin-left: -50%;
   } 
-  #information .col-md-4:first-child {
-    margin-bottom: 20px;
-  }
   #landingR img{ 
   max-width: 50%;
+  height: auto;
   margin-left: 10px;
   }
   &blockquote{
@@ -657,8 +649,8 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
     display: block;
   }    
  #information .center-icon{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: block;    
   } 
 .verse{
@@ -673,7 +665,8 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
  #gallery > .row-fluid > .col-lg-12 > img{ 
   display: block; 
   margin: 0 auto;
-  width: 50%;  
+  width: 50%; 
+  height: auto; 
 }
 #gallery > .row-fluid > .col-lg-12 > .verse{
   margin-top: 27px;
@@ -713,6 +706,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pullR{
   }
   #landingR img{ 
   max-width: 33%;
+  height: auto;
   margin-left: 10px;
   }
   &blockquote{
