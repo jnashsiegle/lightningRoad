@@ -15,9 +15,9 @@ var elixir = require('laravel-elixir');
 /*elixir(function(mix) {
     mix.sass('app.scss');
 });*/
-elixir(function(mix) {
+/*elixir(function(mix) {
     mix.sass('beApp.scss');
-});
+});*/
 /*elixir(function(mix) {
     mix.scripts(['arrow.js'],
     	'public/js/arrow.min.js');
@@ -32,7 +32,7 @@ elixir(function(mix) {
 
 /*UNCSS GULP and Sourcemap and Minify*/
 
-/*var gulp = require('gulp');
+var gulp = require('gulp');
 var uncss = require('gulp-uncss');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
@@ -44,8 +44,8 @@ gulp.task('default', function () {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(concat('app.min.css'))
-        .pipe(uncss({                   2**
-            html: ['index.html', 'posts/**/ /*.html', 'http://lightningroadfp.tech'],
+        .pipe(uncss({                  
+            html: ['index.html', 'posts/**/.html', 'http://lightningroadfp.tech'],
             ignore:[            
             ".alert-success",
             ".alert-danger",           
@@ -60,4 +60,4 @@ gulp.task('default', function () {
         .pipe(nano())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('public/css/app.min.css'));
-});*/
+});

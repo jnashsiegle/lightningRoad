@@ -311,20 +311,16 @@
 						<p class = "text-center" role = "link"><a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ Download</a></p>
 						<p class = "text-center" role = "link"><a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a></p>
 				</div>				
-				<div class = "col-md-4 center-block">
-						<a href = "https://www.facebook.com/sozosam/" target = "_blank"><i class="fa fa-5x fa-facebook center-icon pullR text-center" aria-hidden="true"></i></a>
+				<div class = "col-md-4">
+						<a href = "https://www.facebook.com/sozosam/" target = "_blank"><i class="fa fa-5x fa-facebook center-icon pull-right text-center" aria-hidden="true"></i></a>
 				</div>
 			</div><!--end row fluid-->
 			<div class = "row-fluid">	
-			<div class = "credits">
-					<div class = "col-md-6">
-						<p class = "text-muted">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'>LightPoint Development</a></p>
-					</div>
-				
-					<div class = "col-md-6">
-						<p class = "text-muted pullR">&commat;2016 <a href = "#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</p>
-					</div><!--end of col-md-6-->
-				</div><!--end of credits-->	
-				</div><!--end of row-fluid-->
+					<ul class = "clearfix">
+						<li class = "text-muted pull-left">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'>LightPoint Development</a></li>
+					
+						<li class = "text-muted pull-right">&commat;2016 <a href = "#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
+					</ul><!--end of col-md-6-->
+			</div><!--end of row-fluid-->
 			</div><!--end of information-->
  @endsection {{-- end of content1 --}}
