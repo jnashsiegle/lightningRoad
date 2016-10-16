@@ -175,6 +175,11 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   margin: 0 auto;  
   }
 }
+#landing.container-fluid{
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+/* uncss:ignore */
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -182,6 +187,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   animation-fill-mode: both;
 }
 /* font-awesome */
+/* uncss:ignore */
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -190,62 +196,74 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+/* uncss:ignore */
 .fa-5x {
     font-size: 5em
 }
-.fa-remove:before,
-.fa-close:before,
-.fa-times:before {
-    content: "\f00d"
-}
+/* uncss:ignore */
 .fa-arrow-down:before {
     content: "\f063"
 }
+/* uncss:ignore */
 .fa-facebook-f:before,
 .fa-facebook:before {
     content: "\f09a"
 }
 /* font awesome end */
+/* uncss:ignore */
 #arrow.fa-5x{
   position:absolute;
   bottom: 0;
   left: 45%;
 }
+/* uncss:ignore */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }
+/* uncss:ignore */
 .animated.bounceInDown{
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
   animation-duration:5s;
   -webkit-animation-duration: 5s;
 }
+/* uncss:ignore */
 @-webkit-keyframes bounceInDown {
   from, 60%, 75%, 90%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
+  /* uncss:ignore */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -3000px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, -3000px, 0);
   }
+  /* uncss:ignore */
   60% {
     opacity: 1;
     -webkit-transform: translate3d(0, 25px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, 25px, 0);
   }
+  /* uncss:ignore */
   75% {
     -webkit-transform: translate3d(0, -10px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, -10px, 0);
   }
+  /* uncss:ignore */
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, 5px, 0);
   }
+  /* uncss:ignore */
   to {
     -webkit-transform: none;
+    -webkit-transform-style: preserve-3d;
     transform: none;
   }
 }
