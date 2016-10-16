@@ -8,11 +8,11 @@
         <title>@yield('title')</title>
         <meta name="robots" CONTENT="NOINDEX, NOFOLLOW">
         <meta name = "author" content = "Jana Nash-Siegle">        
-        <link rel="shortcut icon" href="favicon.ico" type="image/png">
-        <link rel="icon" href="favicon.ico" type="image/png">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/png">
+        <link rel="icon" href="/favicon.ico" type="image/png">
         
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/app.min.css/beApp.min.css') }}" rel="stylesheet" type="text/css" >
+        <link href="{{ asset('css/beApp.css') }}" rel="stylesheet" type="text/css" >
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">  
         <!--Necessary shims-->
