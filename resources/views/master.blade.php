@@ -16,8 +16,8 @@
         commission, hays county detention center, texas mentoring, faith-based mentoring, motorcycle outreach, christian bikers, biker evangelism">
         <meta name = "author" content = "Jana Nash-Siegle">
         <link rel="canonical" href="http://lightningroadfp.tech/">
-        <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
-        <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
+        <link rel="shortcut icon" href="favicon.ico" type="image/png">
+        <link rel="icon" href=".favicon.ico" type="image/png">
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css" media="screen">
         <!--Google Fonts -->

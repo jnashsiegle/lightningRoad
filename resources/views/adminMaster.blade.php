@@ -8,11 +8,11 @@
         <title>@yield('title')</title>
         <meta name="robots" CONTENT="NOINDEX, NOFOLLOW">
         <meta name = "author" content = "Jana Nash-Siegle">        
-        <link rel="shortcut icon" href="../images/logos/alpha_icon.ico" type="image/png">
-        <link rel="icon" href="../images/logos/alpha_icon.ico" type="image/png">
+        <link rel="shortcut icon" href="favicon.ico" type="image/png">
+        <link rel="icon" href="favicon.ico" type="image/png">
         
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/beApp.css') }}" rel="stylesheet" type="text/css" >
+        <link href="{{ asset('css/app.min.css/beApp.min.css') }}" rel="stylesheet" type="text/css" >
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">  
         <!--Necessary shims-->
@@ -35,7 +35,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" async="async" defer = "defer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <!--Font Awesome CDN-->
-    <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script>
+    {{-- <script src="https://use.fontawesome.com/fe25733dc5.js" async="async" defer = "defer"></script> --}}
     <script type = "text/javascript" src = "{{ asset('js/all.min.js')  }}" async="async" defer = "defer"></script>    
 
 
