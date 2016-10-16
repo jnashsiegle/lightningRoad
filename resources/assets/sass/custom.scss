@@ -182,6 +182,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   animation-fill-mode: both;
 }
 /* font-awesome */
+/* uncss:ignore */
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -190,22 +191,27 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+/* uncss:ignore */
 .fa-5x {
     font-size: 5em
 }
+/* uncss:ignore */
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
     content: "\f00d"
 }
+/* uncss:ignore */
 .fa-arrow-down:before {
     content: "\f063"
 }
+/* uncss:ignore */
 .fa-facebook-f:before,
 .fa-facebook:before {
     content: "\f09a"
 }
 /* font awesome end */
+/* uncss:ignore */
 #arrow.fa-5x{
   position:absolute;
   bottom: 0;

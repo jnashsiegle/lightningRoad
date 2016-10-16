@@ -883,3 +883,37 @@ $dl-horizontal-offset:        $component-offset-horizontal !default;
 $dl-horizontal-breakpoint:    $grid-float-breakpoint !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
+
+//**Font awesome variables
+//
+$fa-font-path:        "../../fonts" !default;
+$fa-font-size-base:   18px !default;
+$fa-line-height-base: 1 !default;
+//$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.6.3/fonts" !default; // for referencing Bootstrap CDN font files directly
+$fa-css-prefix:       fa !default;
+$fa-version:          "4.6.3" !default;
+$fa-border-color:     #eee !default;
+$fa-inverse:          #fff !default;
+$fa-li-width:         (30em / 14) !default;
+
+
+$fa-var-arrow-down: "\f063";
+$fa-var-facebook: "\f09a";
+
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
+    url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
+    url('#{$fa-font-path}/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg');
+//  src: url('#{$fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+
+
