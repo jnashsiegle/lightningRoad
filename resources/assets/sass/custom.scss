@@ -234,27 +234,32 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -3000px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, -3000px, 0);
   }
   /* uncss:ignore */
   60% {
     opacity: 1;
     -webkit-transform: translate3d(0, 25px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, 25px, 0);
   }
   /* uncss:ignore */
   75% {
     -webkit-transform: translate3d(0, -10px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, -10px, 0);
   }
   /* uncss:ignore */
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
+    -webkit-transform-style: preserve-3d;
     transform: translate3d(0, 5px, 0);
   }
   /* uncss:ignore */
   to {
     -webkit-transform: none;
+    -webkit-transform-style: preserve-3d;
     transform: none;
   }
 }
