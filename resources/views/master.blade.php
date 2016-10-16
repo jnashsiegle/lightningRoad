@@ -39,7 +39,7 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" async="async" defer = "defer"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" async="async" defer = "defer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
-    <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}" async = "async" defer = "defer"></script>
+    <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}"></script>
     <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script>  
     
     </body>
