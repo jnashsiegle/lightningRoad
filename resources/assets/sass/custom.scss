@@ -175,6 +175,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   margin: 0 auto;  
   }
 }
+/* uncss:ignore */
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -217,39 +218,47 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   bottom: 0;
   left: 45%;
 }
+/* uncss:ignore */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }
+/* uncss:ignore */
 .animated.bounceInDown{
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
   animation-duration:5s;
   -webkit-animation-duration: 5s;
 }
+/* uncss:ignore */
 @-webkit-keyframes bounceInDown {
   from, 60%, 75%, 90%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
+  /* uncss:ignore */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -3000px, 0);
     transform: translate3d(0, -3000px, 0);
   }
+  /* uncss:ignore */
   60% {
     opacity: 1;
     -webkit-transform: translate3d(0, 25px, 0);
     transform: translate3d(0, 25px, 0);
   }
+  /* uncss:ignore */
   75% {
     -webkit-transform: translate3d(0, -10px, 0);
     transform: translate3d(0, -10px, 0);
   }
+  /* uncss:ignore */
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
     transform: translate3d(0, 5px, 0);
   }
+  /* uncss:ignore */
   to {
     -webkit-transform: none;
     transform: none;
