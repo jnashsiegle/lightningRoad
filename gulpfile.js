@@ -36,16 +36,18 @@ var gulp = require('gulp');
 var uncss = require('gulp-uncss');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var nano = require('gulp-cssnano');
 
 gulp.task('default', function () {
     return gulp.src('resources/assets/sass/app.scss')
         .pipe(sourcemaps.init())
+        .pipe(autoprefixer())
         .pipe(sass())
         .pipe(concat('app.min.css'))
         .pipe(uncss({                  
-            html: ['index.html', 'posts/**/.html', 'http://lightningroadfp.tech'],
+            html: ['index.html', 'http://lightningroadfp.tech'],
             ignore:[            
             ".alert-success",
             ".alert-danger",           

@@ -21,7 +21,7 @@
         <!-- Customized stylesheet from SASS -->
         <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css" media="screen">
         <!--Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700 | Trade+Winds" rel="stylesheet" type = "text/css" media="screen">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css" media="screen">
         <!--Necessary shims-->
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js">

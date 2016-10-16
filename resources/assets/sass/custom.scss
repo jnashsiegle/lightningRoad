@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'thequietscream';
+  src: url('../../fonts/thequietscream.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/../../fonts/../../fonts/../../fonts/../../fonts/thequietscream.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/../../fonts/../../fonts/../../fonts/thequietscream.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/../../fonts/../../fonts/thequietscream.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/../../fonts/thequietscream.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/thequietscream.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 html, body{
   min-width:100%; 
   overflow-x:hidden;  
@@ -179,6 +188,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
+.scream{
+  font-family: 'thequietscream';
+}
 /* uncss:ignore */
 .animated {
   -webkit-animation-duration: 1s;
@@ -286,6 +298,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   background-color: transparent;
   border: 0;  
   box-shadow: none;  
+}
+.scream{
+
 }
  p.tagline{
 	font-family: 'Trade Winds', cursive;

@@ -8,7 +8,7 @@
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
 	                		<div id = "landingL">
 	                		<img src = "../images/logos/textLogoLight.svg" width = "301" height = "107" class = "img-responsive hidden-xs hidden-sm" alt = "Lightning Road Biker Outreach" aria-hidden = "true"/>
-	                		<p class = "tagline text-left hidden-xs hidden-sm">B<span style="font-family: thequietscream">i</span>ker Outreach | Motorcycle Evangelism</p>
+	                		<p class = "tagline text-left hidden-xs hidden-sm">B<span class = "scream">i</span>ker Outreach | Motorcycle Evangelism</p>
 	                		</div><!--end of landingL-->
 	                	</div><!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->
 	                	<div class = "col-xs-12 col-md-5 col-md-offset-1 vcenter">
@@ -211,7 +211,8 @@
 		            </div>
 			               
 	            <div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" width = "550" height = "413" data-target = "#image-gallery">
+		                <a class = "gImage" title = "Johnny Spinks" href = "" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Johnny Spinks speaking at the Hays County Juvenile Facility" data-image = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" 
+		                 data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JohnnySpinks_Jesse_HCJC_PINKGLOVEST.jpg" width = "220" height = "165" alt = "Johnny Spinks speaking at the Hays County Juvenile Facility" aria-hidden = "true">
 		                </a> 
 		            </div>
