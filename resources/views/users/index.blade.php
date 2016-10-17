@@ -37,7 +37,7 @@
 							<th align = "left">Name</th>
 							<th align = "left">Email</th>
 							<th align = "left">Is Admin</th>
-							<th align = "left">Delete User?</th>
+							<th align = "center">Delete User?</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -49,7 +49,7 @@
 							{!! $user->name !!} </a></td>
 							<td>{!! $user->email !!} </td>
 							<td>{!! $user->isAdmin ? 'Yes' : 'No' !!}</td>
-						    <td>
+						    <td class = "tBtn text-center">
 						        {!! Form::open(['method'=>'DELETE', 'id'=>'deletion', 'route'=>['users.destroy',$user->id]]) !!}	
 						            <button data-toggle="tooltip" data-placement="top" title="Delete" type="submit" class="btn btn-danger btn-xs" aria-label = "confirm" onclick="return confirm('Are you sure you want to delete this item?');"><span aria-label = "close"> &times;</span></button>
 						         {!! Form::close() !!}

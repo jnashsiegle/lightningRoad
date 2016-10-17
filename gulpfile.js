@@ -20,7 +20,7 @@ var elixir = require('laravel-elixir');
 });*/
 /*elixir(function(mix) {
     mix.scripts(['arrow.js'],
-    	'public/js/arrow.min.js');
+        'public/js/arrow.min.js');
 });*/
 /*elixir(function(mix) {
     mix.scripts([
@@ -32,7 +32,7 @@ var elixir = require('laravel-elixir');
 
 /*UNCSS GULP and Sourcemap and Minify*/
 
-var gulp = require('gulp');
+/*var gulp = require('gulp');
 var uncss = require('gulp-uncss');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
@@ -58,6 +58,44 @@ gulp.task('default', function () {
             /\.close/,
             /\.modal/            
             ]
+        }))
+        .pipe(nano())
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('public/css/app.min.css'));
+});*/
+
+/*UNCSS GULP and Sourcemap and Minify for BACKEND*/
+
+var gulp = require('gulp');
+var uncss = require('gulp-uncss');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('gulp-autoprefixer');
+var concat = require('gulp-concat');
+var nano = require('gulp-cssnano');
+
+gulp.task('default', function () {
+    return gulp.src('resources/assets/sass/beApp.scss')
+        .pipe(sourcemaps.init())
+        .pipe(autoprefixer())
+        .pipe(sass())
+        .pipe(concat('beApp.min.css'))
+        .pipe(uncss({                  
+            html: ['http://lightningroadfp.tech/auth/lrfptech2016', 'http://lightningroadfp.tech/adminP', 'http://lightningroadfp.tech/auth/register', 'http://lightningroadfp.tech/users', 'http://lightningroadfp.tech/image', 'http://lightningroadfp.tech/image/4/edit' ],
+            ignore:[            
+            ".alert-success",
+            ".alert-danger",
+            ".alert-info",           
+            ".form-group",
+            ".close",
+            /\.has-error/,
+            /*/\.alert/,*/
+            /\.close/,
+            /\.table/,
+            /\.panel/,
+            /\.well/,
+            /\.btn/,
+           ]
         }))
         .pipe(nano())
         .pipe(sourcemaps.write('.'))

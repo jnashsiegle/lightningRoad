@@ -25,7 +25,7 @@
 
                     <div class="form-group">
                        <label for="userfile">Image File</label>
-                       <input type="file" class="form-control required" aria-required = "true" name="userfile">
+                       <input type="file" class="form-control required btn-file" aria-required = "true" name="userfile">
                     </div>
 
                     <div class="form-group">
@@ -37,11 +37,10 @@
                        <label for="description">Description</label>
                        <textarea class="form-control required" aria-required = "true" name="description" placeholder = "Short Description"></textarea>
                     </div>
-
-          
+                    <div class = "form-group btnGroup"> 
                     <button type="submit" class="btn btn-default btn-send pull-right">Upload</button>
                     <a href="{{ URL::previous() }}" class="btn btn-info btn-close">Back</a>
-           
+                    </div>
 
                  {!! Form::close() !!}
               @stop

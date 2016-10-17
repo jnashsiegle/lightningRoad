@@ -5,7 +5,9 @@ html, body{
   margin: 0;
   background-color: $brand-secondary;
 }
+/* uncss:ignore */
 h1, h2, h3, h4, h5, h6{
+  font-family: $font-family-serif;
   font-weight: bold; 
 }
 .clearfix{
@@ -25,6 +27,7 @@ h1, h2, h3, h4, h5, h6{
 .breadcrumb{
   background: transparent;
 }
+/* uncss:ignore */
 .btn{
   padding: 6px 12px;
   border-color: $brand-primary;
@@ -33,19 +36,29 @@ h1, h2, h3, h4, h5, h6{
   -moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.50);
   box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.50);
 }
+/* uncss:ignore */
 #sBtn{
   margin-top: 15px;
   padding-right: 24px;
   padding-left: 24px;
+  float: right;
 }
-.btn-xlarge{
+.btnGroup { //add padding top to buttons below horizontal line
+  padding-top: 20px;
+}
+.tBtn{
+  margin: 0 auto;
+  display: block;
+}
+/* .btn-xlarge{
     padding: 18px 28px;
     font-size: 22px;
     line-height: normal;
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;
             border-radius: 8px;
-}
+} */
+/* uncss:ignore */
 .btn-responsive {
     padding:6px 12px;
     max-width: 100%;
@@ -53,6 +66,7 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.5;
     border-radius:3px;
   }
+  /* uncss:ignore */
 .btn-responsive.disabled, .btn-responsive.disabled:hover{
   background-color: $gray-light;
   color: $brand-primary;
@@ -61,9 +75,11 @@ h1, h2, h3, h4, h5, h6{
 .hidden_field{
   display: none;
 }
+/* uncss:ignore */
 .adminGall{
   border: 1px solid $brand-primary;
 }
+/* uncss:ignore */
 .imgWrap{
   border: 1px solid $brand-primary;
   margin: 5px 10px 20px 10px;
@@ -71,7 +87,7 @@ h1, h2, h3, h4, h5, h6{
   -moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.50);
   box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.50);
   }
-
+/* uncss:ignore */
 .frame-square {
   background: $brand-secondary;
   border: 2px solid $brand-primary;
@@ -83,22 +99,23 @@ h1, h2, h3, h4, h5, h6{
   /* margin-right: .5em; */
   margin-bottom: .3em;
 }
+/* uncss:ignore */
 .crop {
-  height: 100%;
+  min-width: 100%;
+  height: auto;
+  height: 100%; //keep it responsive without smooshing
   overflow: hidden;
   position: relative;
-  
+  /* uncss:ignore */
   img {
     display: block;
     min-width: 100%;
     min-height: 100%;
     margin: auto;
-    /* position: absolute;
-    top: -100%;
-    right: -100%;
-    bottom: -100%;
-    left: -100%; */
   }
+}
+#editImage  a.btn.btn-primary{
+  margin: 30px 0;
 }
 .controls{
   padding: 5% 15% 15% 15%;
@@ -144,11 +161,12 @@ span > a > img{
    max-width: 100%;
    max-height: 100%; 
 }
-span > h1{
+h1{
   padding-right: 15px; 
 }
 .panel-heading h1{  
   color: $brand-accent;
+  line-height: 2.5;
 }
 .mycontainer {
   display:table;
@@ -160,6 +178,7 @@ span > h1{
 }
 .table > tbody > tr > td{
   vertical-align: middle;
+  
 }
 #image-list > td{
   word-wrap: break-word;
@@ -169,14 +188,22 @@ table {
   min-width: 95%;
   margin:0 auto;
 }
+.table-responsive td, .table-responsive th { 
+  white-space:nowrap; 
+  }
 //form 
-form{
+ form{
   width: 100%;
-  margin-top: 15px;
-}
-form#deletion{
-  width: auto;
-  margin: 0;
+  margin-bottom: 0;
+} 
+
+/* uncss:ignore */
+legend, label {
+  font-family: "Quicksand", "Times New Roman", Times, serif;
+  &legend{
+  font-weight: bold;
+  font-size: 24px;
+  }
 }
 #login-form{
   display:inline-block;
@@ -210,6 +237,7 @@ form#deletion{
   padding: 15% 0 30% 0;
 }
 }
+
 
 
 

@@ -20,17 +20,17 @@
                 @endforeach
               </div> <!-- end .flash-message -->
         
-           <p class = "text-center">Welcome {{ Auth::user()->name }} to your Administrative Panel.</p>
+           <h3 class = "text-center">Welcome {{ Auth::user()->name }} to your Admin Panel.</h3>
           <hr>
            <div class = "col-md-4 well">
-           <h3>Administrator Access Only</h3>
+           <h4>Administrator Access Only</h4>
            <ul>
           <li> <a href ="auth/register" > Add a new Administrator</a> </li>
           <li> <a href = "users/">List of users</a></li> 
           </ul>
           </div>
           <div class = "col-md-4  col-md-offset-4 well">
-          <h3>Authorized User &amp; Administrator Access</h3>
+          <h4>Authorized User &amp; Administrator Access</h4>
           <ul>
           <li> <a href ="/image/"> Image Listing </a> </li> 
           </ul>

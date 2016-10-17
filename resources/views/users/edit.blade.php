@@ -19,11 +19,9 @@
 		                    <p class="alert alert-{{ $msg }}">{{ Session::get('alert-' . $msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
 		                    @endif
 		                @endforeach
-              		</div> <!-- end .flash-message -->						
+              		</div> <!-- end .flash-message -->	
 					{!! csrf_field() !!} 
-
-					 <!--breadcrumbs-->
-        <!--end of breadcrumbs-->
+       
 			<fieldset>
 				<legend>Edit user</legend>	
 					<div class = "row-fluid  col-md-12 column">
@@ -46,10 +44,10 @@
 						{{ Form::checkbox('isAdmin',null, $user->isAdmin) }}
 						<div class="help-block with-errors"></div>
 						</div>
+						<hr>
 					</div><!--end of row fluid -->
-					<hr>
 					<div class = "row-fluid  col-md-12">
-						<div class = "form-group">
+						<div class = "form-group btnGroup">	
 						{{ method_field('PATCH') }}
 							<a href="{{ URL('users') }}" class="btn btn-info btn-close">Back</a>
 							<button type = "submit" class = "btn btn-default btn-send pull-right">Update</button>

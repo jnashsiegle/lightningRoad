@@ -2,8 +2,8 @@
 @section ('title', 'Image Listing')
 
 @section('content')
-<div class="container-fluid">
-    <div class="row-fluid col-md-8 col-md-offset-2">    
+<div id = "editImage" class="container-fluid">
+    <div class="row-fluid col-md-10">    
         <div class="panel panel-default">
           <div class="panel-heading mycontainer"> 
               <span><a href="/"><img src="../images/logos/boltLogo.png" class = "hidden-xs" alt = "Lightning Road Biker Outreach" /></a></span>
@@ -30,21 +30,24 @@
                   <a href="{{ url('/image/create') }}" class="btn btn-primary" role="button">
                      Add New Image
                   </a>
+                </div>
                   <hr />
+                <div class = "col-xs-12">
            @if ($images->isEmpty())
           <p> There are no images.</p>
-          @else              
+          @else  
+          <h2 class = "">Images</h2>            
              <div id = "image-list" class = "table-responsive">
-                <table class = "table table-striped table-responsive">
+                <table class = "table table-striped table-responsive table-bordered">
                   <thead>
                     <tr>
-                      <th align = "left">id</th>
+                      <th align = "left" class = "hidden-xs">id</th>
                       <th align = "left">Show Image</th>
-                      <th align = "left">Caption</th>
-                      <th align = "left">Description</th>
-                      <th align = "left">Added Date</th>
-                      <th align = "left">Edit Image</th>
-                      <th align = "left">Delete Image?</th>
+                      <th align = "left" class = "hidden-xs">Caption</th>
+                      <th align = "left" class = "hidden-xs">Description</th>
+                      <th align = "left" class = "hidden-xs">Added Date</th>
+                      <th align = "center">Edit Image</th>
+                      <th align = "center">Delete Image?</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -52,14 +55,14 @@
                     <tr>
                       <td>{!! $image->id !!} </td>
                       <td><div class = "frame-square text-center">
-                       <img src = "{{asset($image->file)}}" class = " crop img-responsive" alt = "Generic placeholder thumbnail">
+                       <img src = "{{asset($image->file)}}" class = "crop img-responsive" alt = "Generic placeholder thumbnail">
                       </div>
                       </td>
-                      <td>{!! $image->caption !!}</td>
-                      <td class = "word-wrap">{!! $image->description !!} </td>
-                      <td>{!! $image->created_at !!}</td>
-                      <td><a href="{{ url('/image/'.$image->id.'/edit') }}" class="btn btn-default pull-left" aria-label = "Edit">Edit</a></td>
-                        <td>
+                      <td class = "hidden-xs">{!! $image->caption !!}</td>
+                      <td class = "word-wrap hidden-xs">{!! $image->description !!} </td>
+                      <td class = "hidden-xs">{!! $image->created_at !!}</td>
+                      <td class = "tBtn text-center"><a href="{{ url('/image/'.$image->id.'/edit') }}" class="btn btn-default pull-left" aria-label = "Edit">Edit</a></td>
+                        <td class = "tBtn text-center">
                             {!! Form::open(['method'=>'DELETE', 'id'=>'deletion', 'route'=>['image.destroy',$image->id]]) !!}  
                                       <button data-toggle="tooltip"  data-placement="top" title="Delete" type="submit" class="btn btn-danger" aria-label = "Confirm" onclick="return confirm('Are you sure you want to delete this item?');"><span aria-label = "Close"> &times;</span></button>
                                    {!! Form::close() !!}

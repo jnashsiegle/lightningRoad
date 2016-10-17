@@ -2,7 +2,7 @@
 @section('title', 'Register') 
 @section('content') 
 
-<div class="container-fluid">
+<div id = "register" class="container-fluid">
     <div class="row-fluid col-md-8 col-md-offset-2">
         <div class="panel panel-default">
           <div class="panel-heading mycontainer"> 
@@ -15,7 +15,7 @@
 					@include('partials.alerts.errors')						
 					{!! csrf_field() !!} 
 				<fieldset> 
-					<legend> Add a new User || Administrator </legend > 
+					<legend>Add a new User || Administrator</legend > 
 						<div class = "row-fluid col-md-12">
 						<div class = "form-group">
 							<label for ="name" class ="control-label"> Name </label> 
@@ -55,7 +55,7 @@
 						</div>
 						<hr>
 						<div class = "row-fluid col-md-12">
-						<div class = "form-group">	
+						<div class = "form-group btnGroup">	
 								<a href="{{ URL('adminP') }}" class="btn btn-info btn-close" aria-label = "back">Back</a>
 								<button type ="submit" class ="btn btn-default btn-send  pull-right" aria-label = "submit"> Submit </button> 
 

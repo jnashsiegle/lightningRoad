@@ -10,12 +10,12 @@
           <div class="panel-heading mycontainer"> 
               <span><a href="/"><img src="../images/logos/boltLogo.png" alt = "Lightning Road Biker Outreach" /></a></span>
 
-              <span><h1 class = "panel-title text-right">Admin</h1></span>
+              <h1 class = "panel-title text-right">Admin</h1>
           </div><!--end of panel-heading-->
         <div class="panel-body">
-           <p class = "text-center">Welcome to your Administrative Area.</p>
-           <p class = "text-center">Please Log In.</p>           
-            <form id = "login-form" name = "login" role="form" method="POST"
+           <h3 class = "text-center">Welcome to your Administrative Area.</h3>
+           <h4 class = "text-center">Please Log In.</h4>           
+            <form id = "login-form" name = "login" method="POST"
                   action="{{ url('/auth/login') }}">
                   @include('partials.alerts.errors')
                   {!! csrf_field() !!}
@@ -56,4 +56,4 @@
     </div><!--end of row-->
   </div><!--end of container fluid-->
 	
-@endsection<!--end of login-->
+@endsection
