@@ -303,7 +303,7 @@
 	                	</ul>            	
        		 		</div><!--end navbar-->
        		 	</div><!--end row-fluid-->
-       		 	<div class = "row-fluid">
+       		 	<div class = "row-fluid clearfix">
        		 	<div class = "col-md-4">				
 					<img src = "../images/logos/alphaLogoThumb.svg" width = "120" height = "116" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
 				</div>				
