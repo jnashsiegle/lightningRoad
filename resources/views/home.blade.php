@@ -1,33 +1,33 @@
 @extends('master')
 
 @section('content')
-		<div id = "landing" class="container-fluid">  <!--landing page section-->
+		<article id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
 @endsection <!--end of title section-->	
 						<div class = "row-fluid">	
 	                	<div class = "col-xs-12  col-md-4 col-md-offset-1 vcenter">  
-	                		<div id = "landingL">
+	                		<section id = "landingL">
 	                		<img src = "../images/logos/textLogoLight.svg" width = "301" height = "107" class = "img-responsive hidden-xs hidden-sm" alt = "Lightning Road Biker Outreach" aria-hidden = "true"/>
 	                		<p class = "tagline text-left hidden-xs hidden-sm">B<span class = "scream">i</span>ker Outreach | Motorcycle Evangelism</p>
-	                		</div><!--end of landingL-->
+	                		</section><!--end of landingL-->
 	                	</div><!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->
 	                	<div class = "col-xs-12 col-md-5 col-md-offset-1 vcenter">
-	                	    <div id = "landingR">       		
+	                	    <section id = "landingR">       		
 	                		<img src = "../images/logos/textLogoLight.svg" width = "301" height = "107" class = ".img-responsive hidden-md hidden-lg hidden-xl" alt = "Lightning Road Biker Outreach Logo" aria-hidden = "true" >
 	                		<img src = "../images/logos/alphaLogo.svg" height = "480" width = "463" class = "hidden-sm hidden-xs center-block .img-responsive" alt = "Lightning Road Biker Outreach Logo" aria-hidden="true">
 	                		<blockquote>
 	                		<p>As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.</p>
 	                		<cite> ~ &lpar;Matthew 24&colon;27&rpar;</cite>
 	                		</blockquote>
-	                	</div><!--end of landingR-->	
+	                	</section><!--end of landingR-->	
 	                	</div> <!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->	
 	                	</div><!--end of row-fluid-->
 	                	<!--scroll arrow-->	               
 						<a href = "#about"><i id = "arrow" class = "fa fa-arrow-down fa-5x" aria-hidden = "true"></i></a>	
 						<!--end of scroll arrow-->             	           	
-	            	</div><!--end of Landing"-->
+	            	</article><!--end of Landing"-->
 	            <!--beginning of #About-->
-	<div id = "about" class = "container-fluid"> <!--Who we are section -->
+	<article id = "about" class = "container-fluid"> <!--Who we are section -->
 	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
 	  <a class="breadcrumb-item active" href="#about">Who / </a>
@@ -37,7 +37,7 @@
 	  <a class="breadcrumb-item" href = #gallery>Gallery</a>
 	</nav>
 		<h1 class = "text-center">Who We Are</h1>
-		<div class = "row-fluid ">
+		<section class = "row-fluid ">
 			<div class = "col-md-12">
 				<img src = "../images/SteveRose-216x300.jpg" width = "199" height = "282" id = "moore" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" aria-hidden = "true"/>
 				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through <a href = "http://treeoflifechurch.org" target = "_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
@@ -51,9 +51,9 @@
 				<p>As members of <a href = "http://www.chariotsoflight.com/" target = "_blank">Chariots of Light Christian Bikers</a>, we co-labor as partners and a parallel ministry to COL and <a href = "http://www.jerrysavelle.org/" target = "_blank">Jerry Savelle Ministries International</a> participating in the biggest soul-winning outreach in the country.</p>
 				<p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>					
 			</div>			
-			</div><!--end of row -->
-	</div><!--end of #About-->
-	<div id = "what" class = "container-fluid"> <!--What We Do section -->
+			</section><!--end of row -->
+	</article><!--end of #About-->
+	<article id = "what" class = "container-fluid"> <!--What We Do section -->
 	<!--breadcrumbs-->
 	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
@@ -65,30 +65,30 @@
 	</nav>
 		<h1 class = "text-center">What We Do</h1>
 		<h3 class = "text-center">When there are so many behind prison doors - VISIT, TEACH, TRAIN, EXHORT</h3>
-			<div class = "row-fluid">
+			<section class = "row-fluid">
 				<div class = "col-md-12">
 					<img src = "../images/thumbnails/Day-of-Champions_HCJCTHUMB.jpg" width = "220" height = "165" class = "img-responsive pullL gapR" alt = "Day of Champions Outreach at Hays Country Juvenile Facility" aria-hidden="true">
 						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor.  The extent of the program is dependent ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
 				</div> <!--end of col-md-9... -->
-			</div><!--end of row-->
-			<div class = "row-fluid">
+			</section><!--end of row-->
+			<section class = "row-fluid">
 				
 				<div class = "col-md-12 clearfix text-center">
 					<a href = "#contact">
 						<h2 class = "cta center-block">Be a mentor.</h2><h3 class = "cta center-block">Do what Jesus commanded us to do.</h3></a>
 						<hr>
 				</div>		<!--col-md-12 clearfix text-center-->		
-			</div>  <!--end of row-fluid-->
-			<div class = "row-fluid">
+			</section>  <!--end of row-fluid-->
+			<section class = "row-fluid">
 				<div class = "col-md-12 clearfix">						
-					<div class = "hcenter verse pullR gapR"><!--the following divs style the verse-->
+					<aside class = "hcenter verse pullR gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">
 					<div class = "vtext">
 					<h5 class = "center-block">You are empowered to prosper in everything you put your hands to according to the Word of God.<br /><cite>~&lpar;2 Peter 1&colon;3&dash;4&rpar;</cite></h5>						
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
-					</div> <!--end of verse center-block & verse styling-->
-				<div id = "outreach" class = "pullL">					
+					</aside> <!--end of verse center-block & verse styling-->
+				<article id = "outreach" class = "pullL">					
 					<h3 class = "text-center">Our areas of outreach available in Texas.</h3>
 					<ul>
 						<li>Federal Correctional Institutes</li>
@@ -97,10 +97,10 @@
 						<li>Texas Juvenile Justice Department</li>
 						<li>County Juvenile Boot Camps</li>
 					</ul>
-				</div>
-				</div>
-			</div>			
-			<div class = "row-fluid col-xs-12 ">	<!--Carousel Info-->
+				</article><!--end of article outreach list -->
+				</div><!--end of col-md-12 -->
+			</section>			
+			<section class = "row-fluid col-xs-12 ">	<!--Carousel Info-->
 			<div id="carousel-systems" class="carousel slide well center-block" data-ride="carousel" data-interval="false">
 			<h3 class = "text-center">Details of current outreaches </h3>	
 			<div class = "carousel-inner" role = "listbox">
@@ -133,17 +133,17 @@
 				<li data-target="#carousel-systems" data-slide-to="3"></li>
 				<li data-target="#carousel-systems" data-slide-to="4"></li>
 			</ol>	
-			</div><!--end of carousel inner -->	
-		</div><!--end of carousel systems -->
-			</div><!--end of row-->
+				</div><!--end of carousel inner -->	
+			</div><!--end of carousel systems -->
+			</section><!--end of row-->
 			<div class = "row-fluid">				
 				<div class = "col-md-11 col-md-offset-1">
 					<img src = "../images/thumbnails/HaysCo_Juvenile_Bible_deliveryT.jpg" width = "220" height = "165" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Delivering Bibles at the Hays County Juvenile Facility" aria-hidden="true">
 				</div>
 			</div><!--end of row-->			
-		</div><!--end of #What section-->
+		</article><!--end of #What section-->
 		
-		<div id = "mission" class = "container-fluid"> <!--Mission section -->
+		<article id = "mission" class = "container-fluid"> <!--Mission section -->
 		<!--breadcrumbs-->
 		<nav class="breadcrumb">
 		  <a class="breadcrumb-item" href="#">Home / </a>
@@ -154,7 +154,7 @@
 		  <a class="breadcrumb-item" href = #gallery>Gallery</a>
 		</nav>
 			<h1 class = "text-center">Mission Statement</h1>
-			<div class = "row-fluid">
+			<section class = "row-fluid">
 				<div class = "col-xs-12">
 					<img src = "../images/thumbnails/IMG_0152T.jpg" width = "220" height = "165" class = "img-responsive pullL gapR" alt = "Reaching out at Rallies">
 						<div class = "statement clearfix">
@@ -174,14 +174,14 @@
 						<p class = "text-left">WE BELIEVE this ministry has been founded and ordained on the WORD of GOD according to&colon; Matthew 24&colon;27 which says… &quot;As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.&quot;</p>
 						</div>								
 					</div>					
-			</div><!--end of row -->							
-		</div><!--end of mission section-->
+			</section><!--end of row -->							
+		</article><!--end of mission section-->
 @endsection
 
 @include('partials.contact')	
 
 @section('content1') 	
-	<div id = "gallery" class = "container-fluid"> <!--gallery section -->	
+	<article id = "gallery" class = "container-fluid"> <!--gallery section -->	
 	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
 	  <a class="breadcrumb-item" href="#about">Who / </a>
@@ -190,7 +190,7 @@
 	  <a class="breadcrumb-item" href = "#contact">Contact / </a>
 	  <a class="breadcrumb-item active" href = #gallery>Gallery</a>
 	</nav>
-		<div class = "row-fluid">
+		<section class = "row-fluid">
 			<div class="col-lg-12">
                 <div class = "verse pullL gapR"><!--the following divs style the verse-->
                 <div class = "innerBox center-block">
@@ -201,9 +201,9 @@
 				</div><!--end of verse & verse styling-->
 					<h1 class="text-center clearfix">Our Journey So Far</h1>
             </div><!--end of col-lg-12-->
-            </div><!--end of row-->
+            </section><!--end of row-->
 
-            <div class = "row-fluid hcenter">            
+            <section class = "row-fluid hcenter">            
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Jerry Savelle and team praying for Rev" href = "#" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Jerry Savelle and team praying for Rev" data-image = "../images/fullsize/JerrySavelleandteamprayingforRev.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/JerrySavelleandteamprayingforRevT.jpg" width = "220" height = "165" alt = "Jerry Savelle and team praying for Rev" aria-hidden = "true">
@@ -246,7 +246,7 @@
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt = "Ring toss fun at the Tough Love Rally" width = "220" height = "165" aria-hidden="true">
 		                </a> 
 		            </div>
-	        </div><!--end of row-fluid-->  
+	        </section><!--end of row-fluid-->  
          <!--modal for lightbox-->
          <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog"  aria-hidden="true">
     		<div class="modal-dialog">
@@ -275,23 +275,23 @@
 		</div>
 		<!--end of modal code-->
 
-            <div class = "row-fluid">
+            <section class = "row-fluid">
 	            <div class = "col-lg-12"> 	            
 					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" alt = "Lightning Road Biker Outreach" aria-hidden="true"/> 
-            <div class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
+            <aside class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
             <div class = "innerBox center-block">
 			<div class = "vtext">
 			<h5 class = "center-block">Show up and be counted as faithful to the cause of changing hearts, young and old.<br /><cite>~&lpar;John 20&colon;21, Acts 1&colon;8&rpar;</cite></h5>
 			</div><!--end of vtext-->
 			</div><!--end of inner box-->
-			</div> <!--end of verse center-block & verse styling-->
+			</aside> <!--end of verse center-block & verse styling-->
 			</div><!--end of vwrapper-->
-			</div><!--row-fluid--> 			    
-        </div><!--end of container-->
+			</section><!--row-fluid--> 			    
+        </article><!--end of container-->
        
        	
-        	<div id = "information" class="container-fluid" role = "contentinfo"><!--footer-->
-           		<div class = "row-fluid"> 
+        	<footer id = "information" class="container-fluid" role = "contentinfo"><!--footer-->
+           		<section class = "row-fluid"> 
            			<div class="navbar" role = "navigation">
 	                <ul class="nav navbar-nav">
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#landing">Back To Top</a></li>
@@ -302,8 +302,8 @@
 	                    <li class = "col-xs-4 col-md-2 text-center"><a href="#gallery">Our Journey</a></li>  	                   
 	                	</ul>            	
        		 		</div><!--end navbar-->
-       		 	</div><!--end row-fluid-->
-       		 	<div class = "row-fluid clearfix">
+       		 	</section><!--end row-fluid-->
+       		 	<section class = "row-fluid clearfix">
        		 	<div class = "col-md-4">				
 					<img src = "../images/logos/alphaLogoThumb.svg" width = "120" height = "116" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
 				</div>				
@@ -315,13 +315,13 @@
 				<div class = "col-md-4">
 						<a href = "https://www.facebook.com/sozosam/" target = "_blank"><i class="fa fa-5x fa-facebook center-icon pull-right text-center" aria-hidden="true"></i></a>
 				</div>
-			</div><!--end row fluid-->
-			<div class = "row-fluid">	
+			</section><!--end row fluid-->
+			<section class = "row-fluid">	
 					<ul class = "clearfix">
 						<li class = "text-muted pull-left">Site by&colon; <a href = "http://lightpointdev.com" target = '_blank'>LightPoint Development</a></li>
 					
 						<li class = "text-muted pull-right">&commat;2016 <a href = "#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
 					</ul><!--end of col-md-6-->
-			</div><!--end of row-fluid-->
-			</div><!--end of information-->
+			</section><!--end of row-fluid-->
+			</footer><!--end of information-->
  @endsection {{-- end of content1 --}}

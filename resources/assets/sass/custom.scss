@@ -320,7 +320,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
 }
 //end of about 
 //Beginning of #WHAT
-#what.container-fluid, div#contact.container-fluid{
+#what.container-fluid, article#contact.container-fluid{
   background-color: $brand-secondary;      
 }
 #what{ 
@@ -639,23 +639,13 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   #contact .verse{
   max-width: 80%;
   }
-  #information >.row-fluid:nth-child(3) > ul > li:nth-child(1){
-    margin-left: 0;
-    margin-bottom: 25px;
-  }
-  #information >.row-fluid:nth-child(3) > ul > li:nth-child(2){
-    margin-right: 0;
-  }
-  #information >.row-fluid:nth-child(3) > ul > li.pull-right{
-    width: 100%;
-    float: left;
-}
+  
 }
 
 ///750PX
 @media screen and (max-width: 750px) {
-  blockquote, p,input,span,div, h4, h5, li{
-    font-size: 90%;
+  blockquote, p, input, span, div, h4, h5, li{
+    font-size: 85%;
   }  
   h1 {
     font-size: 20px;  
@@ -671,6 +661,17 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   background-size: 100%;  
   min-width: 100%; 
   }
+  #information >.row-fluid:nth-child(3) > ul > li:nth-child(1){
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  #information >.row-fluid:nth-child(3) > ul > li:nth-child(2){
+    margin-right: 0;
+  }
+  #information >.row-fluid:nth-child(3) > ul > li.pull-right{
+    width: 100%;
+    float: left;
+}
 }
 ///Through Tablet Portrait  992PX
 @media screen and (max-width: 992px) {

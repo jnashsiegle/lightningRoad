@@ -1,5 +1,5 @@
 @section('contact')
-        	<div id = "contact" class = "container-fluid"> <!--Contact section -->
+        	<article id = "contact" class = "container-fluid"> <!--Contact section -->
         	<!--breadcrumbs-->
         	<nav class="breadcrumb">
 			  <a class="breadcrumb-item" href="#">Home / </a>
@@ -19,9 +19,9 @@
               </div> <!-- end .flash-message -->
 	   		@include('partials.alerts.errors')    
 		
-			<div class = "row-fluid"> <!--header row -->
+			<section class = "row-fluid"> <!--header row -->
 			<div class = "col-xs-12 col-md-6 center-block"> 
-				<div id = "vHeadingL">
+				<aside id = "vHeadingL">
 				<div class = "verse"><!--the following divs style the verse-->
 				<div class = "innerBox center-block ">
 				<div class = "vtext">
@@ -29,10 +29,10 @@
 				</div><!--end of vtext-->
 				</div><!--end of inner-box-->
 				</div><!--end of verse & verse styling-->
-				</div><!--end of vHeadingL-->
+				</aside><!--end of vHeadingL-->
 				</div>	<!--end of column-->			
 				<div class = "col-md-6 center-block">
-				<div id = "vHeadingR">
+				<aside id = "vHeadingR">
 				<div class = "verse hidden-sm hidden-xs"><!--the following divs style the verse-->
 				<div class = "innerBox center-block">
 				<div class = "vtext">
@@ -40,17 +40,17 @@
 				</div><!--end of vtext-->
 				</div><!--end of inner box-->
 				</div><!--end of verse & verse styling-->
-				</div><!--end of vheadingR-->
+				</aside><!--end of vheadingR-->
 				</div><!--end of column-->
-				</div><!--end of row-fluid-->	
-				<div class = "row-fluid vcenter ">
+				</section><!--end of row-fluid-->	
+				<section class = "row-fluid vcenter ">
 				<div class = "col-md-6 center-block">
 					<p>We encourage you to prove us through the Word of God and our testimony, then prayerfully partner with us as we reach out to the world unconditionally as we are taught by Jesus in God's Word.</p>
 				</div>				
 				<div class = "col-md-6  center-block">
 					<p>Our prayer is that you would know the life changing freedom and peace of making an eternal decision concerning this life.</p>
 				</div>
-				</div><!--end of row-fluid-->
+				</section><!--end of row-fluid-->
 
 
 
@@ -118,6 +118,6 @@
 			</form>		<!--end of form-->	
 
 	
-	</div><!--end of container-->
+	</article><!--end of container-->
 
 @endsection
