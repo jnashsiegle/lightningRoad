@@ -32,7 +32,7 @@ var elixir = require('laravel-elixir');
 
 /*UNCSS GULP and Sourcemap and Minify*/
 
-/*var gulp = require('gulp');
+var gulp = require('gulp');
 var uncss = require('gulp-uncss');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
@@ -62,11 +62,11 @@ gulp.task('default', function () {
         .pipe(nano())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('public/css/app.min.css'));
-});*/
+});
 
 /*UNCSS GULP and Sourcemap and Minify for BACKEND*/
 
-var gulp = require('gulp');
+/*var gulp = require('gulp');
 var uncss = require('gulp-uncss');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
@@ -88,8 +88,7 @@ gulp.task('default', function () {
             ".alert-info",           
             ".form-group",
             ".close",
-            /\.has-error/,
-            /*/\.alert/,*/
+            /\.has-error/,           
             /\.close/,
             /\.table/,
             /\.panel/,
@@ -100,4 +99,4 @@ gulp.task('default', function () {
         .pipe(nano())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('public/css/app.min.css'));
-});
+});*/
