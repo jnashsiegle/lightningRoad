@@ -29,7 +29,7 @@
         <![endif]-->              
     </head>
     <body>
-    <main role = "main">
+    <main>
 
 @yield('content')
 @yield('contact')

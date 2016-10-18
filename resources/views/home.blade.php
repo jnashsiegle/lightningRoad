@@ -64,7 +64,6 @@
 	  <a class="breadcrumb-item" href = #gallery>Gallery</a>
 	</nav>
 		<h1 class = "text-center">What We Do</h1>
-		<section>
 		<h3 class = "text-center">When there are so many behind prison doors - VISIT, TEACH, TRAIN, EXHORT</h3>
 			<div class = "row-fluid">
 				<div class = "col-md-12">
@@ -72,13 +71,11 @@
 						<p>We mentor both male and female youth offenders 10-17 years of age at the Hays County Juvenile Center in San Marcos, Texas.  We are involved with a youth mentoring program called <a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a>.  The mentoring encounter is gender specific meeting weekly with several time slots to facilitate the large number of offenders who desire a mentor.  The extent of the program is dependent ONLY on the number of people who desire to establish one in their local communities nationwide.  Prayerfully we strive for it to be a life-changing one-on-one encounter of finding faith and a life value system.</p>
 				</div> <!--end of col-md-9... -->
 			</div><!--end of row-->
-			</section>			
 			<div class = "row-fluid">
 				<div class = "col-md-12 clearfix text-center">
 					<a href = "#contact">
 					<section class = "cta">
 						<h2 class = "cta center-block">Be a mentor.</h2><h3 class = "cta center-block">Do what Jesus commanded us to do.</h3></section></a>
-					</section>
 						<hr>
 				</div>		<!--col-md-12 clearfix text-center-->		
 			</div>  <!--end of row-fluid-->
@@ -91,7 +88,7 @@
 					</div><!--end of vtext-->
 					</div><!--end of inner box-->
 					</aside> <!--end of verse center-block & verse styling-->
-				<section id = "outreach" class = "pullL" role = "contentinfo">					
+				<section id = "outreach" class = "pullL">					
 					<h3 class = "text-center">Our areas of outreach available in Texas.</h3>
 					<ul>
 						<li>Federal Correctional Institutes</li>
