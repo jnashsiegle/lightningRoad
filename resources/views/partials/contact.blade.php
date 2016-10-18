@@ -1,5 +1,5 @@
 @section('contact')
-        	<article id = "contact" class = "container-fluid"> <!--Contact section -->
+        	<div id = "contact" class = "container-fluid"> <!--Contact section -->
         	<!--breadcrumbs-->
         	<nav class="breadcrumb">
 			  <a class="breadcrumb-item" href="#">Home / </a>
@@ -19,7 +19,7 @@
               </div> <!-- end .flash-message -->
 	   		@include('partials.alerts.errors')    
 		
-			<section class = "row-fluid"> <!--header row -->
+			<div class = "row-fluid"> <!--header row -->
 			<div class = "col-xs-12 col-md-6 center-block"> 
 				<aside id = "vHeadingL">
 				<div class = "verse"><!--the following divs style the verse-->
@@ -42,15 +42,15 @@
 				</div><!--end of verse & verse styling-->
 				</aside><!--end of vheadingR-->
 				</div><!--end of column-->
-				</section><!--end of row-fluid-->	
-				<section class = "row-fluid vcenter ">
+				</div><!--end of row-fluid-->	
+				<div class = "row-fluid vcenter ">
 				<div class = "col-md-6 center-block">
 					<p>We encourage you to prove us through the Word of God and our testimony, then prayerfully partner with us as we reach out to the world unconditionally as we are taught by Jesus in God's Word.</p>
 				</div>				
 				<div class = "col-md-6  center-block">
 					<p>Our prayer is that you would know the life changing freedom and peace of making an eternal decision concerning this life.</p>
 				</div>
-				</section><!--end of row-fluid-->
+				</div><!--end of row-fluid-->
 
 
 
@@ -118,6 +118,6 @@
 			</form>		<!--end of form-->	
 
 	
-	</article><!--end of container-->
+	</div><!--end of container-->
 
 @endsection

@@ -29,6 +29,7 @@
         <![endif]-->              
     </head>
     <body>
+    <main role = "main">
 
 @yield('content')
 @yield('contact')
@@ -41,6 +42,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}"></script>
     <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script>  
-    
+    </main>
     </body>
 </html>
