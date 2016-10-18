@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-		<main id = "landing" class="container-fluid">  <!--landing page section-->
+		<div id = "landing" class="container-fluid">  <!--landing page section-->
 @section('title')Lightning Road 
 @endsection <!--end of title section-->	
 						<div class = "row-fluid">	
@@ -25,9 +25,9 @@
 	                	<!--scroll arrow-->	               
 						<a href = "#about"><i id = "arrow" class = "fa fa-arrow-down fa-5x" aria-hidden = "true"></i></a>	
 						<!--end of scroll arrow-->             	           	
-	            	</main><!--end of Landing"-->
+	            	</div><!--end of Landing"-->
 	            <!--beginning of #About-->
-	<main id = "about" class = "container-fluid"> <!--Who we are section -->
+	<div id = "about" class = "container-fluid"> <!--Who we are section -->
 	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
 	  <a class="breadcrumb-item active" href="#about">Who / </a>
@@ -52,8 +52,8 @@
 				<p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>					
 			</div>			
 			</div><!--end of row -->
-	</main><!--end of #About-->
-	<main id = "what" class = "container-fluid"> <!--What We Do section -->
+	</div><!--end of #About-->
+	<div id = "what" class = "container-fluid"> <!--What We Do section -->
 	<!--breadcrumbs-->
 	<nav class="breadcrumb">
 	  <a class="breadcrumb-item" href="#">Home / </a>
@@ -77,7 +77,7 @@
 				<div class = "col-md-12 clearfix text-center">
 					<a href = "#contact">
 					<section class = "cta">
-						<h2 class = "cta center-block">Be a mentor.</h2><h3 class = "cta center-block">Do what Jesus commanded us to do.</h3></a>
+						<h2 class = "cta center-block">Be a mentor.</h2><h3 class = "cta center-block">Do what Jesus commanded us to do.</h3></section></a>
 					</section>
 						<hr>
 				</div>		<!--col-md-12 clearfix text-center-->		
@@ -144,9 +144,9 @@
 					<img src = "../images/thumbnails/HaysCo_Juvenile_Bible_deliveryT.jpg" width = "220" height = "165" class = "img-responsive pullR gap-left hidden-sm hidden-xs" alt = "Delivering Bibles at the Hays County Juvenile Facility" aria-hidden="true">
 				</div>
 			</div><!--end of row-->			
-		</main><!--end of #What section-->
+		</div><!--end of #What section-->
 		
-		<main id = "mission" class = "container-fluid"> <!--Mission section -->
+		<div id = "mission" class = "container-fluid"> <!--Mission section -->
 		<!--breadcrumbs-->
 		<nav class="breadcrumb">
 		  <a class="breadcrumb-item" href="#">Home / </a>
@@ -178,7 +178,7 @@
 						</div>								
 					</div>					
 			</div><!--end of row -->							
-		</main><!--end of mission section-->
+		</div><!--end of mission section-->
 @endsection
 
 @include('partials.contact')	
