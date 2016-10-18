@@ -6,14 +6,16 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="panel panel-default">
-				<div class="panel-heading">Reset Password</div>
+				    <div class="panel-heading mycontainer"> 
+			              <span><a href="/"><img src="../images/logos/boltLogo.png" alt = "Lightning Road Biker Outreach" /></a></span>
+			              <span><h1 class = "panel-title text-right"><a href = "../adminP">Send Password Reset</a></h1></span>
+			          </div><!--end of panel-heading-->
 				<div class="panel-body">
 					@if (session('status'))
 						<div class="alert alert-success">
 							{{ session('status') }}
 						</div>
 					@endif
-
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
 							<strong>Whoops!</strong> There were some problems with your input.<br><br>

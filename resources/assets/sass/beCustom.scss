@@ -198,12 +198,10 @@ table {
 } 
 
 /* uncss:ignore */
-legend, label {
+legend {
   font-family: "Quicksand", "Times New Roman", Times, serif;
-  &legend{
   font-weight: bold;
   font-size: 24px;
-  }
 }
 #login-form{
   display:inline-block;

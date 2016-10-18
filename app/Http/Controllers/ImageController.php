@@ -103,11 +103,13 @@ public function update(Request $request, $id)
            $filename = str_random(6).'_'.$file->getClientOriginalName();
            $file->move($destination_path, $filename);
            $image->file = $destination_path . $filename;
+          
       }
         
       // replace old data with new data from the submitted form //
       $image->caption = $request->input('caption');
       $image->description = $request->input('description');
+      $image->file = $request->input('userfile');
       $image->save();
 
       return redirect('/image')->with('message','Image Updated!');
