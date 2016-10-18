@@ -278,7 +278,7 @@
             <div class = "row-fluid">
 	            <div class = "col-lg-12"> 	            
 					<img src ="../images/logos/textLogo.png" class = "img-responsive pullL" alt = "Lightning Road Biker Outreach" aria-hidden="true"/> 
-            <aside class = "verse pullR center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
+            <aside class = "verse pullR gapL center-block hidden-xs hidden-sm"><!--the following divs style the verse-->
             <div class = "innerBox center-block">
 			<div class = "vtext">
 			<h5 class = "center-block">Show up and be counted as faithful to the cause of changing hearts, young and old.<br /><cite>~&lpar;John 20&colon;21, Acts 1&colon;8&rpar;</cite></h5>
