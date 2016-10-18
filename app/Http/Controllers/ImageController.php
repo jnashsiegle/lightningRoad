@@ -109,9 +109,7 @@ public function update(Request $request, $id)
       // replace old data with new data from the submitted form //
       $image->caption = $request->input('caption');
       $image->description = $request->input('description');
-      $image->file = $request->input('userfile');
       $image->save();
-
       return redirect('/image')->with('message','Image Updated!');
    }
 

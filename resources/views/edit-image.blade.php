@@ -24,13 +24,9 @@
                     <div class = "row-fluid  col-md-12 column">
              {!! Form::model($image,['url' => '/image/'.$image->id, 'method' => 'PUT', 'files'=>true]) !!}
                 <img class = "frame-square" src="{{ asset($image->file) }}" height="150" />
+                <p>{{$image->file}}</p>
                 </div>
-                <div class = "row-fluid  col-md-12 column">
-                <div class="form-group">
-                   <label for="userfile">Change Image?</label>
-                   {!! Form::file('userfile',null,['class'=>'form-control']) !!}
-                </div>
-                </div>
+               
                 <div class = "row-fluid  col-md-12 column">
                 <div class="form-group">
                    <label for="caption">Caption</label>
