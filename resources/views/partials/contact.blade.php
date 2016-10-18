@@ -88,8 +88,8 @@
 							<option value = "">Please select a subject...</option>
 							<option value = "Mentoring">Mentoring</option>
 							<option value = "Prison Ministry">Prison Ministry</option>
-							<option value = "How can I get involved?">How can I get involved?</option>
 							<option value = "Financial Support">Financial Support</option>
+							<option value = "How can I get involved?">How else can I get involved?</option>
 							<option id = "customSubject" value = "Other">Other</option>
 						</select>						
 							<input id = "customOther" class = "form-control hiddenField" type = "text" name = "customOther" placeholder = "Write your subject here" value = ""/><span id = "charCount" class = "text-muted hiddenField"></span>
