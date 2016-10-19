@@ -6,7 +6,7 @@
         <!--Set Viewport for Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title')</title>
-        <meta name="robots" CONTENT="NOINDEX, NOFOLLOW">
+        <meta name="robots" CONTENT="NOARCHIVE NOINDEX, NOFOLLOW">
         <meta name = "author" content = "Jana Nash-Siegle">        
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
         <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/png">

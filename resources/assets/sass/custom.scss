@@ -1,11 +1,21 @@
 @font-face {
   font-family: 'thequietscream';
-  src: url('../../fonts/thequietscream.eot'); /* IE9 Compat Modes */
-  src: url('../../fonts/../../fonts/../../fonts/../../fonts/../../fonts/thequietscream.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../fonts/../../fonts/../../fonts/../../fonts/thequietscream.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../../fonts/../../fonts/../../fonts/thequietscream.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../../fonts/../../fonts/thequietscream.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../../fonts/thequietscream.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('/fonts/thequietscream.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/thequietscream.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/thequietscream.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/thequietscream.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/thequietscream.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/thequietscream.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family:FontAwesome;
+  src:url('/fonts/fontawesome-webfont.eot?v=4.6.3');
+  src:url('/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format("embedded-opentype"),
+      url('/fonts/fontawesome-webfont.woff2?v=4.6.3') format("woff2"),
+      url('/fonts/fontawesome-webfont.woff?v=4.6.3') format("woff"),
+      url('/fonts/fontawesome-webfont.ttf?v=4.6.3') format("truetype"),
+      url('/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format("svg");
+  font-weight:400;font-style:normal
 }
 html, body{
   min-width:100%; 
@@ -24,7 +34,7 @@ cite{
 /* uncss:ignore */
 hr {
 height: 100px;
-background: url(../../images/hr-gray.png) no-repeat center;
+background: url(/images/hr-gray.png) no-repeat center;
 border: none;
 }
 img{
@@ -46,6 +56,9 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+}
+a:visited{
+  color: #fff;
 }
 .antispam{
   display: none;
@@ -167,7 +180,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
 }
 /* uncss:ignore */
 #landing {
-	background: url('../../images/lrBkg.jpg') no-repeat center center scroll;
+	background: url('/images/lrBkg.jpg') no-repeat center center scroll;
 	background-size: cover;
 	max-width: 100%;
 	min-height: 100vh;
@@ -394,7 +407,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
 #what, #contact{ 
   max-width: 100%; 
   background-color: $brand-secondary;
-  background:url("../../images/logos/alphaLg.svg")no-repeat center center;
+  background:url("/images/logos/alphaLg.svg")no-repeat center center;
   background-size: 120% 100%;
 } 
   #contact{
@@ -499,7 +512,7 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
 //beginning of footer
  /* uncss:ignore */
 #information{   
-  background: url('../../images/footerBkg.jpg') no-repeat center center;
+  background: url('/images/footerBkg.jpg') no-repeat center center;
   background-size: cover;
   min-width: 100%;
   height: auto;

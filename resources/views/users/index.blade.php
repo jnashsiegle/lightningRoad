@@ -6,13 +6,13 @@
 	<div class = "row-fluid">
 		<div class = "panel panel-default">
 			<div class = "panel-heading mycontainer">
-              <span><a href="/"><img src="../images/logos/boltLogo.png" class = "hidden-xs" alt = "Lightning Road Biker Outreach" /></a></span>
+              <span><a href="/"><img src="/images/logos/boltLogo.png" class = "hidden-xs" alt = "Lightning Road Biker Outreach" /></a></span>
               <span><h1 class = "panel-title text-right">Admin Area</h1></span>
           </div><!--end of panel-heading--> 
         <div class="panel-body">
          <!--breadcrumbs-->
         <nav class="breadcrumb">
-           <a class="breadcrumb-item" href="../adminP">Admin Panel / </a>    
+           <a class="breadcrumb-item" href="/adminP">Admin Panel / </a>    
            <a class="breadcrumb-item active" href="#">User Listing / </a>     
          </nav>
          <!--end of breadcrumbs-->
@@ -30,7 +30,7 @@
 				<p> There are no users.</p>
 			@else
 			<div class = "table-responsive">
-				<table class = "table table-striped">
+				<table class = "table table-striped table-bordered">
 					<thead>
 						<tr>
 							<th align = "left">ID</th>

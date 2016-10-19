@@ -92,8 +92,8 @@
 							<option value = "How can I get involved?">How else can I get involved?</option>
 							<option id = "customSubject" value = "Other">Other</option>
 						</select>						
-							<input id = "customOther" class = "form-control hiddenField" type = "text" name = "customOther" placeholder = "Write your subject here" value = ""/><span id = "charCount" class = "text-muted hiddenField"></span>
-							<p id="count-subject" class="form-text text-muted hiddenField">
+							<input id = "customOther" class = "form-control hiddenField" type = "text" name = "customOther" title = "Write Subject Here" placeholder = "Write your subject here" value = ""/><span id = "charCount" class = "text-muted hiddenField"></span>
+							<p id="count-subject" class="form-text text-muted hiddenField" title = "Count of characters">
   							Please keep subject line less than 50 characters.</p>
   							 <div class="help-block with-errors"></div> 
 					</div><!--end of form-group subject-->

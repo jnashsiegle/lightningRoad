@@ -57,4 +57,19 @@ else{
     }
   });
 
+
+ $('#userfile').on('change',function(){
+       // output raw value of file input
+       $('#userfilename').html($(this).val()); 
+
+        // or, manipulate it further with regex etc.
+        var userfilename = $(this).val();
+        // .. do your magic
+
+        $('#userfilename').html(userfilename);
+    });
+
+
+
+
 }); //end of first document.

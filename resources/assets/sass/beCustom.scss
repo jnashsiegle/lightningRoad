@@ -72,6 +72,34 @@ h1, h2, h3, h4, h5, h6{
   background-color: $gray-light;
   color: $brand-primary;
 }
+
+//for image upload 
+.btn-file{
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter:'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+span.form-control.btn.btn-default.btn-file{
+  width: 25%;
+}
+
+ #userfilename{
+  display: inline-block;
+  margin-left: 30x;
+  font-size: 75%;
+}
 .hidden_field{
   display: none;
 }
