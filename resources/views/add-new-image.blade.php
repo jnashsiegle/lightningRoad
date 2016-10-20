@@ -26,7 +26,7 @@
                     <div class="form-group">
                        <label for="userfile">Image File</label><br>
                        <span class="form-control btn btn-default btn-file onclick = " required = "required">Browse for Image
-                       <input type="file" id = "userfile" class=" hidden_field" name="userfile" data-error = "You must choose an image to upload"value="{{ old('name') }}"></span>
+                       <input type="file" id="userfile" class="hidden_field" name="userfile" data-error = "You must choose an image to upload"value="{{ old('name') }}"></span>
                        <span id = "userfilename"></span>
                        <div class="help-block with-errors"></div>
                     </div>
