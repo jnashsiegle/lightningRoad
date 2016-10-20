@@ -41,7 +41,7 @@
         <a class="breadcrumb-item" href="#what">What / </a>
         <a class="breadcrumb-item" href="#mission">Mission / </a>
         <a class="breadcrumb-item" href="#contact">Contact / </a>
-        <a class="breadcrumb-item" href=# gallery>Gallery</a>
+        <a class="breadcrumb-item" href=#gallery>Gallery</a>
     </nav>
     <h1 class="text-center">Who We Are</h1>
     <div class="row-fluid">
@@ -75,7 +75,7 @@
         <a class="breadcrumb-item active" href="#what">What / </a>
         <a class="breadcrumb-item" href="#mission">Mission / </a>
         <a class="breadcrumb-item" href="#contact">Contact / </a>
-        <a class="breadcrumb-item" href=# gallery>Gallery</a>
+        <a class="breadcrumb-item" href=#gallery>Gallery</a>
     </nav>
     <h1 class="text-center">What We Do</h1>
     <h3 class="text-center">When there are so many behind prison doors - VISIT, TEACH, TRAIN, EXHORT</h3>
@@ -185,7 +185,7 @@
         <a class="breadcrumb-item" href="#what">What / </a>
         <a class="breadcrumb-item active" href="#mission">Mission / </a>
         <a class="breadcrumb-item" href="#contact">Contact / </a>
-        <a class="breadcrumb-item" href=# gallery>Gallery</a>
+        <a class="breadcrumb-item" href=#gallery>Gallery</a>
     </nav>
     <h1 class="text-center">Mission Statement</h1>
     <div class="row-fluid">
@@ -225,7 +225,7 @@
         <a class="breadcrumb-item" href="#what">What / </a>
         <a class="breadcrumb-item" href="#mission">Mission / </a>
         <a class="breadcrumb-item" href="#contact">Contact / </a>
-        <a class="breadcrumb-item active" href=# gallery>Gallery</a>
+        <a class="breadcrumb-item active" href=#gallery>Gallery</a>
     </nav>
     <div class="row-fluid">
         <div class="col-lg-12">
