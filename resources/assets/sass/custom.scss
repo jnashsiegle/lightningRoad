@@ -17,6 +17,7 @@
       url('/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format("svg");
   font-weight:400;font-style:normal
 }
+/* general global styles */
 html, body{
   min-width:100%; 
   overflow-x:hidden;  
@@ -41,6 +42,7 @@ img{
   max-width: 20%;
   height: auto;
 }
+/* facebook icon specific */
 img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{ 
   padding: 0;
   background-color: $brand-primary;
@@ -90,14 +92,12 @@ a:visited{
   background-color: $gray-light;
   color: $brand-primary;
 }
-.cta{
-  color: $brand-link;
-}
  #about a i, #what a i:first-of-type, #mission a i, #contact a i, #gallery a i{
   position:absolute;
   bottom: 0;
   left: 50%;
 }
+/* add gap around images and text wrap */
 .gapR {
   margin-left: 10px; 
   margin-right: 30px;  
@@ -123,6 +123,7 @@ a:visited{
     -moz-border-radius: 35px;
     border-radius: 35px;    
 }
+/* for customizing pulls in queries instead of bootstrap */
 .pullL{
   float: left;
 }
@@ -147,12 +148,8 @@ a:visited{
     border: 5px solid $brand-accent;
     border-image: -webkit-linear-gradient(45deg,#f7931e,#fef891) 20 stretch; 
     padding-top: 2.5%;
-    padding-bottom: 2.5%;    
-    //padding-left: .75%;
-    //padding-right: 1.5%;
-    // -webkit-border-radius: 35px;
+    padding-bottom: 2.5%;   
     -moz-border-radius: 35px;
-    //border-radius: 35px;
     background-color: $brand-primary;
     -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -178,6 +175,7 @@ a:visited{
  padding-bottom: 40px;
  position: relative;
 }
+/* LANDING */
 /* uncss:ignore */
 #landing {
 	background: url('/images/lrBkg.jpg') no-repeat center center scroll;
@@ -327,6 +325,7 @@ a:visited{
     border-left: 0 solid #eeeeee;
   }
 //end of landing
+//ABOUT
 #about{  
   color: $brand-primary;
   background-color: $brand-background; 
@@ -358,6 +357,9 @@ a:visited{
         margin: 0 auto;
       }
     }
+  }
+  .cta{
+  color: $brand-link;
   }
 }
 //custom css for carousel and indicators
@@ -392,6 +394,7 @@ a:visited{
   }
 //end of carousel
 //end of about
+//MISSION
 #mission{
   min-width: 100%;
   background-color: $brand-background;
@@ -403,6 +406,7 @@ a:visited{
   }
 }
 //end of mission
+//WHAT | CONTACT
  /* uncss:ignore */
 #what, #contact{ 
   max-width: 100%; 
@@ -442,6 +446,7 @@ a:visited{
   }
 }
 //end of contact
+//GALLERY
 #gallery{  
   min-width: 100%; 
   background-color: #D8DABE;
@@ -579,7 +584,6 @@ a:visited{
 }
 }//end of row-fluid 3
   .row-fluid:nth-of-type(2){
-   /*  padding-top: 30px; */
     padding-right: 30px;
     padding-left: 30px;
     .col-md-4:nth-child(2){
@@ -589,7 +593,7 @@ a:visited{
       }
     }  //end of .row
 }
-//set position relative so footer will print what is needed
+//set position relative so footer will print what is needed | DOESN'T WORK IN ALL 
 .print
 {
   position: relative;
@@ -622,7 +626,6 @@ a:visited{
     font-size:80%;
   }  
 }
-
 @media (max-width: 500px) {
   .btn-responsive {
     padding:6px 10px;
@@ -660,9 +663,7 @@ a:visited{
   #contact .verse{
   max-width: 80%;
   }
-  
 }
-
 ///750PX
 @media screen and (max-width: 750px) {
   blockquote, p, input, span, div, h4, h5, li{
@@ -766,7 +767,6 @@ a:visited{
   max-width: 75%;
   padding-top: 3px;
   }
-
 }
 @media only screen and (min-width: 768px) and (max-width: 1050px) {
 #carousel-systems{
@@ -784,9 +784,6 @@ a:visited{
 }
 ///Tablet landscape only
 @media only screen and (min-width: 1024px) and (max-width: 1599px) {  //only add footer credit margin top on larger resolutions
-   /*  .col-sm-5.pull-left, .col-md-7.pull-right{
-      margin-top: 50px;
-    }   */
   .verse {
     max-width: 33%;
   }

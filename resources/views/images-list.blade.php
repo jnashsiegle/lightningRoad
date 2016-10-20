@@ -24,7 +24,7 @@
                           @endif
                       @endforeach
                     </div> <!-- end .flash-message -->  
-
+                      <!--display images in a table-->
          <div class="row-fluid">
                <div class="col-xs-12 text-center">
                   <a href="{{ url('/image/create') }}" class="btn btn-primary" role="button">

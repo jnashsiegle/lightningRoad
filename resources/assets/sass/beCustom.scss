@@ -1,84 +1,87 @@
-html, body{
-  min-width:100%; 
-  overflow-x: hidden;
-  padding: 0;
-  margin: 0;
-  background-color: $brand-secondary;
+//GENERAL GLOBAL STYLES
+html,
+body {
+    min-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: $brand-secondary;
 }
 /* uncss:ignore */
-h1, h2, h3, h4, h5, h6{
-  font-family: $font-family-serif;
-  font-weight: bold; 
-}
-.clearfix{
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
-}
-.container-fluid{
-  max-width: 100%; 
-  margin-top: 5%;
-}
 
-.breadcrumb{
-  background: transparent;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-serif;
+    font-weight: bold;
 }
-/* uncss:ignore */
-.btn{
-  padding: 6px 12px;
-  border-color: $brand-primary;
-  margin-right: 0;  
-  -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
-  -moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.50);
-  box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.50);
+.clearfix {
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }
-/* uncss:ignore */
-#sBtn{
-  margin-top: 15px;
-  padding-right: 24px;
-  padding-left: 24px;
-  float: right;
-}
-.btnGroup { //add padding top to buttons below horizontal line
-  padding-top: 20px;
-}
-.tBtn{
-  margin: 0 auto;
-  display: block;
-}
-/* .btn-xlarge{
-    padding: 18px 28px;
-    font-size: 22px;
-    line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
-} */
-/* uncss:ignore */
-.btn-responsive {
-    padding:6px 12px;
+.container-fluid {
     max-width: 100%;
-    font-size:85%;
-    line-height: 1.5;
-    border-radius:3px;
-  }
-  /* uncss:ignore */
-.btn-responsive.disabled, .btn-responsive.disabled:hover{
-  background-color: $gray-light;
-  color: $brand-primary;
+    margin-top: 5%;
 }
+.breadcrumb {
+    background: transparent;
+}
+/* uncss:ignore */
 
-//for image upload 
-.btn-file{
-  position: relative;
-  overflow: hidden;
+.btn {
+    padding: 6px 12px;
+    border-color: $brand-primary;
+    margin-right: 0;
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
 }
-.btn-file input{
+/* uncss:ignore */
+
+#sBtn {
+    margin-top: 15px;
+    padding-right: 24px;
+    padding-left: 24px;
+    float: right;
+}
+.btnGroup {
+    //add padding top to buttons below horizontal line
+    padding-top: 20px;
+}
+.tBtn {
+    margin: 0 auto;
+    display: block;
+}
+/* uncss:ignore */
+
+.btn-responsive {
+    padding: 6px 12px;
+    max-width: 100%;
+    font-size: 85%;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+/* uncss:ignore */
+
+.btn-responsive.disabled,
+.btn-responsive.disabled:hover {
+    background-color: $gray-light;
+    color: $brand-primary;
+}
+//for image upload 
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input {
     position: absolute;
     height: 50px;
     width: 100%;
@@ -86,185 +89,188 @@ h1, h2, h3, h4, h5, h6{
     right: 0;
     margin: 0;
     opacity: 0;
-    -ms-filter:'alpha(opacity=0)';
+    -ms-filter: 'alpha(opacity=0)';
     font-size: 200px;
     direction: ltr;
     cursor: pointer;
 }
-span.form-control.btn.btn-default.btn-file{
-  width: 25%;
+span.form-control.btn.btn-default.btn-file {
+    width: 25%;
 }
+#userfilename {
+    display: inline-block;
+    margin-left: 30x;
+    font-size: 75%;
+}
+.hidden_field {
+    display: none;
+}
+/* uncss:ignore */
 
- #userfilename{
-  display: inline-block;
-  margin-left: 30x;
-  font-size: 75%;
-}
-.hidden_field{
-  display: none;
+.adminGall {
+    border: 1px solid $brand-primary;
 }
 /* uncss:ignore */
-.adminGall{
-  border: 1px solid $brand-primary;
+
+//WRAP IMAGES UPLOADED AND SIZE 
+.imgWrap {
+    border: 1px solid $brand-primary;
+    margin: 5px 10px 20px 10px;
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
 }
 /* uncss:ignore */
-.imgWrap{
-  border: 1px solid $brand-primary;
-  margin: 5px 10px 20px 10px;
-   -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.50);
-  -moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.50);
-  box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.50);
-  }
-/* uncss:ignore */
+
 .frame-square {
-  background: $brand-secondary;
-  border: 2px solid $brand-primary;
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px;
-  /* width: 130px; */
-  height: 130px;
-  /* margin-right: .5em; */
-  margin-bottom: .3em;
+    background: $brand-secondary;
+    border: 2px solid $brand-primary;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    /* width: 130px; */
+    
+    height: 130px;
+    /* margin-right: .5em; */
+    
+    margin-bottom: .3em;
 }
 /* uncss:ignore */
+
 .crop {
-  min-width: 100%;
-  height: auto;
-  height: 100%; //keep it responsive without smooshing
-  overflow: hidden;
-  position: relative;
-  /* uncss:ignore */
-  img {
-    display: block;
     min-width: 100%;
-    min-height: 100%;
-    margin: auto;
-  }
+    height: auto;
+    height: 100%; //keep it responsive without smooshing
+    overflow: hidden;
+    position: relative;
+    /* uncss:ignore */
+    
+    img {
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+        margin: auto;
+    }
 }
-#editImage  a.btn.btn-primary{
-  margin: 30px 0;
+//END IMAGE WRAP AND SIZE
+#editImage a.btn.btn-primary {
+    margin: 30px 0;
 }
-.controls{
-  padding: 5% 15% 15% 15%;
+.controls {
+    padding: 5% 15% 15% 15%;
 }
-
-//Panel Heading on login page
-.panel-default {  
-  border-color: $brand-primary;
-  max-width: 100%;
-  margin: 0 auto;  
+//Panel Heading on login page | PANEL STYLES
+.panel-default {
+    border-color: $brand-primary;
+    max-width: 100%;
+    margin: 0 auto;
 }
-/* .hidden_field{
-  display: none;
-} */
-.panel {  
-  margin-bottom: 27px;
-  background-color: $brand-primary;
-  //border: 1px solid transparent;
-  border-radius: 10px;
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.50);
-  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.50);
-  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.50);
-}  
-
-.panel-default > .panel-heading{ 
-  color: $brand-accent;
-  background-color: $brand-primary;
-  border-color: $brand-primary;
-  line-height: 32px;
-  padding: 10px 15px;
-  border-bottom: 1px solid transparent;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+.panel {
+    margin-bottom: 27px;
+    background-color: $brand-primary;
+    //border: 1px solid transparent;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.50);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.50);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.50);
 }
-.panel-body{
-  background-color: #fff;
+.panel-default > .panel-heading {
+    color: $brand-accent;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+    line-height: 32px;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
-.panel-title{
-  font-size: 36px;
+.panel-body {
+    background-color: #fff;
 }
-span > a > img{
-  padding-left:15px;
-   max-width: 100%;
-   max-height: 100%; 
+.panel-title {
+    font-size: 36px;
 }
-h1{
-  padding-right: 15px; 
+span > a > img {
+    padding-left: 15px;
+    max-width: 100%;
+    max-height: 100%;
 }
-.panel-heading h1{  
-  color: $brand-accent;
-  line-height: 2.5;
+h1 {
+    padding-right: 15px;
 }
+.panel-heading h1 {
+    color: $brand-accent;
+    line-height: 2.5;
+}
+//END PANELS
+//MY CONTAINER STYLES
 .mycontainer {
-  display:table;
-  width:100%;
+    display: table;
+    width: 100%;
 }
-.mycontainer span, .mycontainer span.pull-left {
-  display: table-cell; 
-  vertical-align: middle;
+.mycontainer span,
+.mycontainer span.pull-left {
+    display: table-cell;
+    vertical-align: middle;
 }
-.table > tbody > tr > td{
-  vertical-align: middle;
-  
+.table > tbody > tr > td {
+    vertical-align: middle;
 }
-#image-list > td{
-  word-wrap: break-word;
+#image-list > td {
+    word-wrap: break-word;
 }
 //table for user display
 table {
-  min-width: 95%;
-  margin:0 auto;
+    min-width: 95%;
+    margin: 0 auto;
 }
-.table-responsive td, .table-responsive th { 
-  white-space:nowrap; 
-  }
+.table-responsive td,
+.table-responsive th {
+    white-space: nowrap;
+}
 //form 
- form{
-  width: 100%;
-  margin-bottom: 0;
-} 
-
-/* uncss:ignore */
-legend {
-  font-family: "Quicksand", "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 24px;
+form {
+    width: 100%;
+    margin-bottom: 0;
 }
-#login-form{
-  display:inline-block;
-}  
- a{
-   color: $brand-link;
- } 
+/* uncss:ignore */
 
-
+legend {
+    font-family: "Quicksand", "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+#login-form {
+    display: inline-block;
+}
+a {
+    color: $brand-link;
+}
 //End panel Heading on Login Page
-
 //media queries
 /////Through Tablet Portrait
 @media screen and (max-width: 1024px) {
-  blockquote, p,input,span,h4,h5 div, li {
-    font-size: 95%;
-  }  
-  h1 {
-    font-size: 24px;     
-  }
-  h2 {
-    font-size: 22px;  
-  }
-  h3{
-    font-size: 18px;  
-  } 
-
-  } 
-  @media screen and (max-width: 450px){
-  .controls{
-  padding: 15% 0 30% 0;
+    blockquote,
+    p,
+    input,
+    span,
+    h4,
+    h5 div,
+    li {
+        font-size: 95%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
+@media screen and (max-width: 450px) {
+    .controls {
+        padding: 15% 0 30% 0;
+    }
 }
-
-
-
-
-
