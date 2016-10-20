@@ -35,7 +35,7 @@
                       	<tr>
                       		<td>Laravel 5.2/Gulp/Elixir</td>
                       		<td>Adobe Photoshop &amp; Illustrator</td>
-                      		<td>Nginx</td>
+                      		<td>Nginx 1.11.3</td>
                       	</tr>
                       	<tr>
                       		<td>Jquery 2.2.4</td>
