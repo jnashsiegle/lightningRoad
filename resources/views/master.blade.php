@@ -16,9 +16,10 @@
         commission, hays county detention center, texas mentoring, faith-based mentoring, motorcycle outreach, christian bikers, biker evangelism">
         <meta name = "author" content = "Jana Nash-Siegle">
         <link rel="canonical" href="http://lightningroadfp.tech/">
+        <!--favicon-->
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
         <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
-        <!-- Customized stylesheet from SASS -->
+        <!-- Customized and minified stylesheet from SASS -->
         <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css">
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css" media="screen">
@@ -39,9 +40,12 @@
     <!-- jQuery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" async="async" defer = "defer"></script>
+     <!--modernizr CDN-->
      <script src = "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" async = "async" defer = "defer"></script>
+     <!--bootstrap js CDN-->
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" async="async" defer = "defer"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
+    <!--my javascripts | arrow is for animated arrow on landing, miscellaneous others in all.min.js-->
     <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}"></script>
     <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script>  
     </main>
