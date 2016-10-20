@@ -228,7 +228,7 @@
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
 		                <a class = "gImage" title = "Tough Love Rally" href = "#" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Slow Race at Tough Love Rally" data-image = "/images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-target = "#image-gallery">
-		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" width = "220" height = "165" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
+		                    <img class="thumb img-responsive center-block" src="/images/thumbnails/ToughLoveRally_slowrace_TexT.jpg" width = "220" height = "165" alt = "Slow Race at Tough Love Rally" aria-hidden = "true">
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
@@ -242,7 +242,7 @@
 		                </a> 
 		            </div>
 	            	<div class="col-lg-3 col-md-4">
-		                <a class = "gImage" title = "Ring Toss Fun" href = "#" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring toss fun at the Tough Love Rally" data-image = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery">
+		                <a class = "gImage" title = "Ring Toss Fun" href = "#" data-image-id="" data-toggle = "modal" data-title = "Lightning Road Biker Outreach" data-caption = "Ring toss fun at the Tough Love Rally" data-image = "/images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-target = "#image-gallery">
 		                    <img class="thumb img-responsive center-block" src="../images/thumbnails/ToughLoveRally_Darrell_ringtossT.jpg" alt = "Ring toss fun at the Tough Love Rally" width = "220" height = "165" aria-hidden="true">
 		                </a> 
 		            </div>
