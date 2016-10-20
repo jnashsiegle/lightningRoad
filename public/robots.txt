@@ -1,2 +1,5 @@
+User-Agent: *
 Allow: /$
 Disallow: /
+User-Agent: LinkChecker
+Allow: /
