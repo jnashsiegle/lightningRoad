@@ -290,7 +290,7 @@
         </div><!--end of container-->
        
        	
-        	<footer id = "information" class="container-fluid"><!--footer-->
+        	<footer id = "information" class="container-fluid print"><!--footer-->
            		<div class = "row-fluid"> 
            			<div class="navbar" role = "navigation">
 	                <ul class="nav navbar-nav">
@@ -307,7 +307,7 @@
        		 	<div class = "col-md-4">				
 					<img src = "/images/logos/alphaLogoThumb.svg" width = "120" height = "116" class = "pullL .img-responsive" alt = "Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
 				</div>				
-				<div class = "col-md-4">
+				<div id = "downloads" class = "col-md-4">
 						<p class = "text-center">DOWNLOADS</p>
 						<p class = "text-center" role = "link"><a href = "https://www.tdcj.state.tx.us/php/volunteer_application/" target = "_blank">Volunteer Application for the TDCJ Download</a></p>
 						<p class = "text-center" role = "link"><a href = "http://www.ringofchampions.net/" target = "_blank">Ring of Champions</a></p>

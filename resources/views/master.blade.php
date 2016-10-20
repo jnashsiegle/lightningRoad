@@ -19,7 +19,7 @@
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
         <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
         <!-- Customized stylesheet from SASS -->
-        <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css" media="screen">
+        <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css">
         <!--Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type = "text/css" media="screen">
         <!--Necessary shims-->

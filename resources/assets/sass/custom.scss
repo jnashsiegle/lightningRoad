@@ -589,6 +589,14 @@ a:visited{
       }
     }  //end of .row
 }
+//set position relative so footer will print what is needed
+.print
+{
+  position: relative;
+  height: 11in;
+  border-bottom: 1px solid #000;
+  page-break-inside: avoid;
+}
   //end of #information
 
 //General Media Queries
@@ -786,4 +794,30 @@ a:visited{
     max-width: 80%;
     margin: 0 auto;
   }
+}
+/* Media Query for print */
+
+@media print {
+  body{
+    background: #fff;
+  }
+  body{
+    width: 100%;
+  }
+  .verse, #landing, aside, img, blockquote, nav, .breacrumb, .cta, #outreach.pullL, .carousel, .carousel-systems, #contact, #gallery{
+    display:none;
+  }
+  #information .navbar, #information i{
+    display: none;
+  }
+  h1, #gallery > .row-fluid:nth-of-type(3){
+    page-break-before: always;
+  }
+  footer{
+    page-break-before: always;
+  }
+  a[href^=http]:after {
+      content:" <" attr(href) "> ";
+   }
+
 }
