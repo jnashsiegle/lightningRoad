@@ -15,6 +15,7 @@
 //These routes can be access by anyone 
 
 Route::get('/', 'PagesController@home');  //home.blade.php
+Route::get('colophon', 'PagesController@colophon'); //colphone.blade.php
 Route::get('contact', 'PagesController@contact');  //contact.blade.php into home.blade.php
 Route::get('auth/lrfptech2016', 'PagesController@lrfptech2016');  // login page for admin area
 Route::get('auth/login', 'Auth\AuthController@getLogin'); 

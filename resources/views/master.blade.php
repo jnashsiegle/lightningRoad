@@ -34,6 +34,7 @@
 @yield('content')
 @yield('contact')
 @yield('content1')
+@yield('content2')
 
     <!-- jQuery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

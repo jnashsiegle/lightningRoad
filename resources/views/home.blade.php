@@ -14,7 +14,7 @@
 	                	<div class = "col-xs-12 col-md-5 col-md-offset-1 vcenter">
 	                	    <aside id = "landingR">       		
 	                		<img src = "/images/logos/textLogoLight.svg" width = "301" height = "107" class = ".img-responsive hidden-md hidden-lg hidden-xl" alt = "Lightning Road Biker Outreach Logo" aria-hidden = "true" >
-	                		<img src = "/images/logos/alphaLogo.svg" height = "480" width = "463" class = "hidden-sm hidden-xs center-block .img-responsive" alt = "Lightning Road Biker Outreach Logo" aria-hidden="true">
+	                		<img src = "/images/logos/alphaLogo.svg" height = "480" width = "463" class = "hidden-sm hidden-xs center-block .img-responsive" alt = "Lightning Road Biker Outreach Logo 2" aria-hidden="true">
 	                		<blockquote>
 	                		<p>As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.</p>
 	                		<cite> ~ &lpar;Matthew 24&colon;27&rpar;</cite>
@@ -23,7 +23,7 @@
 	                	</div> <!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->	
 	                	</div><!--end of row-fluid-->
 	                	<!--scroll arrow-->	               
-						<a href = "#about"><i id = "arrow" class = "fa fa-arrow-down fa-5x" aria-hidden = "true"></i></a>	
+						<a href = "#about"><i id = "arrow" class = "fa fa-arrow-down fa-5x" aria-hidden = "true" title = "scroll arrow"></i></a>	
 						<!--end of scroll arrow-->             	           	
 	            	</div><!--end of Landing"-->
 	            <!--beginning of #About-->
@@ -39,7 +39,7 @@
 		<h1 class = "text-center">Who We Are</h1>
 		<div class = "row-fluid">	
 			<div class = "col-md-12">
-				<img src = "/images/SteveRose-216x300.jpg" width = "199" height = "282" id = "moore" class = "img-responsive pullR gapL" alt = "Steve and Rose Moore" aria-hidden = "true"/>
+				<img src = "/images/SteveRose-216x300.jpg" width = "199" height = "282" id = "moore" class = "img-responsive pullR gapL" alt = "A picture of Steve and Rose Moore" aria-hidden = "true"/>
 				<p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road.  Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas.  Steve and Rose are both licensed through <a href = "http://treeoflifechurch.org" target = "_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
 					<div class = "verse pullL gapR"><!--the following divs style the verse-->
 					<div class = "innerBox center-block">

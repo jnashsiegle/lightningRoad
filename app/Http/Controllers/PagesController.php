@@ -27,6 +27,10 @@ class PagesController extends Controller {
 	{
 		return view('adminP');
 	}
+	public function colophon()  //colophon
+	{
+		return view('colophon');
+	}
 
 	
 
