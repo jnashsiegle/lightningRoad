@@ -11,7 +11,7 @@
           </div><!--end of panel-heading-->
         <div class="panel-body">
         <div class = "col-xs-12">
-        <p>This site is a makeover for Lightning Road Biker Outreach as a student project designed and developed by <a href = "http://jlsdesk.com">Jana Nash-Siegle</a>.  This project is the final for the Bachelor's of Science Degree at <a href = "http://fullsail.edu">Full Sail University.</a></p><p>The site will replace the existing one at <a href = "http://lightningroad.org">Lighting Road Biker Outreach</a> by the end of the year.
+        <p>This site is a makeover for Lightning Road Biker Outreach as a student project designed and developed by <a href = "http://jlsdesk.com">Jana Nash-Siegle</a>.  This project is the final for the Bachelor's of Science Degree at <a href = "http://fullsail.edu">Full Sail University.</a></p>
         <div id = "colophon-list" class = "table-responsive">
                 <table class = "table table-striped table-responsive table-bordered">
                   	<thead>

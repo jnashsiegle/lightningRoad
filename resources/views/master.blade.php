@@ -17,8 +17,8 @@
         <meta name = "author" content = "Jana Nash-Siegle">
         <link rel="canonical" href="http://lightningroadfp.tech/">
         <!--favicon-->
-        <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
-        <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/png">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/png">
+        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/png">
         <!-- Customized and minified stylesheet from SASS -->
         <link href="{{ asset('css/app.min.css/app.min.css') }}" rel="stylesheet" type="text/css">
         <!--Google Fonts -->
