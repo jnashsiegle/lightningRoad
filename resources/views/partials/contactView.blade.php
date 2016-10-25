@@ -244,7 +244,7 @@
                             	</td>
                             </tr>
                             <tr>
-                            	<td width = "25%">&lpar;if applicable&rpar;</td>
+                            	<td width = "25%">if applicable</td>
                             </tr>
                         </tbody>
                         </table>
