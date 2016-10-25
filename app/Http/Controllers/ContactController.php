@@ -42,8 +42,8 @@ class ContactController extends Controller
             'user_message' => $request->get('message')
         ), function($message)
     {
-        $message->from('jlousiegle@gmail.com');
-        $message->to('jlousiegle@gmail.com', 'Admin')->subject('Lightning Road Contact Form Submission');
+        $message->from('flacoboy180@gmail.com');
+        $message->to('flacoboy180@gmail.com', 'Admin')->subject('Lightning Road Contact Form Submission');
     });
 
   
