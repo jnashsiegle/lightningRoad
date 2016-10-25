@@ -372,10 +372,12 @@
             <img src="/images/logos/alphaLogoThumb.svg" width="120" height="116" class="pullL .img-responsive" alt="Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
         </div>
         <div id="downloads" class="col-md-4">
-            <p class="text-center">DOWNLOADS</p>
+            <p class="text-center">DOWNLOADS &amp; Links</p>
             <p class="text-center" role="link"><a href="https://www.tdcj.state.tx.us/php/volunteer_application/" target="_blank">Volunteer Application for the TDCJ Download</a>
             </p>
             <p class="text-center" role="link"><a href="http://www.ringofchampions.net/" target="_blank">Ring of Champions</a>
+            </p>
+             <p class="text-center" role="link"><a href="https://www.behindthewalls.com/" target="_blank">Bill Glass Ministries | Behind the Walls</a>
             </p>
         </div>
         <div class="col-md-4">

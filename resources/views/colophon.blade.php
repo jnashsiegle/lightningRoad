@@ -52,6 +52,10 @@
                       		<td>Git CLI | GitHub </td>
                       		<td>Laravel Forge</td>
                       	</tr>
+                        <tr>
+                        <td></td>
+                        <td>Trello</td>
+                        <td></td>
                      </tbody>
                 </table>
                      	
