@@ -5,7 +5,7 @@
 if(isset($_POST['url']) && $_POST['url'] == ''){
 
      // put your email address here     
-     $youremail = 'jlousiegle@gmail.com';
+     $youremail = 'flacoboy180@gmail.com';
 
      // prepare a "pretty" version of the message
      $body = "This is the form that was just submitted:     
