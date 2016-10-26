@@ -47,7 +47,7 @@
     <div class="row-fluid">
         <div class="col-md-12">
             <img src="/images/SteveRose-216x300.jpg" width="199" height="282" id="moore" class="img-responsive pullR gapL" alt="A picture of Steve and Rose Moore" aria-hidden="true" />
-            <p>We are Steve and Rose Moore together we form the ministry outreach of Lightning Road. Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas. Steve and Rose are both licensed through <a href="http://treeoflifechurch.org" target="_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
+            <p>We are Steve and Rose Moore. Together we form the ministry outreach of Lightning Road. Steve is licensed and ordained through Heritage of Faith Ministerial Association, for Jerry Savelle Ministries International &lpar;JSMI&rpar; located in Crowley, Texas. Steve and Rose are both licensed through <a href="http://treeoflifechurch.org" target="_blank">Tree of Life Church</a> to facilitate entry into area jails and detention centers.</p>
             <div class="verse pullL gapR">
                 <!--the following divs style the verse-->
                 <div class="innerBox center-block">
@@ -59,7 +59,7 @@
                 <!--end of inner box-->
             </div>
             <!--end of verse center-block & verse styling-->
-            <p>As members of <a href="http://www.chariotsoflight.com/" target="_blank">Chariots of Light Christian Bikers</a>, we co-labor as partners and a parallel ministry to COL and <a href="http://www.jerrysavelle.org/" target="_blank">Jerry Savelle Ministries International</a> participating in the biggest soul-winning outreach in the country.</p>
+            <p>As members of <a href="http://www.chariotsoflight.com/" target="_blank">Chariots of Light Christian Bikers</a>, we co-labor as partners and a parallel ministry to COL and <a href="http://www.jerrysavelle.org/" target="_blank">Jerry Savelle Ministries International</a> participating in its biggest soul-winning outreach in the nation.</p>
             <p>We have the unique opportunity to utilize a special ministry tool – our motorcycles. We have seen many breakthroughs in offenders who had been previously unapproachable. The biker culture immediately breaks down the barriers that stop effective ministry from operating behind these walls.</p>
         </div>
     </div>
@@ -192,7 +192,7 @@
         <div class="col-xs-12">
             <img src="/images/thumbnails/IMG_0152T.jpg" width="220" height="165" class="img-responsive pullL gapR" alt="Reaching out at Rallies">
             <div class="statement clearfix">
-                <p class="text-left">SPREADING the gospel of Jesus Christ through itinerant evangelism primarily but not limited to, by motorcycle.</p>
+                <p class="text-left">SPREADING the gospel of Jesus Christ through itinerant evangelism primarily but not limited to travel by motorcycle.</p>
                 <p class="text-left">REACHING OUT to the biker world through tours, rallies, organized rides, meetings, services, etc: using printed, audio, video, Internet, and other media sources to disseminate information.</p>
                 <p class="text-left">REACHING BEYOND the mainstream and into the outlaw biker population and to the local, state, and federal prison systems (youth/adult/male/female) to counsel and mentor offenders.</p>
                 <p class="text-left">REACHING INTO the inter-city street culture to encourage the lost and bring hope to the hopeless. </p>
