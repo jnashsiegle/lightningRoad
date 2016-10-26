@@ -192,7 +192,7 @@
         <div class="col-xs-12">
             <img src="/images/thumbnails/IMG_0152T.jpg" width="220" height="165" class="img-responsive pullL gapR" alt="Reaching out at Rallies">
             <div class="statement clearfix">
-                <p class="text-left">SPREADING the gospel of Jesus Christ through itinerant evangelism primarily but not limited to travel by motorcycle.</p>
+                <p class="text-left">SPREADING the gospel of Jesus Christ through itinerant evangelism primarily, but not limited to travel by motorcycle.</p>
                 <p class="text-left">REACHING OUT to the biker world through tours, rallies, organized rides, meetings, services, etc: using printed, audio, video, Internet, and other media sources to disseminate information.</p>
                 <p class="text-left">REACHING BEYOND the mainstream and into the outlaw biker population and to the local, state, and federal prison systems (youth/adult/male/female) to counsel and mentor offenders.</p>
                 <p class="text-left">REACHING INTO the inter-city street culture to encourage the lost and bring hope to the hopeless. </p>
