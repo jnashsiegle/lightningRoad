@@ -8,7 +8,7 @@
     <div class="col-xs-12  col-md-4 col-md-offset-1 vcenter">
         <aside id="landingL">
             <img src="/images/logos/textLogoLight.svg" width="301" height="107" class="img-responsive hidden-xs hidden-sm" alt="Lightning Road Biker Outreach" aria-hidden="true" />
-            <p class="tagline text-left hidden-xs hidden-sm">B<span class="scream">i</span>ker Outreach | Motorcycle Evangelism</p>
+            <p class="tagline text-left hidden-xs hidden-sm">Biker Outreach | Motorcycle Evangelism</p>
         </aside>
         <!--end of landingL-->
     </div>
