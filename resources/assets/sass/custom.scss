@@ -1,13 +1,4 @@
 @font-face {
-  font-family: 'thequietscream';
-  src: url('/fonts/thequietscream.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/thequietscream.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/thequietscream.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/thequietscream.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/thequietscream.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/thequietscream.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-@font-face {
   font-family:FontAwesome;
   src:url('/fonts/fontawesome-webfont.eot?v=4.6.3');
   src:url('/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format("embedded-opentype"),
@@ -35,7 +26,7 @@ cite{
 /* uncss:ignore */
 hr {
 height: 100px;
-background: url(/images/hr-gray.png) no-repeat center;
+background: url(../images/hr-gray.png) no-repeat center;
 border: none;
 }
 img{
@@ -178,7 +169,7 @@ a:visited{
 /* LANDING */
 /* uncss:ignore */
 #landing {
-	background: url('/images/lrBkg.jpg') no-repeat center center scroll;
+	background: url('../images/lrBkg.jpg') no-repeat center center scroll;
 	background-size: cover;
 	max-width: 100%;
 	min-height: 100vh;
@@ -411,7 +402,7 @@ a:visited{
 #what, #contact{ 
   max-width: 100%; 
   background-color: $brand-secondary;
-  background:url("/images/logos/alphaLg.svg")no-repeat center center;
+  background:url("../images/logos/alphaLg.svg")no-repeat center center;
   background-size: 120% 100%;
 } 
   #contact{
@@ -517,7 +508,7 @@ a:visited{
 //beginning of footer
  /* uncss:ignore */
 #information{   
-  background: url('/images/footerBkg.jpg') no-repeat center center;
+  background: url('../images/footerBkg.jpg') no-repeat center center;
   background-size: cover;
   min-width: 100%;
   height: auto;

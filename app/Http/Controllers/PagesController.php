@@ -11,26 +11,35 @@ class PagesController extends Controller {
 	public function home()  //home page
 	{
 		return view('home');
-	}
-
-	public function contact()  //contact page to inject into home.blade
-	{
-		return View::make('partials.contact');
-	}
-
-	public function lrfptech2016()   //login
-	{
-		return view('auth/lrfptech2016');
-	}
-	
-	public function adminP()
-	{
-		return view('adminP');
-	}
-	public function colophon()  //colophon
-	{
-		return view('colophon');
-	}
+	}	
+        public function landing()  //about page to inject into home.blade
+        {
+        return View::make('pages.landing');
+        }  
+    	public function who()  //about page to inject into home.blade
+    	{
+        return View::make('pages.about');
+    	}  
+    	public function what()  //resume page to inject into home.blade
+    	{
+        return View::make('pages.what');
+    	}  
+    	public function mission()  //skills page to inject into home.blade
+    	{
+        return View::make('pages.mission');
+    	}     
+    	public function contact()  //contact page to inject into home.blade
+    	{
+        return View::make('pages.contact');
+    	} 
+    	public function gallery()  //contact page to inject into home.blade
+    	{
+        return View::make('pages.gallery');
+    	}     
+    	public function colophon()  //colophon
+    	{
+        return view('colophon');
+    	}
 
 	
 

@@ -1,14 +1,6 @@
-@section('contact')
-        	<div id = "contact" class = "container-fluid"> <!--Contact section -->
+    	<div id = "contact" class = "container-fluid"> <!--Contact section -->
         	<!--breadcrumbs-->
-        	<nav class="breadcrumb">
-			  <a class="breadcrumb-item" href="#">Home / </a>
-			  <a class="breadcrumb-item" href="#about">Who / </a>
-			  <a class="breadcrumb-item" href="#what">What / </a>
-			  <a class="breadcrumb-item" href="#mission">Mission / </a>
-			  <a class="breadcrumb-item active" href = "#contact">Contact / </a>
-			  <a class="breadcrumb-item" href = "#gallery">Gallery</a>
-			</nav>
+        	@include('partials.breadcrumb')
 			<!--Flash Message -->
 			<div class="flash-message">
 			@foreach (['danger', 'warning', 'success', 'info'] as $msg)
@@ -120,4 +112,3 @@
 	
 	</div><!--end of container-->
 
-@endsection

@@ -44,10 +44,11 @@
     <main>
 
 @yield('content')
-@yield('contact')
-@yield('content1')
+{{-- @yield('content1')
 @yield('content2')
-
+ --}}
+</main>
+ @include('partials.footer')
     <!-- jQuery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" async="async" defer = "defer"></script>
@@ -58,7 +59,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" integrity="sha256-IxYUmOOk74FUrcx5FEMOHVmTJDb7ZAwnC/ivo/OQGxg=" crossorigin="anonymous" async="async" defer = "defer"></script>
     <!--my javascripts | arrow is for animated arrow on landing, miscellaneous others in all.min.js-->
     <script type = "text/javascript" src = "{{ asset('/js/arrow.min.js') }}"></script>
-    <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script>  
+    <script type = "text/javascript" src = "{{ asset('/js/all.min.js')  }}" async = "async" defer = "defer"></script> 
+   
     </main>
     </body>
 </html>
