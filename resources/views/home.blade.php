@@ -9,7 +9,7 @@
     @include('pages.about')
     @include('pages.what')
     @include('pages.mission')
-    {{-- @include('pages.contact') --}}
+    @include('pages.contact')
     @include('pages.gallery')					
 
 
