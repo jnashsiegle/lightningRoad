@@ -16,9 +16,6 @@ elixir(function(mix) {
     mix.sass('app.scss');
 });
 elixir(function(mix) {
-    mix.sass('beApp.scss');
-});
-elixir(function(mix) {
     mix.scripts(['arrow.js'],
         'public/js/arrow.min.js');
 });
