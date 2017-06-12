@@ -50,22 +50,22 @@
             <a href = "../images/roadTrips/CO_Tour_roadguards_JerrySavelle.JPG" data-lightbox="roadtrip" data-title = "CO Tour with Jerry Savelle"></a>
             <a href = "../images/roadTrips/COLDirectorsBillandGingerHorn.jpg" data-lightbox="roadtrip" data-title = "Bill and Ginger Horn -COL Directors"></a>
             <a href = "../images/roadTrips/Dannypraisingattheriver_Coloradotour.JPG" data-lightbox="roadtrip" data-title = "Worshipping and Praising"></a>
-            <a href = "../images/roadTrips/FirstnightatSturgisOutreach_2014.jpg" data-lightbox="roadtrip" data-title = "Sturgis - First Night"></a>
-            <a href = "../images/roadTrips/GettingreadytopreachattheBikeBlessing.jpg" data-lightbox="roadtrip" data-title = "Bike Blessings"></a>
+            <a href = "../images/roadTrips/FirstnightatSturgisOutreach_2014.JPG" data-lightbox="roadtrip" data-title = "Sturgis - First Night"></a>
+            <a href = "../images/roadTrips/GettingreadytopreachattheBikeBlessing.JPG" data-lightbox="roadtrip" data-title = "Bike Blessings"></a>
             <a href = "../images/roadTrips/GroupatLoneStarMotorcycleMuseum.jpg" data-lightbox="roadtrip" data-title = "Lone Star Motorcycle Museum"></a>
-            <a href = "../images/roadTrips/GroupRidetoFredericksburg.jpg" data-lightbox="roadtrip" data-title = "Group Ride to Fredericksburg"></a>
-            <a href = "../images/roadTrips/HangingoutinfrontofCOLBoothatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Booth at Daytona Bike Week"></a>
-            <a href = "../images/roadTrips/HangingwithCOLDirectorGingerHornatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Ginger Horn - Daytona Bike Week"></a>
-            <a href = "../images/roadTrips/HeadedtoTaosintherain.jpg" data-lightbox="roadtrip" data-title = "Headed to Taos"></a>
-            <a href = "../images/roadTrips/LeavingDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Leaving Daytona Bike Week"></a>
-            <a href = "../images/roadTrips/PastorBillyblessingRichRamirezChariotscolors.jpg" data-lightbox="roadtrip" data-title = "Pastor Billy blessing of Chariot Colors"></a>
+            <a href = "../images/roadTrips/GroupRidetoFredericksburg.JPG" data-lightbox="roadtrip" data-title = "Group Ride to Fredericksburg"></a>
+            <a href = "../images/roadTrips/HangingoutinfrontofCOLBoothatDaytonaBikeWeek.JPG" data-lightbox="roadtrip" data-title = "Booth at Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/HangingwithCOLDirectorGingerHornatDaytonaBikeWeek.JPG" data-lightbox="roadtrip" data-title = "Ginger Horn - Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/HeadedtoTaosintherain.JPG" data-lightbox="roadtrip" data-title = "Headed to Taos"></a>
+            <a href = "../images/roadTrips/LeavingDaytonaBikeWeek.JPG" data-lightbox="roadtrip" data-title = "Leaving Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/PastorBillyblessingRichRamirezChariotscolors.JPG" data-lightbox="roadtrip" data-title = "Pastor Billy blessing of Chariot Colors"></a>
             <a href = "../images/roadTrips/RoadtoTaos.jpg" data-lightbox="roadtrip" data-title = "Road To Taos"></a>
-            <a href = "../images/roadTrips/route66tour_roadguards.jpg" data-lightbox="roadtrip" data-title = "Route 66 Tour"></a>
-            <a href = "../images/roadTrips/SettingupboothatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Setting up booth at Daytona"></a>
-            <a href = "../images/roadTrips/StoppedinnowhereNM.jpg" data-lightbox="roadtrip" data-title = "Nowhere in New Mexico"></a>
+            <a href = "../images/roadTrips/route66tour_roadguards.JPG" data-lightbox="roadtrip" data-title = "Route 66 Tour"></a>
+            <a href = "../images/roadTrips/SettingupboothatDaytonaBikeWeek.JPG" data-lightbox="roadtrip" data-title = "Setting up booth at Daytona"></a>
+            <a href = "../images/roadTrips/StoppedinnowhereNM.JPG" data-lightbox="roadtrip" data-title = "Nowhere in New Mexico"></a>
             <a href = "../images/roadTrips/Streetwitness2Sturgis2014.JPG" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>
-            <a href = "../images/roadTrips/StreetWitnessSturgis2014.jpg" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>           
-            <a href = "../images/roadTrips/SupercrossFinalsafterafulldayofwitnessingonthemidway_DaytonaSuperSpeedway.jpg" data-lightbox="roadtrip" data-title = "SuperCross Finals"></a>            
+            <a href = "../images/roadTrips/StreetWitnessSturgis2014.JPG" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>           
+            <a href = "../images/roadTrips/SupercrossFinalsafterafulldayofwitnessingonthemidway_DaytonaSuperSpeedway.JPG" data-lightbox="roadtrip" data-title = "SuperCross Finals"></a>            
             <a href = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Colors"></a>
             <a href = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-lightbox="roadtrip" data-title = "Tough Love Rally Ring Toss"></a>
             <a href = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-lightbox="roadtrip" data-title = "Tough Love Rally Pastor Billy"></a>
