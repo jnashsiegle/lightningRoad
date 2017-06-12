@@ -59,8 +59,8 @@
             <a href = "../images/roadTrips/HeadedtoTaosintherain.JPG" data-lightbox="roadtrip" data-title = "Headed to Taos"></a>
             <a href = "../images/roadTrips/LeavingDaytonaBikeWeek.JPG" data-lightbox="roadtrip" data-title = "Leaving Daytona Bike Week"></a>
             <a href = "../images/roadTrips/PastorBillyblessingRichRamirezChariotscolors.JPG" data-lightbox="roadtrip" data-title = "Pastor Billy blessing of Chariot Colors"></a>
-            <a href = "../images/roadTrips/RoadtoTaos.jpg" data-lightbox="roadtrip" data-title = "Road To Taos"></a>
-            <a href = "../images/roadTrips/route66tour_roadguards.JPG" data-lightbox="roadtrip" data-title = "Route 66 Tour"></a>
+            <a href = "../images/roadTrips/RoadtoTaos.JPG" data-lightbox="roadtrip" data-title = "Road To Taos"></a>
+            <a href = "../images/roadTrips/route66tour_roadguards.jpg" data-lightbox="roadtrip" data-title = "Route 66 Tour"></a>
             <a href = "../images/roadTrips/SettingupboothatDaytonaBikeWeek.JPG" data-lightbox="roadtrip" data-title = "Setting up booth at Daytona"></a>
             <a href = "../images/roadTrips/StoppedinnowhereNM.JPG" data-lightbox="roadtrip" data-title = "Nowhere in New Mexico"></a>
             <a href = "../images/roadTrips/Streetwitness2Sturgis2014.JPG" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>
