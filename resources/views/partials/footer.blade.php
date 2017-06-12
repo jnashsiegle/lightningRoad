@@ -39,14 +39,14 @@
         
         <ul class="clearfix">
         <div class = "col-md-4">
-            <li class="text-muted pull-left">Site by&colon; <a href="http://lightpointdev.com" target='_blank'>LightPoint Development</a>
+            <li class="text-muted">Site by&colon; <a href="http://lightpointdev.com" target='_blank'>LightPoint Development</a>
         </div>
             </li>
         <div class = "col-md-4">
-            <li class = "whiteTxt text-center"><a href="https://www.facebook.com/sozosam/" target="_blank">Follow us on: <i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="sr-only">Facebook page is at https://www.facebook.com/sozosam/"</span></li>
+            <li class = "whiteTxt"><a href="https://www.facebook.com/sozosam/" target="_blank">Follow us on: <i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="sr-only">Facebook page is at https://www.facebook.com/sozosam/"</span></li>
         </div>
         <div class = "col-md-4">      
-            <li class="text-muted pull-right">&commat;<?php echo date("Y"); ?> <a href="#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
+            <li class="text-muted">&commat;<?php echo date("Y"); ?> <a href="#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
         </div><!--end of col-md-4-->
         </ul>
         </div> <!--end of row-fluid-->

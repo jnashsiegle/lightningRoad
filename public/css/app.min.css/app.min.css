@@ -3712,9 +3712,14 @@ hr {
 
 img {
   max-width: 20%;
-  height: auto; }
+  height: auto;
+  padding: 0;
+  background-color: #122B40;
+  border: 5px solid #0b1a26;
+  border-image: -webkit-linear-gradient(45deg, #122b40, #d0d5d9) 20 stretch;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  font-size: 5em; }
 
-/* facebook icon specific */
 /* img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{ 
   padding: 0;
   background-color: $brand-primary;
@@ -4103,8 +4108,7 @@ blockquote {
 
 @media screen and (min-width: 300px) {
   #information .col-md-4:first-child {
-    margin: 0 auto;
-    padding-bottom: 30px; }
+    margin: 0 auto; }
     #information .col-md-4:first-child img {
       max-width: 6em;
       height: auto; }
@@ -4229,9 +4233,7 @@ blockquote {
   .carousel-indicators {
     width: 100%;
     text-align: center;
-    margin-left: -50%; }
-  #information .col-md-4:first-child {
-    margin-bottom: 20px; } }
+    margin-left: -50%; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1599px) {
   .verse {
