@@ -40,8 +40,8 @@
             <a href = "../images/roadTrips/PoncedeLeonlighthouse_FLA.jpg" data-lightbox="roadtrip" data-title = "PoncedeLeon Lighthouse, Florida"></a>
             <a href = "../images/roadTrips/ReadytoridefordownedSheriff_ Fredericksburg.jpg" data-lightbox="roadtrip" data-title = "Fredericksburg Downed Officer Ride"></a>
             <a href = "../images/roadTrips/Steve_BallingerCross_B2B.jpg" data-lightbox="roadtrip" data-title = "Steve Ballinger Cross"></a>
-            <a href = "../images/roadTrips/98ElectraGlideblessing.JPG" data-lightbox="roadtrip" data-title = "Blessing of 98 Glide"></a>
-            <a href = "../images/roadTrips/2010PoliceElectraGlideBlessing.jpg" data-lightbox="roadtrip" data-title = "2010 Police Electra Glide Blessing"></a>
+            <a href = "../images/roadTrips/98ElectraGlideblessing.jpg" data-lightbox="roadtrip" data-title = "Blessing of 98 Glide"></a>
+            <a href = "../images/roadTrips/2010PoliceElectraGlideBlessing.JPG" data-lightbox="roadtrip" data-title = "2010 Police Electra Glide Blessing"></a>
             <a href = "../images/roadTrips/Blessing05003.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
             <a href = "../images/roadTrips/Blessing05005.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
             <a href = "../images/roadTrips/Blessing05028.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
