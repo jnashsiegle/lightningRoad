@@ -94,9 +94,7 @@
             <a href = "../images/outreach/Witnessingtothecharityridecrowd_Fredericksburg.jpg" data-lightbox="outreach" data-title = "Fredericksburg Charity Ride Crowd - Witnessing"></a>
             <a href = "../images/outreach/WitnessteamatHCJC_DayofChampionsevent.jpg" data-lightbox="outreach" data-title = "Day of Champions - Hays County Juvenile Center"></a>
             <a href = "../images/outreach/WorkingCopsforKidsoutreach.jpg" data-lightbox="outreach" data-title = "Cops for Kids Outreach"></a>
-            <a href = "../images/fullsize/DayofChampions_HCJC.jpg" data-lightbox="outreach" data-title = "Day of Champions - Hays County Juvenile Center"></a>
-            <a href = "../images/fullsize/DayofChampions_HCJC.jpg" data-lightbox="outreach" data-title = "Day of Champions - Hays County Juvenile Center"></a>
-            <a href = "../images/fullsize/DayofChampions_HCJC.jpg" data-lightbox="roadtrip" data-title = "Day of Champions - Hays County Juvenile Center"></a>
+            <a href = "../images/fullsize/DayofChampions_HCJC.jpg" data-lightbox="outreach" data-title = "Day of Champions - Hays County Juvenile Center"></a> 
             <a href = "../images/fullsize/HaysCo_Juvenile_Bible_delivery.jpg" data-lightbox="roadtrip" data-title = "Delivering Bibles at the Hays County Juvenile Center"></a>
             <a href = "../images/fullsize/JohnnySpinks_Jesse_HCJC_PINKGLOVES.jpg" data-lightbox="roadtrip" data-title = "Johnny Spinks"></a>
             <a href = "../images/fullsize/JohnnySpinks_Jesse_HCJC.jpg" data-lightbox="roadtrip" data-title = "Johnny Spinks"></a>
