@@ -49,7 +49,7 @@
             <a href = "../images/roadTrips/ChariotswaitingtoleaveonCharityride_Fredericksburg.JPG" data-lightbox="roadtrip" data-title = "Leaving for Fredericksburg"></a>
             <a href = "../images/roadTrips/CO_Tour_roadguards_JerrySavelle.JPG" data-lightbox="roadtrip" data-title = "CO Tour with Jerry Savelle"></a>
             <a href = "../images/roadTrips/COLDirectorsBillandGingerHorn.jpg" data-lightbox="roadtrip" data-title = "Bill and Ginger Horn -COL Directors"></a>
-            <a href = "../images/roadTrips/Dannypraisingattheriver_Coloradotour.JPG" data-lightbox="roadtrip" data-title = "Worshipping and Praising"></a>
+            <a href = "../images/roadTrips/Dannypraisingattheriver_Coloradotour.jpg" data-lightbox="roadtrip" data-title = "Worshipping and Praising"></a>
             <a href = "../images/roadTrips/FirstnightatSturgisOutreach_2014.JPG" data-lightbox="roadtrip" data-title = "Sturgis - First Night"></a>
             <a href = "../images/roadTrips/GettingreadytopreachattheBikeBlessing.JPG" data-lightbox="roadtrip" data-title = "Bike Blessings"></a>
             <a href = "../images/roadTrips/GroupatLoneStarMotorcycleMuseum.jpg" data-lightbox="roadtrip" data-title = "Lone Star Motorcycle Museum"></a>
