@@ -33,19 +33,18 @@
             <a href = "../images/roadTrips/EnjoyingtheSupercrossFinalsatDaytonaSuperSpeedway.jpg" data-lightbox="roadtrip" data-title = "Daytona Speedway SuperCross Finals"></a>
             <a href = "../images/roadTrips/GettingreadyfortheAVTTProcessional.jpg" data-lightbox="roadtrip" data-title = "AVT Processional"></a>
             <a href = "../images/roadTrips/Hotel_loadoutCO_Tour.jpg" data-lightbox="roadtrip" data-title = "Colorado Tour"></a>
-            <a href = "../images/roadTrips/IMG_0150.JPG" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
-            <a href = "../images/roadTrips/IMG_0168.JPG" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/IMG_0150.jpg" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/IMG_0168.jpg" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
             <a href = "../images/roadTrips/MyoldroommateDickYeagerwitnessingatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Dick Yeager Witnessing at DBW"></a>
             <a href = "../images/roadTrips/PastorSteveIngramwitnessingatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Pastor steve Ingram Witnessing at DBW"></a>
             <a href = "../images/roadTrips/PoncedeLeonlighthouse_FLA.jpg" data-lightbox="roadtrip" data-title = "PoncedeLeon Lighthouse, Florida"></a>
             <a href = "../images/roadTrips/ReadytoridefordownedSheriff_ Fredericksburg.jpg" data-lightbox="roadtrip" data-title = "Fredericksburg Downed Officer Ride"></a>
             <a href = "../images/roadTrips/Steve_BallingerCross_B2B.jpg" data-lightbox="roadtrip" data-title = "Steve Ballinger Cross"></a>
             <a href = "../images/roadTrips/98ElectraGlideblessing.jpg" data-lightbox="roadtrip" data-title = "Blessing of 98 Glide"></a>
-            <a href = "../images/roadTrips/2010PoliceElectraGlideBlessing.JPG" data-lightbox="roadtrip" data-title = "2010 Police Electra Glide Blessing"></a>
+            <a href = "../images/roadTrips/2010PoliceElectraGlideBlessing.jpg" data-lightbox="roadtrip" data-title = "2010 Police Electra Glide Blessing"></a>
             <a href = "../images/roadTrips/Blessing05003.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
             <a href = "../images/roadTrips/Blessing05005.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
             <a href = "../images/roadTrips/Blessing05028.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
-            <a href = "../images/roadTrips/Blessing05031.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
             <a href = "../images/roadTrips/BuellX1_myblessing.jpg" data-lightbox="roadtrip" data-title = "BuellX1 Blessing"></a>
             <a href = "../images/roadTrips/ChariotswaitingtoleaveonCharity ride_Fredericksburg.jpg" data-lightbox="roadtrip" data-title = "Leaving for Fredericksburg"></a>
             <a href = "../images/roadTrips/CO_Tour_roadguards_JerrySavelle.jpg" data-lightbox="roadtrip" data-title = "CO Tour with Jerry Savelle"></a>
@@ -106,7 +105,7 @@
             <a href = "../images/people/ChillininAngelFire.jpg" data-lightbox="people" data-title = "Steve Moore"></a>
             <a href = "../images/people/SittingonaWickedCustomafterwitnessingtobuilderDerek.jpg" data-lightbox="people" data-title = "Steve Moore sitting on custom bike after witnessing to the builder"></a>
             <a href = "../images/people/Steve_Spike_Needleshighway_B2B.jpg" data-lightbox="people" data-title = "Steve and Spike"></a>
-            <a href = "../images/people/Steve_TJLittle_prisonreleased.jpg" data-lightbox="people" data-title = "Steve with newly released man"></a>
+            <a href = "../images/people/Steve_TJLittle_prisonreleased.jpg" data-lightbox="people" data-title = "Steve with TJ"></a>
             <a href = "../images/people/SupportingKaren_overcomingcancer.jpg" data-lightbox="people" data-title = "Supporting cancer patients"></a>
             <a href = "../images/people/Bro_Jerry_Ozarks_01.jpg" data-lightbox="people" data-title = "Brother Jerry Ozarks"></a>
             <a href = "../images/people/Bro_Jerry_Ozarks_2008.jpg" data-lightbox="people" data-title = "Brother Jerry Ozarks"></a>
