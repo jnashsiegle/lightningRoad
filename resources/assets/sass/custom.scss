@@ -26,7 +26,7 @@ cite{
 /* uncss:ignore */
 hr {
 height: 100px;
-background: url(../images/hr-gray.png) no-repeat center;
+background: url(../../images/hr-gray.png) no-repeat center;
 border: none;
 }
 img{
@@ -34,7 +34,7 @@ img{
   height: auto;
 }
 /* facebook icon specific */
-img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{ 
+/* img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{ 
   padding: 0;
   background-color: $brand-primary;
   border: 5px solid $brand-primary-darker;
@@ -42,7 +42,8 @@ img, #information i.fa.fa-5x.fa-facebook.center-icon.pull-right{
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-}
+  font-size: 5em;
+} */
 /* uncss:ignore */
  a:hover, a:focus{   
     text-decoration: underline;
@@ -99,7 +100,6 @@ a:visited{
 }
 .hcenter{
     float: none;
-    width: 100%;
     margin: 0 auto;
 }
  .innerBox {
@@ -169,7 +169,7 @@ a:visited{
 /* LANDING */
 /* uncss:ignore */
 #landing {
-	background: url('../images/lrBkg.jpg') no-repeat center center scroll;
+	background: url('../../images/lrBkg.jpg') no-repeat center center scroll;
 	background-size: cover;
 	max-width: 100%;
 	min-height: 100vh;
@@ -190,16 +190,6 @@ a:visited{
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
-.scream{
-  font-family: 'thequietscream';
-}
-/* uncss:ignore */
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
 /* font-awesome */
 /* uncss:ignore */
 .fa {
@@ -211,9 +201,9 @@ a:visited{
     -moz-osx-font-smoothing: grayscale
 }
 /* uncss:ignore */
-.fa-5x {
-    font-size: 5em
-}
+ .fa-3x {
+    font-size: 3em;
+} 
 /* uncss:ignore */
 .fa-arrow-down:before {
     content: "\f063"
@@ -225,61 +215,13 @@ a:visited{
 }
 /* font awesome end */
 /* uncss:ignore */
-#arrow.fa-5x{
+#arrow.fa-3x{
   position:absolute;
   bottom: 0;
   left: 45%;
-}
-/* uncss:ignore */
-.bounceInDown {
-  -webkit-animation-name: bounceInDown;
-  animation-name: bounceInDown;
-}
-/* uncss:ignore */
-.animated.bounceInDown{
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  animation-duration:5s;
-  -webkit-animation-duration: 5s;
-}
-/* uncss:ignore */
-@-webkit-keyframes bounceInDown {
-  from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-  /* uncss:ignore */
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -3000px, 0);
-    -webkit-transform-style: preserve-3d;
-    transform: translate3d(0, -3000px, 0);
-  }
-  /* uncss:ignore */
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 25px, 0);
-    -webkit-transform-style: preserve-3d;
-    transform: translate3d(0, 25px, 0);
-  }
-  /* uncss:ignore */
-  75% {
-    -webkit-transform: translate3d(0, -10px, 0);
-    -webkit-transform-style: preserve-3d;
-    transform: translate3d(0, -10px, 0);
-  }
-  /* uncss:ignore */
-  90% {
-    -webkit-transform: translate3d(0, 5px, 0);
-    -webkit-transform-style: preserve-3d;
-    transform: translate3d(0, 5px, 0);
-  }
-  /* uncss:ignore */
-  to {
-    -webkit-transform: none;
-    -webkit-transform-style: preserve-3d;
-    transform: none;
-  }
+  border-radius: 45%;
+  border: 4px solid;
+  opacity: .75;
 }
  #landingL, #landingR, #vHeadingR, #vHeadingL{
   width: 98%;
@@ -402,7 +344,7 @@ a:visited{
 #what, #contact{ 
   max-width: 100%; 
   background-color: $brand-secondary;
-  background:url("../images/logos/alphaLg.svg")no-repeat center center;
+  background:url("../../images/logos/alphaLg.svg")no-repeat center center;
   background-size: 120% 100%;
 } 
   #contact{
@@ -451,64 +393,16 @@ a:visited{
     border: none;
     box-shadow: none;
     margin-top: 27px;
+  }
+  p.text-center {    
+    padding-top: 10px;
   }  
 }
-//lightbox
- /* uncss:ignore */
-.modal-title, #image-gallery-caption{
-  font-family: $font-family-serif;
-  text-align: left;
-}
- /* uncss:ignore */
-.modal-dialog {
- max-width:600px;  
-}
- /* uncss:ignore */
-.modal.in .modal-dialog {
-    transform: translate(0);
-}
- /* uncss:ignore */
-.modal-content{
-  background-color: $brand-secondary;
-}
- /* uncss:ignore */
-.modal-header{
-  border-bottom: 1px solid $brand-primary;
-}
- /* uncss:ignore */
-.close{
-  color: $brand-primary;
-  float: right;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 1;
-    text-shadow: 0 1px 0 #fff;
-    opacity: .2;
-    filter:alpha(opacity=20);
-}
- /* uncss:ignore */
-.close:focus,
-.close:hover {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-    opacity: .5;
-    filter:alpha(opacity=50);
-}
- /* uncss:ignore */
-.modal-footer{
-  border-top: 1px solid $brand-primary;
-  /* text-align: none;   */
-}
-.thumbnail {
-  margin-bottom:6px;
-}
-//end of lightbox
-//end of gallery
+
 //beginning of footer
  /* uncss:ignore */
-#information{   
-  background: url('../images/footerBkg.jpg') no-repeat center center;
+#information {   
+  background: url('../../images/footerBkg.jpg') no-repeat center center;
   background-size: cover;
   min-width: 100%;
   height: auto;
@@ -573,26 +467,17 @@ a:visited{
     margin-right: 20px;
   }
 }
-}//end of row-fluid 3
-  .row-fluid:nth-of-type(2){
+}
+//end of row-fluid 3
+#downloads{
     padding-right: 30px;
-    padding-left: 30px;
-    .col-md-4:nth-child(2){
+    padding-left: 30px;    
       background-color: $gray-darker;
       opacity: .5;
       border-radius: 40px;
-      }
-    }  //end of .row
+  }
 }
-//set position relative so footer will print what is needed | DOESN'T WORK IN ALL 
-.print
-{
-  position: relative;
-  height: 11in;
-  border-bottom: 1px solid #000;
-  page-break-inside: avoid;
-}
-  //end of #information
+//end of #information
 
 //General Media Queries
 ///* responsive text queries */
@@ -605,13 +490,15 @@ a:visited{
     height: auto;
   }  
 }
-  #information .col-md-4 a{
+  #information .col-md-2 a{
     text-decoration: none;
     .fa.fa-5x.fa-facebook.center-icon.pull-right{
-    width: 1em;    
     text-decoration:none;
     line-height: 100px;
     }
+  }
+  .whiteTxt{
+    color: #ffffff;
   }
   #information >.row-fluid:nth-child(3) > ul > li{
     font-size:80%;
@@ -700,8 +587,8 @@ a:visited{
   h3{
     font-size: 18px;  
   }  
-  #arrow.fa-5x{
-    font-size:3em;
+  #arrow.fa-3x{
+    font-size:2em;
   }
   #information img, .center-icon{
     float: none !important;
@@ -782,30 +669,4 @@ a:visited{
     max-width: 80%;
     margin: 0 auto;
   }
-}
-/* Media Query for print */
-
-@media print {
-  body{
-    background: #fff;
-  }
-  body{
-    width: 100%;
-  }
-  .verse, #landing, aside, img, blockquote, nav, .breacrumb, .cta, #outreach.pullL, .carousel, .carousel-systems, #contact, #gallery{
-    display:none;
-  }
-  #information .navbar, #information i{
-    display: none;
-  }
-  h1, #gallery > .row-fluid:nth-of-type(3){
-    page-break-before: always;
-  }
-  footer{
-    page-break-before: always;
-  }
-  a[href^=http]:after {
-      content:" <" attr(href) "> ";
-   }
-
 }

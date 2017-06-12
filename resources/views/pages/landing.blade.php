@@ -24,7 +24,7 @@
 </div>
 <!--end of row-fluid-->
 <!--scroll arrow-->
-<a href="#about"><i id = "arrow" class = "fa fa-arrow-down fa-5x" aria-hidden = "true" title = "scroll arrow"></i></a>
+<a href="#about" class = "smoothScroll"><i id = "arrow" class = "fa fa-arrow-down fa-3x" aria-hidden = "true" title = "scroll arrow"></i></a>
 <!--end of scroll arrow-->
 </div>
 <!--end of Landing"-->

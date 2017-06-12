@@ -13,17 +13,22 @@ var elixir = require('laravel-elixir');
 
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass(['app.scss'],
+        'public/css/app.min.css/app.min.css');
 });
-elixir(function(mix) {
+/*elixir(function(mix) {
     mix.scripts(['arrow.js'],
-        'public/js/arrow.min.js');
+        'public/js/arrow.js');
+});*/
+elixir(function(mix) {
+    mix.scripts(['lightbox.js'],
+        'public/js/lightbox.min.js');
 });
 elixir(function(mix) {
     mix.scripts([
-        'defer.js',
-        'mLightbox.js',
-        'smoothscroll.js'
+        'defer.js',        
+        'smoothscroll.js',
+        'arrow.js'
     ],
     'public/js/all.min.js');
 });
