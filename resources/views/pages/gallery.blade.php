@@ -47,7 +47,7 @@
             <a href = "../images/roadTrips/Blessing05028.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Bikes"></a>
             <a href = "../images/roadTrips/BuellX1_myblessing.jpg" data-lightbox="roadtrip" data-title = "BuellX1 Blessing"></a>
             <a href = "../images/roadTrips/ChariotswaitingtoleaveonCharityride_Fredericksburg.JPG" data-lightbox="roadtrip" data-title = "Leaving for Fredericksburg"></a>
-            <a href = "../images/roadTrips/CO_Tour_roadguards_JerrySavelle.jpg" data-lightbox="roadtrip" data-title = "CO Tour with Jerry Savelle"></a>
+            <a href = "../images/roadTrips/CO_Tour_roadguards_JerrySavelle.JPG" data-lightbox="roadtrip" data-title = "CO Tour with Jerry Savelle"></a>
             <a href = "../images/roadTrips/COLDirectorsBillandGinger HornwitnessingatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Bill and Ginger Horn -COL Directors"></a>
             <a href = "../images/roadTrips/Dannypraisingattheriver_Coloradotour.jpg" data-lightbox="roadtrip" data-title = "Worshipping and Praising"></a>
             <a href = "../images/roadTrips/FirstnightatSturgisOutreach_2014.jpg" data-lightbox="roadtrip" data-title = "Sturgis - First Night"></a>
