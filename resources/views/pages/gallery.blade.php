@@ -80,7 +80,7 @@
             <a href = "../images/outreach/CharliesbothwitnessingatDeerCrossingSaloonChurch_SA.jpg" data-lightbox="outreach" data-title = "Witnessing at Deer Crossing Saloon"></a>            
             <a href = "../images/outreach/DevonWyman_HCJC_mymomanddaughter.jpg" data-lightbox="outreach" data-title = "Devon Wyman with Meg and Jan"></a>            
             <a href = "../images/outreach/Rose_homelessoutreach_SanAntonio.jpg" data-lightbox="outreach" data-title = "Homeless Outreach with Rose"></a>            
-            <a href = "../images/outreach/Rose_streetwitnessing_San Antonio.jpg" data-lightbox="outreach" data-title = "Rose street witnessing">
+            <a href = "../images/outreach/Rose_streetwitnessing_San Antonio.jpg" data-lightbox="outreach" data-title = "Rose street witnessing"></a>
             <a href = "../images/outreach/VisitingDestinyatChildrenshospital.jpg" data-lightbox="outreach" data-title = "Visiting at Children's Hospital"></a> 
             <a href = "../images/outreach/VolunteeringatWoundedWarriorevent.jpg" data-lightbox="outreach" data-title = "Wounded Warrior Outreach at SAMC-SA"></a>
             <a href = "../images/outreach/DOC_HCJC1.jpg" data-lightbox="outreach" data-title = "Hays County Juvenile Corrections"></a>
