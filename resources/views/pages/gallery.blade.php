@@ -63,7 +63,7 @@
             <a href = "../images/roadTrips/route66tour_roadguards.jpg" data-lightbox="roadtrip" data-title = "Route 66 Tour"></a>
             <a href = "../images/roadTrips/SettingupboothatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Setting up booth at Daytona"></a>
             <a href = "../images/roadTrips/StoppedinnowhereNM.jpg" data-lightbox="roadtrip" data-title = "Nowhere in New Mexico"></a>
-            <a href = "../images/roadTrips/Streetwitness2Sturgis2014.jpg" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>
+            <a href = "../images/roadTrips/Streetwitness2Sturgis2014.JPG" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>
             <a href = "../images/roadTrips/StreetWitnessSturgis2014.jpg" data-lightbox="roadtrip" data-title = "Street Witnessing in Sturgis"></a>           
             <a href = "../images/roadTrips/SupercrossFinalsafterafulldayofwitnessingonthemidway_DaytonaSuperSpeedway.jpg" data-lightbox="roadtrip" data-title = "SuperCross Finals"></a>            
             <a href = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Colors"></a>
