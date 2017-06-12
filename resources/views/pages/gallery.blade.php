@@ -33,8 +33,8 @@
             <a href = "../images/roadTrips/EnjoyingtheSupercrossFinalsatDaytonaSuperSpeedway.jpg" data-lightbox="roadtrip" data-title = "Daytona Speedway SuperCross Finals"></a>
             <a href = "../images/roadTrips/GettingreadyfortheAVTTProcessional.jpg" data-lightbox="roadtrip" data-title = "AVT Processional"></a>
             <a href = "../images/roadTrips/Hotel_loadoutCO_Tour.jpg" data-lightbox="roadtrip" data-title = "Colorado Tour"></a>
-            <a href = "../images/roadTrips/IMG_0150.jpg" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
-            <a href = "../images/roadTrips/IMG_0168.jpg" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/IMG_0150.JPG" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
+            <a href = "../images/roadTrips/IMG_0168.JPG" data-lightbox="roadtrip" data-title = "Daytona Bike Week"></a>
             <a href = "../images/roadTrips/MyoldroommateDickYeagerwitnessingatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Dick Yeager Witnessing at DBW"></a>
             <a href = "../images/roadTrips/PastorSteveIngramwitnessingatDaytonaBikeWeek.jpg" data-lightbox="roadtrip" data-title = "Pastor steve Ingram Witnessing at DBW"></a>
             <a href = "../images/roadTrips/PoncedeLeonlighthouse_FLA.jpg" data-lightbox="roadtrip" data-title = "PoncedeLeon Lighthouse, Florida"></a>
