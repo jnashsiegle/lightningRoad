@@ -177,19 +177,19 @@ a:visited{
 /* LANDING */
 /* uncss:ignore */
 #landing {
-	background: url('../../images/lrBkg.jpg') no-repeat center center scroll;
-	background-size: cover;
-	max-width: 100%;
-	min-height: 100vh;
-	color: $brand-secondary;
+  background: url('../../images/lrBkg.jpg') no-repeat center center scroll;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 100vh;
+  color: $brand-secondary;
 .container-fluid{
   height:100%;
   width: 100%;
   padding: 0;
 }
 .row-fluid{
-	position: absolute;
-	bottom: 5%;
+  position: absolute;
+  bottom: 5%;
   width: 100%; 
   margin: 0 auto;  
   }
@@ -252,14 +252,14 @@ a:visited{
   box-shadow: none;  
 }
  p.tagline{
-	font-family: "Trade Winds", cursive;
-	font-family: "Trade Winds", cursive;
+  font-family: "Trade Winds", cursive;
+  font-family: "Trade Winds", cursive;
   font-size: 1em;
   line-height: 1;
-	margin-bottom: 0;	  
+  margin-bottom: 0;   
 }
 #landingR img:last-of-type{
-	max-width: 12em;  //based on 18px font for alpha Omega svg only
+  max-width: 12em;  //based on 18px font for alpha Omega svg only
   height: auto;
 }
   blockquote{   
@@ -410,7 +410,7 @@ a:visited{
 //beginning of footer
  /* uncss:ignore */
 #information {   
-  background: url('../../images/footerBkg.jpg') no-repeat center center;
+  background-color: #122B40;
   background-size: cover;
   min-width: 100%;
   height: auto;
@@ -478,11 +478,7 @@ a:visited{
 }
 //end of row-fluid 3
 #downloads{
-    padding-right: 30px;
-    padding-left: 30px;    
-      background-color: $gray-darker;
-      opacity: .5;
-      border-radius: 40px;
+    margin: 10px auto 20px;
   }
 }
 //end of #information

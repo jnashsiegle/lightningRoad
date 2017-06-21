@@ -20,35 +20,46 @@
         <!--end navbar-->
     </div>
     <!--end row-fluid-->
-    <div class="row-fluid clearfix">
-        {{-- <div class="col-md-4">
-            <img src="/images/logos/alphaLogoThumb.svg" width="120" height="116" class="pullL .img-responsive" alt="Lightning Road Biker Outreach Alpha Omega Logo" aria-hidden="true">
-        </div> --}}
-        <div id="downloads">
-            <p class="text-center">DOWNLOADS &amp; Links</p>
-            <p class="text-center" role="link"><a href="https://www.tdcj.state.tx.us/php/volunteer_application/" target="_blank">Volunteer Application for the TDCJ Download</a>
-            </p>
-            <p class="text-center" role="link"><a href="http://www.ringofchampions.net/" target="_blank">Ring of Champions</a>
-            </p>
-             <p class="text-center" role="link"><a href="https://www.behindthewalls.com/" target="_blank">Bill Glass Ministries | Behind the Walls</a>
-            </p>
+    
+    <div id = "downloads" class = "container text-center">       
+    <div class = "row">
+        <div class = "col-lg-12">
+        <div class = "col-md-4">
+            <ul class = "links nav-pills nav-stacked">
+                <li><a href="http://chariotsoflight.com" target="_blank">Chariots of Light</a></li>
+                <li><a href="https://www.tdcj.state.tx.us/php/volunteer_application/" target="_blank">Volunteer Application for the TDCJ Download</a></li> 
+            </ul>
+            </div>
+
+        <div class = "col-md-4">
+            <ul class = "links nav-pills nav-stacked">
+                <li class = "whiteTxt"><a href="https://www.facebook.com/sozosam/" target="_blank">Follow us on: <i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="sr-only">Facebook page is at https://www.facebook.com/sozosam/"</span></li>
+            </ul>
         </div>
-      
-    <!--end row fluid-->
-    <div class="row-fluid">
+
+        <div class = "col-md-4">
+            <ul class = "links nav-pills nav-stacked">
+                <li><a href="http://www.ringofchampions.net/" target="_blank">Ring of Champions</a></li>           
+                <li><a href="https://www.behindthewalls.com/" target="_blank">Bill Glass Ministries | Behind the Walls</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        </div> <!--end container -->
         
-        <ul class="clearfix">
-        <div class = "col-md-4">
-            <li class="text-muted">Site by&colon; <a href="http://lightpointdev.com" target='_blank'>LightPoint Development</a>
+    
+    <div class = "row">       
+        <div class = "col-md-6">
+            <ul class = "list-block">
+               <small> 
+                <li class="text-muted">&commat;<?php echo date("Y"); ?> <a href="#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
+                <li class="text-muted">Site by&colon; <a href="http://lightpointdev.com" target='_blank'>LightPoint Development</a>
+                </li> 
+                </small>
+            </ul>
         </div>
-            </li>
-        <div class = "col-md-4">
-            <li class = "whiteTxt"><a href="https://www.facebook.com/sozosam/" target="_blank">Follow us on: <i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="sr-only">Facebook page is at https://www.facebook.com/sozosam/"</span></li>
         </div>
-        <div class = "col-md-4">      
-            <li class="text-muted">&commat;<?php echo date("Y"); ?> <a href="#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
-        </div><!--end of col-md-4-->
-        </ul>
-        </div> <!--end of row-fluid-->
+        </div>
+    
 </footer>
 <!--end of information-->

@@ -4044,7 +4044,7 @@ blockquote {
 
 /* uncss:ignore */
 #information {
-  background: url("../../images/footerBkg.jpg") no-repeat center center;
+  background-color: #122B40;
   background-size: cover;
   min-width: 100%;
   height: auto;
@@ -4100,11 +4100,7 @@ blockquote {
       #information .row-fluid:nth-child(3) > ul > li:nth-child(2) {
         margin-right: 20px; }
   #information #downloads {
-    padding-right: 30px;
-    padding-left: 30px;
-    background-color: #222222;
-    opacity: .5;
-    border-radius: 40px; }
+    margin: 10px auto 20px; }
 
 @media screen and (min-width: 300px) {
   #information .col-md-4:first-child {
