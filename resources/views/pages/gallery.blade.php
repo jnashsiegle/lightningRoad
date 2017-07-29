@@ -69,7 +69,8 @@
             <a href = "../images/fullsize/PastorBillyblessingolorsforJamesatstreetoutreach_SA.jpg" data-lightbox="roadtrip" data-title = "Blessing of the Colors" alt = "Color Blessing"></a>
             <a href = "../images/fullsize/ToughLoveRally_Darrell_ringtoss.jpg" data-lightbox="roadtrip" data-title = "Tough Love Rally Ring Toss" alt = "ring toss"></a>
             <a href = "../images/fullsize/ToughLoveRally_PastorBilly.jpg" data-lightbox="roadtrip" data-title = "Tough Love Rally Pastor Billy" alt = "Pastor billy at Tough Love Rally"></a>
-            <a href = "../images/fullsize/ToughLoveRally_slowrace_Tex.jpg" data-lightbox="roadtrip" data-title = "Tough Love Rally Slow Race" alt = "slow race"></a>
+            <a href = "../images/roadTrips/Canada.jpg" data-lightbox="roadtrip" data-title = "Roadtrip in Canada" alt = "Canada"></a>
+            <a href = "../images/roadTrips/Canada1.jpg" data-lightbox="roadtrip" data-title = "Chariots of Light in Canada" alt = "Group in front of Canadian flag"></a>
             </div>
            <!--end RoadTrips and Rallies -->
 
@@ -113,6 +114,15 @@
             <a href = "../images/people/Bro_Jerry_Ozarks_2008.jpg" data-lightbox="people" data-title = "Brother Jerry Ozarks" alt = "Jerry Ozarks 2008"></a>
             <a href = "../images/people/LoneStarMotorcycleMuseum_withRose.jpg" data-lightbox="people" data-title = "Steve and Rose Moore at Lone Star Motorcycle Museum" alt = "Steve and Rose Moore"></a>
             <a href = "../images/people/SteveRoseatWinchesterhistoricsteakhouse.jpg" data-lightbox="people" data-title = "Historic Winchester SteakHouse" alt = "man and woman eating dinner"></a>
+            <a href = "../images/people/haysCounty.jpg" data-lightbox="people" data-title = "Group at Hays County" alt = "Standing in front of Hays County Juvenile Building"></a>
+            <a href = "../images/people/LSRwinningsouls2016.jpg" data-lightbox="people" data-title = "Steve and Rose Moore" alt = "winning souls"></a>
+            <a href = "../images/people/Luckenbachgroup.jpg" data-lightbox="people" data-title = "Group in Luckenbach" alt = "Group in Luckenbach"></a>
+            <a href = "../images/people/LuckenbachJR.jpg" data-lightbox="people" data-title = "JR in Luckenbach" alt = "JR"></a>
+            <a href = "../images/people/LuckenbachRoseandKathy.jpg" data-lightbox="people" data-title = "Rose and Kathy in Luckenbach" alt = "Rose and Kathy"></a>
+            <a href = "../images/people/LuckenbachSpike.jpg" data-lightbox="people" data-title = "Spike in Luckenbach" alt = "Spike"></a>
+            <a href = "../images/people/ReachingoutLSR.jpg" data-lightbox="people" data-title = "Steve and Rose reaching out" alt = "Steve and Rose Moore"></a>
+            <a href = "../images/people/SteveLSRoutreach.jpg" data-lightbox="people" data-title = "Outreach with Steve and Rose" alt = "Steve and Rose Moore"></a>
+            <a href = "../images/people/StevewithWillie.jpg" data-lightbox="people" data-title = "Steve with Willie" alt = "Steve and Willie"></a>
             </div>
     </div><!--end row-fluid -->
 </div><!-- end container -->

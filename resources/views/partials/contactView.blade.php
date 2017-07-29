@@ -224,7 +224,7 @@
                 <td class="wrapper">
                   <table border="0" cellpadding="0" cellspacing="0">
                     <tr>                      
-                       <td width = "100%"> <h1><a href = "htt://lightningroad.org">Lightning Road Biker Outreach</a></h1></td>
+                       <td width = "100%"> <h1><a href = "http://lightningroad.org">Lightning Road Biker Outreach</a></h1></td>
                        </tr>
                        </table><!--end of first subtable-->
                        <hr>                       
