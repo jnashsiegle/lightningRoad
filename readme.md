@@ -6,8 +6,6 @@ This is the Final Project for the Bachelor's of Science degree in Web Developmen
 
 This redesign utilizes Digital Ocean hosting, the Laravel 5.2 framework, possibly Envoyer and Forge, MySQL, php, JavaScript, Sass using Elixir, Composer and Symfony and written in Sublime Text3.
 
-
-
 ## Authors
 
 * **Jana Nash-Siegle** - *Initial work* - [Jana Nash-Siegle](https://github.com/jnashsiegle)
