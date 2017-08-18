@@ -163,7 +163,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        Zizaco\Entrust\EntrustServiceProvider::class,
+        /*Zizaco\Entrust\EntrustServiceProvider::class,*/
         /*Intervention\Image\ImageServiceProvider::class,*/
 
     ],
