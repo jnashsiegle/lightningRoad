@@ -20,14 +20,14 @@
         <!--end navbar-->
     </div>
     <!--end row-fluid-->
-    
-    <div id = "downloads" class = "container text-center">       
+
+    <div id = "downloads" class = "container text-center">
     <div class = "row">
         <div class = "col-lg-12">
         <div class = "col-md-4">
             <ul class = "links nav-pills nav-stacked">
                 <li><a href="http://chariotsoflight.com" target="_blank">Chariots of Light</a></li>
-                <li><a href="https://www.tdcj.state.tx.us/php/volunteer_application/" target="_blank">Volunteer Application for the TDCJ Download</a></li> 
+                <li><a href="https://www.tdcj.state.tx.us/php/volunteer_application/" target="_blank">Volunteer Application for the TDCJ Download</a></li>
             </ul>
             </div>
 
@@ -39,27 +39,23 @@
 
         <div class = "col-md-4">
             <ul class = "links nav-pills nav-stacked">
-                <li><a href="http://www.ringofchampions.net/" target="_blank">Ring of Champions</a></li>           
+                <li><a href="http://www.ringofchampions.net/" target="_blank">Ring of Champions</a></li>
                 <li><a href="https://www.behindthewalls.com/" target="_blank">Bill Glass Ministries | Behind the Walls</a></li>
             </ul>
             </div>
         </div>
         </div>
         </div> <!--end container -->
-        
-    
-    <div class = "row">       
-        <div class = "col-md-6">
-            <ul class = "list-block">
-               <small> 
-                <li class="text-muted">&commat;<?php echo date("Y"); ?> <a href="#landing">Lightning Road Biker Outreach</a>, All Rights Reserved</li>
+
+
+    <div class = "row">
+            <ul class = "list-block text-center">
+               <small>
+                <li class="text-muted">&commat;<?php echo date("Y"); ?> <a href="#landing">Lightning Road Biker Outreach</a></li>
                 <li class="text-muted">Site by&colon; <a href="http://lightpointdev.com" target='_blank'>LightPoint Development</a>
-                </li> 
+                </li>
                 </small>
             </ul>
-        </div>
-        </div>
-        </div>
-    
+    </div>
 </footer>
 <!--end of information-->

@@ -11,8 +11,8 @@
     <!--end of col-xs-12 col-md-5 col-md-offset-1 vcenter-->
     <div class="col-xs-12 col-md-5 col-md-offset-1 vcenter">
         <aside id="landingR">
-            <img src="../images/logos/textLogoLight.svg" width="301" height="107" class=".img-responsive hidden-md hidden-lg hidden-xl" alt="Lightning Road Biker Outreach Logo" aria-hidden="true">
-            <img src="../images/logos/alphaLogo.svg" height="480" width="463" class="hidden-sm hidden-xs center-block .img-responsive" alt="Lightning Road Biker Outreach Logo 2" aria-hidden="true">
+            <img src="../images/logos/textLogoLight.svg" width="301" height="107" class="img-responsive hidden-md hidden-lg hidden-xl" alt="Lightning Road Biker Outreach Logo" aria-hidden="true">
+            <img src="../images/logos/alphaLogo.png" class="hidden-sm hidden-xs center-block img-responsive" alt="Lightning Road Biker Outreach Logo 2" aria-hidden="true">
             <blockquote>
                 <p>As the lightning flashes in the east, and is seen as far as the west, so will the coming of the Son of man be.</p>
                 <cite> ~ &lpar;Matthew 24&colon;27&rpar;</cite>
